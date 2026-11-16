@@ -45,7 +45,9 @@ class Round:
         self.s = state
         self.now = time.time()
         self.jup = Jupiter()
-        self.sol_usd = sol_price_usd(self.jup)
+        self.sol_usd, self.sol_usd_at = sol_price_usd(self.jup), time.time()
+        self.hist = {}  # mint -> [(t, multiplicador)] para detectar caídas rápidas
+        self.crash_tries = {}
         if C.MODE == "real":
             if not C.SOLANA_PRIVATE_KEY:
                 raise SystemExit("Falta SOLANA_PRIVATE_KEY para operar en real.")
@@ -64,6 +66,11 @@ class Round:
 
     def refresh(self):
         """Lee saldos, valora cada posición y cierra las que ya no están en la cuenta."""
+        if time.time() - self.sol_usd_at > 300:
+            try:
+                self.sol_usd, self.sol_usd_at = sol_price_usd(self.jup), time.time()
+            except Exception as e:
+                print(f"[precio] SOL no disponible, uso el anterior: {e}")
         self.cash_lamports = self.wallet.sol_lamports()
         self.balances = self.wallet.token_balances()
         self.values = {}
@@ -286,7 +293,7 @@ class Round:
             "closed_trades": self.s["closed"][-10:],
         }
 
-    def think_and_act(self):
+    def think_and_act(self, alert=None):
         held = list(self.s["positions"])
         self.s["cooldown"] = {m: t for m, t in self.s["cooldown"].items()
                               if self.now - t < C.REBUY_COOLDOWN_H * 3600}
@@ -306,11 +313,15 @@ class Round:
 
         held_market = market.dex_tokens(held) if held else {}
         snap = self.snapshot(candidates, held_market, buys_left, std_usd)
+        if alert:
+            snap["urgent_alert"] = alert
 
         last = self.s["ai"].get("last_decider", 0)
         forced = self.now - last > C.DECIDER_MAX_INTERVAL_H * 3600
         if forced:
             why = "revisión periódica"
+        elif alert and self.now - last >= C.DECIDER_MIN_GAP_MIN * 60:
+            why = alert
         else:
             try:
                 w, cost = brain.watch(snap)
@@ -363,6 +374,57 @@ class Round:
         self.s["journal"] = self.s["journal"][-30:]
         if not sells and not buys:
             print("[decisor] decidió esperar")
+
+    def fast_checks(self):
+        """Cada minuto: caídas bruscas, ventas por beneficio y protección de ganancias."""
+        alerts = []
+        for mint, pos in list(self.s["positions"].items()):
+            mult = pos.get("multiple", 0)
+            hist = self.hist.setdefault(mint, [])
+            signal = P.price_signal(hist, self.now, mult)
+            hist.append((self.now, mult))
+            del hist[:-60]
+            amt = self.balances.get(mint, 0)
+            if signal == "crash" and amt > 0:
+                if self.now - self.crash_tries.get(mint, 0) < 300:
+                    continue
+                self.crash_tries[mint] = self.now
+                peak = max(m for _, m in hist)
+                self.sell(mint, amt, f"caída brusca: de x{peak:.2f} a x{mult:.2f} en pocos minutos. "
+                                     f"Venta de emergencia")
+            elif P.trailing_exit_due(pos, mult) and amt > 0:
+                self.sell(mint, amt, f"protejo lo ganado: cayó de x{pos['peak_multiple']:.2f} a x{mult:.2f}")
+            elif signal in ("alert_down", "alert_up"):
+                word = "cae" if signal == "alert_down" else "sube"
+                alerts.append(f"{pos['symbol']} {word} rápido (ahora x{mult:.2f})")
+        self.take_profits()
+        return "; ".join(alerts) or None
+
+    def guard(self, minutes, on_save):
+        """Vigila minuto a minuto durante `minutes`. Cada FULL_ROUND_MIN busca oportunidades nuevas."""
+        end = time.time() + minutes * 60
+        last_full = time.time()
+        while time.time() + C.GUARD_INTERVAL_S < end:
+            time.sleep(C.GUARD_INTERVAL_S)
+            self.now = time.time()
+            try:
+                self.handle_commands(telegram.read_commands(self.s) + ntfy.read_commands(self.s))
+                if self.s.get("paused"):
+                    on_save()
+                    continue
+                self.refresh()
+                alert = self.fast_checks()
+                if alert or self.now - last_full >= C.FULL_ROUND_MIN * 60:
+                    if alert:
+                        print(f"[alerta] {alert}")
+                    self.refresh()
+                    self.think_and_act(alert=alert)
+                    last_full = self.now
+                    self.refresh()
+                self.daily_summary()
+            except Exception as e:
+                print(f"[vigilancia] error: {e}")
+            on_save()
 
     def daily_summary(self):
         now = datetime.now(timezone.utc)
@@ -421,7 +483,7 @@ def run():
 
     r.handle_commands(cmds)
     if not state.get("paused") and can_trade:
-        r.take_profits()
+        r.fast_checks()
         r.refresh()
         try:
             r.think_and_act()
@@ -429,12 +491,37 @@ def run():
             print(f"[ronda] error al pensar/actuar: {e}")
         r.refresh()
     r.daily_summary()
-    state["history"].append([int(r.now), round(r.equity, 2)])
-    state["history"] = state["history"][-2000:]
-    state["last_run"] = iso(r.now)
-    save_state(state)
+
+    last_push = [time.time()]
+
+    def on_save():
+        if not state["history"] or r.now - state["history"][-1][0] >= 600:
+            state["history"].append([int(r.now), round(r.equity, 2)])
+            state["history"] = state["history"][-3000:]
+        state["last_run"] = iso(r.now)
+        save_state(state)
+        if os.getenv("GIT_PERSIST") == "1" and time.time() - last_push[0] > 900:
+            last_push[0] = time.time()
+            persist()
+
+    on_save()
+    if C.GUARD_MINUTES > 0 and can_trade:
+        r.guard(C.GUARD_MINUTES, on_save)
     print(f"[ronda] capital {usd(r.equity)} | posiciones {len(state['positions'])} | "
           f"IA mes {usd(state['ai'].get('spent_month', 0))}")
+
+
+def persist():
+    """Guarda la memoria en el repositorio a mitad de ejecución (por si algo corta el proceso)."""
+    import subprocess
+    cmds = [["git", "add", "state/"],
+            ["git", "-c", "user.name=inversor-bot", "-c", "user.email=inversor-bot@users.noreply.github.com",
+             "commit", "-q", "-m", f"memoria {iso(time.time())}"],
+            ["git", "pull", "-q", "--rebase"], ["git", "push", "-q"]]
+    for c in cmds:
+        if subprocess.run(c, capture_output=True).returncode != 0 and c[1] != "commit":
+            print(f"[memoria] no se pudo guardar en git: {' '.join(c)}")
+            return
 
 
 if __name__ == "__main__":

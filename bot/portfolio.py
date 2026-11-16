@@ -63,3 +63,26 @@ def validate(actions, positions, candidates, buys_left):
             slots -= 1
             buys_left -= 1
     return sells, buys, rejected
+
+
+def price_signal(hist, now, multiple):
+    """Mira el historial reciente [(t, multiplicador)] y devuelve 'crash', 'alert_down', 'alert_up' o None."""
+    if multiple <= 0:  # sin ruta de venta o valor cero: posible estafa en curso
+        return "crash" if any(m > 0 for _, m in hist) else None
+    recent = [m for t, m in hist if now - t <= C.CRASH_WINDOW_MIN * 60 and m > 0]
+    if recent and 1 - multiple / max(recent) >= C.CRASH_DROP:
+        return "crash"
+    older = [m for t, m in hist if now - t <= C.ALERT_WINDOW_MIN * 60 and m > 0]
+    if older:
+        change = multiple / older[0] - 1
+        if change <= -C.ALERT_MOVE:
+            return "alert_down"
+        if change >= C.ALERT_MOVE:
+            return "alert_up"
+    return None
+
+
+def trailing_exit_due(pos, multiple):
+    """Tras la primera venta con beneficio, protege lo ganado si el precio se desploma desde su máximo."""
+    return (pos.get("tp_stage", 0) >= 1 and multiple > 0
+            and multiple <= pos.get("peak_multiple", 0) * (1 - C.TRAIL_DROP))

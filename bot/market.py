@@ -145,13 +145,21 @@ def momentum_score(t):
     return turnover * 10 + pressure + trend
 
 
+_vet_cache = {}
+
+
 def vet(mint, tier_name):
-    """Revisión de seguridad con RugCheck. Devuelve (ok, problemas, avisos, datos)."""
+    """Revisión de seguridad con RugCheck (cacheada 1 h). Devuelve (ok, problemas, avisos, datos)."""
+    hit = _vet_cache.get((mint, tier_name))
+    if hit and time.time() - hit[0] < 3600:
+        return hit[1]
     try:
         r = get_json(f"{RUGCHECK}/tokens/{mint}/report", tries=2)
     except Exception as e:
         return False, [f"no se pudo verificar ({e})"], [], {}
-    return judge_report(r, tier_name)
+    res = judge_report(r, tier_name)
+    _vet_cache[(mint, tier_name)] = (time.time(), res)
+    return res
 
 
 def judge_report(r, tier_name):
@@ -208,8 +216,10 @@ def find_candidates(held, cooldown):
 
     out = []
     for t in ranked[:C.MAX_CANDIDATES_TO_VET]:
+        cached = (t["mint"], t["tier"]) in _vet_cache
         ok, problems, warns, data = vet(t["mint"], t["tier"])
-        time.sleep(1)
+        if not cached:
+            time.sleep(1)
         if not ok:
             print(f"[seguridad] descartada {t['symbol']}: {', '.join(problems)}")
             continue

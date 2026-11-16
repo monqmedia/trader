@@ -20,7 +20,7 @@ concurrency:
 jobs:
   ronda:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
 
@@ -31,11 +31,21 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Repositorio público = minutos gratis ilimitados -> vigilancia continua minuto a minuto.
+      # Privado = una ronda cada 30 min (para no pasar de los 2.000 minutos gratis).
+      - name: Visibilidad del repositorio
+        id: vis
+        run: echo "private=$(gh api repos/${{ github.repository }} --jq .private)" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - name: Ronda del inversor
         run: python -m bot
         env:
           MODE: ${{ vars.MODE }}
           CHECK_ONLY: ${{ inputs.solo_comprobar && '1' || '' }}
+          GUARD_MINUTES: ${{ vars.GUARD_MINUTES || (steps.vis.outputs.private == 'false' && '50' || '0') }}
+          GIT_PERSIST: "1"
           SOLANA_PRIVATE_KEY: ${{ secrets.SOLANA_PRIVATE_KEY }}
           SOLANA_ACCOUNT_INDEX: ${{ vars.SOLANA_ACCOUNT_INDEX }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

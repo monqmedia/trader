@@ -1,14 +1,15 @@
 # Inversor IA de meme coins (Solana)
 
-Cada 30 minutos GitHub lanza una ronda:
+Cada 30 minutos GitHub lanza una ejecución. Si el repositorio es **público**, cada ejecución vigila durante 50 minutos y se solapa con la siguiente, así que la vigilancia es continua: revisa precios cada minuto y busca oportunidades cada 10 minutos. Si es privado, hace una sola ronda cada 30 minutos.
 
 1. **Busca** meme coins de Solana en tendencia (GeckoTerminal, DexScreener).
 2. **Filtra** las que tienen poca liquidez, son demasiado nuevas o tienen poco volumen.
 3. **Revisa la seguridad** con RugCheck. Descarta las que tienen creador con poderes (fabricar o congelar monedas), comisiones ocultas, pocas cuentas con demasiadas monedas o historial de estafa. Antes de comprar, prueba que se pueden vender.
 4. **Vigilante IA** (Claude Haiku, barato): decide si hay algo que merezca la pena mirar.
 5. **Decisor IA** (Claude Opus, potente): analiza moda, demanda y momento. Puede buscar en internet si hay hype real. Después decide comprar, vender o esperar.
-6. **Ventas automáticas por beneficio:** vende 1/3 a x3 y otro 1/3 a x6. El resto lo gestiona la IA.
-7. **Te avisa por ntfy** (o Telegram) de cada movimiento.
+6. **Ventas automáticas por beneficio:** vende 1/3 a x3 y otro 1/3 a x6. El resto lo gestiona la IA. Si después de asegurar beneficios el precio cae un 45% desde su máximo, vende lo que queda.
+7. **Caídas bruscas:** si una moneda cae un 35% en 10 minutos (o deja de poder venderse), vende al momento. Si sube o baja un 15% en 15 minutos, despierta al decisor IA.
+8. **Te avisa por ntfy** (o Telegram) de cada movimiento.
 
 Estrategia: máximo 3 apuestas, sin stop-loss automático. Reinvierte las ganancias. La memoria (posiciones, diario de decisiones, operaciones cerradas) se guarda en `state/state.json`.
 

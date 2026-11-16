@@ -300,3 +300,48 @@ def test_slip10_vectors():
     assert a0 == "HAgk14JpMQLgt6rVgv7cBQFJWFto5Dqxi472uT3DKpqk"  # referencia Phantom/MetaMask
     assert str(load_keypair("  " + words.upper() + "\n").pubkey()) == a0
     assert str(keypair_from_mnemonic(words, 1).pubkey()) != a0
+
+
+def test_price_signal_and_trailing():
+    now = 10_000
+    calm = [(now - 600 + i * 60, 1.0) for i in range(10)]
+    assert P.price_signal(calm, now, 1.02) is None
+    assert P.price_signal(calm, now, 0.6) == "crash"  # -40% en 10 min
+    assert P.price_signal(calm, now, 0.0) == "crash"  # sin ruta de venta
+    assert P.price_signal([], now, 0.0) is None
+    assert P.price_signal(calm, now, 0.82) == "alert_down"
+    assert P.price_signal(calm, now, 1.2) == "alert_up"
+    old = [(now - 3600, 2.0)]  # caída lenta (fuera de la ventana): no es pánico
+    assert P.price_signal(old, now, 1.0) is None
+    pos = {"tp_stage": 1, "peak_multiple": 5.0}
+    assert not P.trailing_exit_due(pos, 3.0)
+    assert P.trailing_exit_due(pos, 2.7)
+    assert not P.trailing_exit_due({"tp_stage": 0, "peak_multiple": 5.0}, 1.0)
+
+
+def test_guard_loop_sells_on_crash(env, monkeypatch):
+    M, net, calls = env
+    clock = [1_000_000.0]
+    monkeypatch.setattr(M.time, "time", lambda: clock[0])
+    monkeypatch.setattr(M.time, "sleep", lambda s: clock.__setitem__(0, clock[0] + s))
+    monkeypatch.setattr(C, "GUARD_MINUTES", 8)
+    calls["decide"].append({"market_view": "", "notes_for_next_time": "", "actions": [
+        {"type": "buy", "mint": MEME, "size_fraction": 1, "sell_fraction": 0, "reason": "moda"}]})
+    original_get = net.get
+    step = {"n": 0}
+
+    def get(url, params=None, headers=None, tries=3):
+        if "/swap/v1/quote" in url and params["inputMint"] == MEME:
+            step["n"] += 1
+            if step["n"] > 6:  # tras unos minutos tranquilos, se desploma un 60%
+                net.price_mult[MEME] = 0.4
+        return original_get(url, params, headers, tries)
+
+    from bot import solana, telegram
+    for mod in (market, solana, telegram):
+        monkeypatch.setattr(mod, "get_json", get)
+    M.run()
+    st = json.load(open(C.STATE_PATH))
+    assert not st["positions"]
+    assert "caída brusca" in st["closed"][-1]["exit_reason"]
+    assert any("Venta de emergencia" in m for m in net.sent)

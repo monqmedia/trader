@@ -62,6 +62,17 @@ SELL_SLIPPAGE_BPS = _i("SELL_SLIPPAGE_BPS", 800)
 PANIC_SLIPPAGE_BPS = _i("PANIC_SLIPPAGE_BPS", 1500)  # segundo intento si una venta falla
 PRIORITY_FEE_MAX_LAMPORTS = _i("PRIORITY_FEE_MAX_LAMPORTS", 1_000_000)
 
+# --- Vigilancia rápida (bucle minuto a minuto dentro de cada ejecución) ---
+GUARD_MINUTES = _f("GUARD_MINUTES", 0)  # 0 = sin bucle (una ronda y fin)
+GUARD_INTERVAL_S = _f("GUARD_INTERVAL_S", 60)  # cada cuánto mira precios
+FULL_ROUND_MIN = _f("FULL_ROUND_MIN", 10)  # cada cuánto busca monedas nuevas y consulta al vigilante
+CRASH_DROP = _f("CRASH_DROP", 0.35)  # caída que provoca venta inmediata...
+CRASH_WINDOW_MIN = _f("CRASH_WINDOW_MIN", 10)  # ...si ocurre en estos minutos
+ALERT_MOVE = _f("ALERT_MOVE", 0.15)  # subida o bajada que despierta al decisor...
+ALERT_WINDOW_MIN = _f("ALERT_WINDOW_MIN", 15)  # ...en estos minutos
+TRAIL_DROP = _f("TRAIL_DROP", 0.45)  # tras asegurar beneficios: vende el resto si cae esto desde su máximo
+DECIDER_MIN_GAP_MIN = _f("DECIDER_MIN_GAP_MIN", 15)  # mínimo entre consultas al decisor por alertas
+
 # --- IA ---
 WATCHER_MODEL = _env("WATCHER_MODEL", "claude-haiku-5-5")
 DECIDER_MODEL = _env("DECIDER_MODEL", "claude-opus-5-5")
