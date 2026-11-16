@@ -32,11 +32,12 @@ JUPITER_BASE = _env(
 )
 
 # --- Estrategia "todo o nada" ---
-MAX_POSITIONS = _i("MAX_POSITIONS", 3)
+MAX_POSITIONS = _i("MAX_POSITIONS", 5)
 MIN_POSITION_USD = _f("MIN_POSITION_USD", 10)
-MAX_BUYS_PER_DAY = _i("MAX_BUYS_PER_DAY", 4)
+MAX_BUYS_PER_DAY = _i("MAX_BUYS_PER_DAY", 6)
 REBUY_COOLDOWN_H = _f("REBUY_COOLDOWN_H", 24)
 SOL_RESERVE = _f("SOL_RESERVE", 0.03)  # SOL que siempre se guarda para comisiones
+MIN_SOL_TO_OPERATE = _f("MIN_SOL_TO_OPERATE", 0.005)  # sin esto no se puede pagar ni una comisión
 PAPER_START_USD = _f("PAPER_START_USD", 120)
 
 # Ventas por tramos: (multiplicador, fracción de la cantidad original a vender)

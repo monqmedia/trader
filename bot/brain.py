@@ -29,8 +29,9 @@ How to pick (in order of importance):
    volume/liquidity. Be suspicious of paid promotion ("promocionada") without organic volume.
 3. Entry timing: buy after a first pump and a pullback/consolidation, never chase a vertical candle
    (e.g. +80% in the last hour with no pause).
-4. Portfolio mix: ideally 1 "consolidada" (steadier, x2-x5 potential) and 1-2 "joven" (x10+ potential).
-   Do not hold two coins of the same narrative.
+4. Portfolio mix: aim for 3-5 open bets: 1-2 "consolidada" (steadier, x2-x5 potential) and 2-3 "joven"
+   (x10+ potential). Do not hold two coins of the same narrative. Fill free slots when good setups exist,
+   but never force a weak bet just to fill a slot.
 5. Exits: sell a position (fully or partly) when its narrative dies: volume collapsing, sellers
    dominating for hours, big holders leaving. Do not wait for losers to "come back". Rotate capital
    into stronger setups. Holding is fine while the trend is alive.

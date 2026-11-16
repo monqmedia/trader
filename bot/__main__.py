@@ -99,6 +99,30 @@ class Round:
         self.notify(f"{sign} Cerrada {pos['symbol']}: invertido {usd(pos['cost_usd'])}, "
                     f"recuperado {usd(ret)} (x{mult:.2f}).\nMotivo: {reason}")
 
+    def fund_from_usdc(self):
+        """En real: comprueba que hay SOL para comisiones y pasa el USDC a SOL para operar."""
+        if C.MODE != "real":
+            return True
+        lamports = self.wallet.sol_lamports()
+        if lamports < C.MIN_SOL_TO_OPERATE * 1e9:
+            if not self.s.get("low_sol_warned"):
+                self.s["low_sol_warned"] = True
+                self.notify(f"⛽ No puedo operar: la cuenta necesita un poco de SOL para comisiones. "
+                            f"Envía al menos 0.02 SOL a:\n{self.wallet.pubkey}")
+            return False
+        self.s["low_sol_warned"] = False
+        usdc = self.wallet.token_balances().get(C.USDC_MINT, 0)
+        if usdc >= 1_000_000:  # 1 USDC o más
+            try:
+                res = self.wallet.swap(self.jup.quote(C.USDC_MINT, C.SOL_MINT, usdc, 100))
+            except Exception as e:
+                res = {"ok": False, "error": str(e)}
+            if res.get("ok"):
+                self.notify(f"🔄 Convertidos {usdc / 1e6:.2f} USDC a SOL para empezar a operar.")
+            else:
+                self.notify(f"⚠️ No pude convertir el USDC a SOL: {res.get('error')}")
+        return True
+
     # ---- compraventa ----
     def buy(self, cand, buy_usd, reason):
         lamports = int(buy_usd / self.sol_usd * 1e9)
@@ -173,9 +197,9 @@ class Round:
                 self.sell(mint, amt, reason)
 
     def status_text(self):
-        start = self.s.get("start_equity_usd") or self.equity
-        lines = [f"📊 Capital: {usd(self.equity)} ({(self.equity / start - 1) * 100:+.1f}% desde el inicio)",
-                 f"Efectivo: {usd(self.cash_usd)}"]
+        start = self.s.get("start_equity_usd")
+        change = f" ({(self.equity / start - 1) * 100:+.1f}% desde el inicio)" if start else ""
+        lines = [f"📊 Capital: {usd(self.equity)}{change}", f"Efectivo: {usd(self.cash_usd)}"]
         for mint, pos in self.s["positions"].items():
             lines.append(f"• {pos['symbol']}: {usd(self.values.get(mint, 0))} "
                          f"(x{pos.get('multiple', 0):.2f}, invertido {usd(pos['cost_usd'])})")
@@ -348,7 +372,27 @@ class Round:
             self.notify("☀️ Resumen diario\n" + self.status_text())
 
 
+def check():
+    """Solo lectura: confirma que la clave es válida y muestra los saldos de la cuenta real."""
+    jup = Jupiter()
+    sol_usd = sol_price_usd(jup)
+    w = RealWallet(C.SOLANA_PRIVATE_KEY, Rpc(C.SOLANA_RPC_URL), jup)
+    sol = w.sol_lamports() / 1e9
+    usdc = w.token_balances().get(C.USDC_MINT, 0) / 1e6
+    lines = [f"🔎 Comprobación de la cuenta real", f"Dirección: {w.pubkey}",
+             f"SOL: {sol:.4f} (${sol * sol_usd:,.2f})", f"USDC: {usdc:,.2f}"]
+    if sol < C.MIN_SOL_TO_OPERATE:
+        lines.append("⛽ Falta SOL para comisiones: envía al menos 0.02 SOL.")
+    else:
+        lines.append("✅ Lista para operar.")
+    text = "\n".join(lines)
+    print(text)
+    ntfy.send({}, text)
+
+
 def run():
+    if os.getenv("CHECK_ONLY") == "1":
+        return check()
     state = load_state()
     r = Round(state)
 
@@ -358,13 +402,15 @@ def run():
         state["mode"] = C.MODE
 
     cmds = telegram.read_commands(state) + ntfy.read_commands(state)
+    can_trade = r.fund_from_usdc()
     r.refresh()
-    state.setdefault("start_equity_usd", round(r.equity, 2))
+    if can_trade and r.equity > 1:
+        state.setdefault("start_equity_usd", round(r.equity, 2))
     if any((state.get(k) or {}).pop("new_owner", False) for k in ("telegram", "ntfy")):
         r.notify("👋 Conectado. Te avisaré de cada compra y venta.\n" + HELP)
 
     r.handle_commands(cmds)
-    if not state.get("paused"):
+    if not state.get("paused") and can_trade:
         r.take_profits()
         r.refresh()
         try:

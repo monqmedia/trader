@@ -69,7 +69,8 @@ def test_take_profit_and_multiple():
     assert P.take_profit_due(pos, 50) is None  # el resto lo decide la IA
 
 
-def test_validate():
+def test_validate(monkeypatch):
+    monkeypatch.setattr(C, "MAX_POSITIONS", 3)
     positions = {"H1": {}, "H2": {}}
     cands = [{"mint": "C1"}, {"mint": "C2"}]
     acts = [
@@ -90,7 +91,7 @@ def test_validate():
 
 
 def test_standard_buy():
-    assert P.standard_buy_usd(120, 120, 150) == pytest.approx(40)
+    assert P.standard_buy_usd(120, 120, 150) == pytest.approx(120 / C.MAX_POSITIONS)
     assert P.standard_buy_usd(120, 20, 150) == pytest.approx(20 - C.SOL_RESERVE * 150)
 
 
@@ -120,6 +121,8 @@ class FakeNet:
             i, o, a = params["inputMint"], params["outputMint"], int(params["amount"])
             if i == C.SOL_MINT and o == C.USDC_MINT:
                 out = a * 150 // 1000  # 1 SOL = 150 USDC
+            elif i == C.USDC_MINT:
+                out = int(a / 1e6 / 150 * 1e9)
             elif i == C.SOL_MINT:
                 out = a * 1000  # 1 lamport = 1000 unidades
             else:
@@ -179,7 +182,7 @@ def test_full_paper_rounds(env):
     assert {c["mint"] for c in snap["candidates"]} == {MEME, BIG}  # SCAM y SOL filtradas
     assert list(st["positions"]) == [MEME]  # SCAM rechazada por no estar verificada
     pos = st["positions"][MEME]
-    assert pos["cost_usd"] == pytest.approx(40, rel=0.01)
+    assert pos["cost_usd"] == pytest.approx(120 / C.MAX_POSITIONS, rel=0.01)
     assert st["telegram"]["chat_id"] == "77"
     assert any("Compra MEME" in m for m in net.sent)
     assert st["start_equity_usd"] == pytest.approx(120, rel=0.01)
@@ -192,7 +195,7 @@ def test_full_paper_rounds(env):
     M.run()
     st = json.load(open(C.STATE_PATH))
     assert st["positions"][MEME]["tp_stage"] == 1
-    assert st["positions"][MEME]["realized_usd"] > 40
+    assert st["positions"][MEME]["realized_usd"] > pos["cost_usd"]
     assert any("Venta parcial" in m for m in net.sent)
 
     # Orden por Telegram: vender todo y pausar
@@ -233,3 +236,42 @@ def test_ntfy(monkeypatch):
     assert state["ntfy"]["since"] == "a4" and state["ntfy"]["new_owner"]
     ntfy.send(state, "Compra MEME")
     assert posted[0][0].endswith("/tema-secreto") and posted[0][2]["Title"] == "Inversor"
+
+
+def test_real_mode_needs_sol_and_converts_usdc(env, monkeypatch):
+    M, net, calls = env
+
+    class FakeReal:
+        pubkey = "MiDireccion"
+
+        def __init__(self, sol):
+            self.sol, self.usdc, self.swaps = sol, 126_000_000, []
+
+        def sol_lamports(self):
+            return self.sol
+
+        def token_balances(self):
+            return {C.USDC_MINT: self.usdc} if self.usdc else {}
+
+        def swap(self, q):
+            self.swaps.append(q)
+            self.usdc = 0
+            self.sol += 840_000_000
+            return {"ok": True, "in_amount": int(q["inAmount"]), "out_amount": 840_000_000}
+
+    monkeypatch.setattr(C, "MODE", "real")
+    monkeypatch.setattr(C, "SOLANA_PRIVATE_KEY", "x")
+    wallet = FakeReal(sol=0)
+    monkeypatch.setattr(M, "RealWallet", lambda *a: wallet)
+    M.run()  # sin SOL: avisa y no opera
+    st = json.load(open(C.STATE_PATH))
+    assert any("necesita un poco de SOL" in m for m in net.sent)
+    assert not wallet.swaps and "start_equity_usd" not in st and calls["snaps"] == []
+
+    wallet.sol = 20_000_000  # llegan 0.02 SOL
+    calls["decide"].append({"market_view": "", "notes_for_next_time": "", "actions": []})
+    M.run()
+    st = json.load(open(C.STATE_PATH))
+    assert wallet.swaps[0]["inputMint"] == C.USDC_MINT
+    assert any("Convertidos 126.00 USDC" in m for m in net.sent)
+    assert st["start_equity_usd"] == pytest.approx(0.86 * 150, rel=0.01)

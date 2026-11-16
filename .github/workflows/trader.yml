@@ -3,7 +3,12 @@ name: inversor
 on:
   schedule:
     - cron: "*/30 * * * *"   # cada 30 minutos
-  workflow_dispatch: {}       # botón "Run workflow" para lanzarlo a mano
+  workflow_dispatch:          # botón "Run workflow" para lanzarlo a mano
+    inputs:
+      solo_comprobar:
+        description: "Solo comprobar la cuenta real (no opera)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,6 +35,7 @@ jobs:
         run: python -m bot
         env:
           MODE: ${{ vars.MODE }}
+          CHECK_ONLY: ${{ inputs.solo_comprobar && '1' || '' }}
           SOLANA_PRIVATE_KEY: ${{ secrets.SOLANA_PRIVATE_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -40,7 +46,7 @@ jobs:
           AI_MONTHLY_BUDGET_USD: ${{ vars.AI_MONTHLY_BUDGET_USD }}
 
       - name: Guardar memoria
-        if: always()
+        if: always() && !inputs.solo_comprobar
         run: |
           git config user.name "inversor-bot"
           git config user.email "inversor-bot@users.noreply.github.com"
