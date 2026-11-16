@@ -16,9 +16,9 @@
    "opened_at": 1794856949.0757904,
    "tp_stage": 0,
    "realized_usd": 0.0,
-   "peak_multiple": 1.218,
+   "peak_multiple": 1.257,
    "entry_reason": "GTA6 es el número 1 en tendencia, con muchos más compradores que vendedores y mucho volumen antes del lanzamiento del juego. Ahora está en una pausa y no en plena subida.",
-   "multiple": 1.208
+   "multiple": 1.194
   },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "symbol": "mihao",
@@ -31,7 +31,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.0,
    "entry_reason": "mihao es una moneda de gatos, un tema distinto, con mucho volumen y casi el doble de compradores que de vendedores en la última hora. Entro con poco porque el precio está plano.",
-   "multiple": 0.907
+   "multiple": 0.888
   }
  },
  "closed": [],
@@ -71,6 +71,12 @@
    "market_view": "SOL está plano. GTA6 sigue fuerte antes del lanzamiento del juego, con muchos más compradores que vendedores y mucho volumen. mihao se mantiene, con algo más de compradores que vendedores. Ningún candidato nuevo tiene una ventaja clara, así que no hago nada.",
    "actions": [],
    "notes": "Mantener GTA6 mientras los compradores sigan ganando. Si el 18 o el 19 de noviembre no llegó a x3, vender buena parte, porque estas monedas suelen caer cuando sale el juego. Vender mihao si los vendedores ganan durante varias horas o si su volumen de la última hora baja de unos 50.000 USD (ahora está en unos 100.000 USD). AudaCity (DKYc) subió 58% en una hora sin pausa: solo comprarla si se calma varias horas y sigue habiendo casi el doble de compradores que de vendedores. Dacity (nxPq) cayó 38% en una hora: no comprarla hasta que el precio se estabilice, y nunca comprar las dos Dacity a la vez. WASTED, GTA y GATO no, porque repiten el tema GTA. JOB y CBUCKS tampoco: pagan promoción y no tienen compras de verdad. STONK tampoco, porque casi no tiene movimiento."
+  },
+  {
+   "t": "2026-11-16 22:22 UTC",
+   "market_view": "SOL está plano. GTA6 sigue fuerte antes de que salga el juego: los compradores superan con claridad a los vendedores y el volumen es alto. mihao aguanta con algo más de compradores que de vendedores. Ningún candidato nuevo tiene una ventaja clara.",
+   "actions": [],
+   "notes": "Mantener GTA6 mientras los compradores sigan ganando. Si el 18 o el 19 de noviembre todavía no llegó a x3, vender buena parte, porque estas monedas suelen caer cuando sale el juego. Vender mihao si los vendedores ganan durante varias horas o si su volumen de la última hora baja de unos 50.000 USD (ahora está en unos 98.000 USD). AudaCity (DKYc) subió 43% en la última hora y apenas empieza a bajar: comprarla solo si se calma durante varias horas sin perder mucho y sigue teniendo casi el doble de compradores. Dacity (nxPq) cayó 53% en una hora y ya hay más vendedores que compradores, así que no comprarla. Nunca comprar las dos Dacity juntas. WASTED, GTA y GATO no, porque repiten el tema GTA. JOB y Rocco tampoco: pagan promoción y la actividad real es floja."
   }
  ],
  "buys": [
@@ -80,11 +86,11 @@
  "cooldown": {},
  "ai": {
   "month": "2026-11",
-  "spent_month": 0.4631,
+  "spent_month": 0.5252,
   "budget_warned": false,
   "day": "2026-11-16",
-  "spent_day": 0.4631,
-  "last_decider": 1794866598.620156
+  "spent_day": 0.5252,
+  "last_decider": 1794867762.1901066
  },
  "history": [
   [
@@ -142,21 +148,25 @@
   [
    1794866924,
    130.79
+  ],
+  [
+   1794867579,
+   131.7
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "wgKRNozuqlfC"
+  "since": "kfV25diZcfEf"
  },
- "last_run": "2026-11-16 22:12 UTC",
+ "last_run": "2026-11-16 22:28 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-16",
-  "count": 12
+  "count": 13
  },
- "last_update": 1794867047.5874789,
+ "last_update": 1794867701.300179,
  "ignored_tokens": {}
 }
