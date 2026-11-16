@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.065,
    "entry_reason": "GTA6 es el número 1 en tendencia, con muchos más compradores que vendedores y mucho volumen antes del lanzamiento del juego. Ahora está en una pausa y no en plena subida.",
-   "multiple": 1.041
+   "multiple": 1.064
   },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "symbol": "mihao",
@@ -31,7 +31,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.0,
    "entry_reason": "mihao es una moneda de gatos, un tema distinto, con mucho volumen y casi el doble de compradores que de vendedores en la última hora. Entro con poco porque el precio está plano.",
-   "multiple": 0.978
+   "multiple": 0.97
   }
  },
  "closed": [],
@@ -53,6 +53,12 @@
     "buy 4CxjZy: mihao es una moneda de gatos, un tema distinto, con mucho volumen y casi el doble de compradores que de vendedores en la última hora. Entro con poco porque el precio está plano."
    ],
    "notes": "Revisar si estas compras se hicieron, porque las de las 18:47 no aparecen en la cartera. Vender buena parte de GTA6 el 18 o el 19 de noviembre si no llegó a x3, ya que suele caer cuando sale la noticia y su liquidez es baja. No comprar GATO, WASTED ni CATE porque repiten temas que ya tengo. Vender mihao si los vendedores dominan durante varias horas."
+  },
+  {
+   "t": "2026-11-16 20:24 UTC",
+   "market_view": "SOL está plano. GTA6 sigue fuerte antes del lanzamiento del juego, con más compradores que vendedores, y mihao está estable aunque su volumen baja un poco. Ningún candidato nuevo tiene una ventaja clara: varios repiten temas que ya tengo (GTA o gatos) y otros están pagando promoción o tienen poca actividad.",
+   "actions": [],
+   "notes": "Las compras de las 19:22 sí se hicieron: GTA6 costó 19,12 USD y mihao 12,74 USD, así que no hay que repetirlas. Conviene vender buena parte de GTA6 el 18 o el 19 de noviembre si no llegó a x3, porque suele caer cuando sale la noticia. Hay que vender mihao si los vendedores dominan durante varias horas o si el volumen de la última hora baja de unos 50.000 USD. Hay que vigilar JOB, que subió 60% y luego bajó 20%: solo compraría si los compradores vuelven a superar a los vendedores y el precio se calma, porque está pagando promoción y podría tener cuentas conectadas al creador. Por ahora no compro STONK, que casi no tiene volumen."
   }
  ],
  "buys": [
@@ -62,11 +68,11 @@
  "cooldown": {},
  "ai": {
   "month": "2026-11",
-  "spent_month": 0.2626,
+  "spent_month": 0.3281,
   "budget_warned": false,
   "day": "2026-11-16",
-  "spent_day": 0.2626,
-  "last_decider": 1794856949.0757904
+  "spent_day": 0.3281,
+  "last_decider": 1794860671.9459682
  },
  "history": [
   [
@@ -80,14 +86,24 @@
   [
    1794860029,
    128.35
+  ],
+  [
+   1794860671,
+   127.61
   ]
  ],
  "mode": "real",
  "ntfy": {
-  "welcomed": true
+  "welcomed": true,
+  "since": "r3d2rrnC5Mq1"
  },
- "last_run": "2026-11-16 20:13 UTC",
+ "last_run": "2026-11-16 20:30 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
- "last_summary_day": "2026-11-16"
+ "last_summary_day": "2026-11-16",
+ "quiet": {
+  "day": "2026-11-16",
+  "count": 2
+ },
+ "last_update": 1794860763.3694084
 }
