@@ -5,7 +5,7 @@ import sys
 import time
 from datetime import datetime, timezone
 
-from . import brain, market, telegram
+from . import brain, market, ntfy, telegram
 from . import config as C
 from . import portfolio as P
 from .solana import Jupiter, PaperWallet, RealWallet, Rpc, sol_price_usd, value_in_sol
@@ -60,6 +60,7 @@ class Round:
     def notify(self, text):
         prefix = "🧪 [SIMULADO] " if C.MODE != "real" else ""
         telegram.send(self.s, prefix + text)
+        ntfy.send(self.s, prefix + text)
 
     def refresh(self):
         """Lee saldos, valora cada posición y cierra las que ya no están en la cuenta."""
@@ -356,10 +357,10 @@ def run():
         state.pop("start_equity_usd", None)
         state["mode"] = C.MODE
 
-    cmds = telegram.read_commands(state)
+    cmds = telegram.read_commands(state) + ntfy.read_commands(state)
     r.refresh()
     state.setdefault("start_equity_usd", round(r.equity, 2))
-    if (state.get("telegram") or {}).pop("new_owner", False):
+    if any((state.get(k) or {}).pop("new_owner", False) for k in ("telegram", "ntfy")):
         r.notify("👋 Conectado. Te avisaré de cada compra y venta.\n" + HELP)
 
     r.handle_commands(cmds)

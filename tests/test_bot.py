@@ -151,6 +151,7 @@ def env(tmp_path, monkeypatch):
     monkeypatch.setattr(C, "ANTHROPIC_API_KEY", "test")
     monkeypatch.setattr(C, "TELEGRAM_BOT_TOKEN", "test")
     monkeypatch.setattr(C, "TELEGRAM_CHAT_ID", "")
+    monkeypatch.setattr(C, "NTFY_TOPIC", "")
     calls = {"watch": 0, "decide": [], "snaps": []}
 
     def watch(snap):
@@ -203,3 +204,32 @@ def test_full_paper_rounds(env):
     closed = st["closed"][-1]
     assert closed["symbol"] == "MEME" and closed["result_multiple"] > 3
     assert calls["decide"] == []  # en pausa no se consulta a la IA
+
+
+def test_ntfy(monkeypatch):
+    from bot import ntfy
+
+    class Resp:
+        def __init__(self, text=""):
+            self.text = text
+
+        def raise_for_status(self):
+            pass
+
+    lines = [
+        {"id": "a1", "event": "open"},
+        {"id": "a2", "event": "message", "title": "Inversor", "message": "/estado"},  # propio: ignorar
+        {"id": "a3", "event": "message", "message": "/Pausa"},
+        {"id": "a4", "event": "message", "message": "hola"},
+    ]
+    posted = []
+    monkeypatch.setattr(C, "NTFY_TOPIC", "tema-secreto")
+    monkeypatch.setattr(ntfy.requests, "get",
+                        lambda url, params, timeout: Resp("\n".join(json.dumps(x) for x in lines)))
+    monkeypatch.setattr(ntfy.requests, "post",
+                        lambda url, data, headers, timeout: posted.append((url, data, headers)) or Resp())
+    state = {}
+    assert ntfy.read_commands(state) == ["/pausa"]
+    assert state["ntfy"]["since"] == "a4" and state["ntfy"]["new_owner"]
+    ntfy.send(state, "Compra MEME")
+    assert posted[0][0].endswith("/tema-secreto") and posted[0][2]["Title"] == "Inversor"

@@ -8,7 +8,7 @@ Cada 30 minutos GitHub lanza una ronda:
 4. **Vigilante IA** (Claude Haiku, barato): decide si hay algo que merezca la pena mirar.
 5. **Decisor IA** (Claude Opus, potente): analiza moda, demanda y momento. Puede buscar en internet si hay hype real. Después decide comprar, vender o esperar.
 6. **Ventas automáticas por beneficio:** vende 1/3 a x3 y otro 1/3 a x6. El resto lo gestiona la IA.
-7. **Te avisa por Telegram** de cada movimiento.
+7. **Te avisa por ntfy** (o Telegram) de cada movimiento.
 
 Estrategia: máximo 3 apuestas, sin stop-loss automático. Reinvierte las ganancias. La memoria (posiciones, diario de decisiones, operaciones cerradas) se guarda en `state/state.json`.
 
@@ -20,14 +20,15 @@ Repositorio → **Settings → Secrets and variables → Actions → New reposit
 | Nombre | Qué es |
 |---|---|
 | `ANTHROPIC_API_KEY` | Clave de console.anthropic.com |
-| `TELEGRAM_BOT_TOKEN` | Código del bot que da @BotFather |
+| `NTFY_TOPIC` | Nombre secreto del canal de avisos en ntfy |
+| `TELEGRAM_BOT_TOKEN` | Opcional: código del bot que da @BotFather |
 | `SOLANA_PRIVATE_KEY` | Solo para modo real. Clave privada de la **cuenta nueva** dedicada |
 | `SOLANA_RPC_URL` | Opcional, recomendado en real: un RPC gratuito de helius.dev, más fiable |
 
-### 2. Telegram
-Abre tu bot y escríbele `/start`. El primer chat que le escriba queda como dueño.
+### 2. Avisos (ntfy)
+Instala la app **ntfy**, pulsa **+** y suscríbete al tema guardado en `NTFY_TOPIC`. Quien conozca ese nombre puede leer los avisos y dar órdenes, así que no lo compartas.
 
-Órdenes disponibles: `/estado`, `/pausa`, `/seguir`, `/vender_todo`.
+Para dar órdenes, abre `https://ntfy.sh/<tu tema>` en el navegador y escribe: `/estado`, `/pausa`, `/seguir` o `/vender_todo`. La respuesta llega en la próxima ronda (máximo 30 minutos).
 
 ### 3. Encenderlo
 Pestaña **Actions** → **inversor** → **Run workflow**. A partir de ahí se ejecuta solo cada 30 minutos.
