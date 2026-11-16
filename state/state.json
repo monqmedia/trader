@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.391,
    "entry_reason": "GTA6 es el número 1 en tendencia, con muchos más compradores que vendedores y mucho volumen antes del lanzamiento del juego. Ahora está en una pausa y no en plena subida.",
-   "multiple": 1.366
+   "multiple": 1.319
   },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "symbol": "mihao",
@@ -31,7 +31,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.0,
    "entry_reason": "mihao es una moneda de gatos, un tema distinto, con mucho volumen y casi el doble de compradores que de vendedores en la última hora. Entro con poco porque el precio está plano.",
-   "multiple": 0.825
+   "multiple": 0.842
   }
  },
  "closed": [],
@@ -170,6 +170,10 @@
   [
    1794869456,
    133.98
+  ],
+  [
+   1794870096,
+   132.1
   ]
  ],
  "mode": "real",
@@ -177,7 +181,7 @@
   "welcomed": true,
   "since": "4LkSuyz4HFHZ"
  },
- "last_run": "2026-11-16 22:59 UTC",
+ "last_run": "2026-11-16 23:01 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
