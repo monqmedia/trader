@@ -11,26 +11,26 @@
    "symbol": "GTA6",
    "name": "GTA VI",
    "tier": "joven",
-   "cost_usd": 39.99999999222346,
-   "amount_initial": 3310434019982,
-   "opened_at": 1794854862.2762723,
+   "cost_usd": 19.115524033957467,
+   "amount_initial": 1504640746215,
+   "opened_at": 1794856949.0757904,
    "tp_stage": 0,
    "realized_usd": 0.0,
    "peak_multiple": 1.0,
-   "entry_reason": "GTA6 tiene la mejor historia del momento: el juego sale en 2-3 días y la atención va a subir. Hay mucho volumen y muchos más compradores que vendedores, y entramos en una pausa, no en plena subida.",
+   "entry_reason": "GTA6 es el número 1 en tendencia, con muchos más compradores que vendedores y mucho volumen antes del lanzamiento del juego. Ahora está en una pausa y no en plena subida.",
    "multiple": 0.996
   },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "symbol": "mihao",
    "name": "ni hao cat",
    "tier": "joven",
-   "cost_usd": 19.99999996051637,
-   "amount_initial": 1277338789,
-   "opened_at": 1794854862.2762723,
+   "cost_usd": 12.743682665617644,
+   "amount_initial": 826909989,
+   "opened_at": 1794856949.0757904,
    "tp_stage": 0,
    "realized_usd": 0.0,
    "peak_multiple": 1.0,
-   "entry_reason": "mihao es de gatos, otro tema distinto, y está en el puesto 4 de tendencia. En la última hora tuvo el doble de compradores que de vendedores y el precio está estable, por eso entramos con tamaño pequeño.",
+   "entry_reason": "mihao es una moneda de gatos, un tema distinto, con mucho volumen y casi el doble de compradores que de vendedores en la última hora. Entro con poco porque el precio está plano.",
    "multiple": 0.996
   }
  },
@@ -44,32 +44,42 @@
     "buy 4CxjZy: mihao es de gatos, otro tema distinto, y está en el puesto 4 de tendencia. En la última hora tuvo el doble de compradores que de vendedores y el precio está estable, por eso entramos con tamaño pequeño."
    ],
    "notes": "GTA6 depende del lanzamiento del 19 de noviembre: hay riesgo de que caiga cuando salga la noticia, así que conviene vender buena parte el 18 o el 19 si no llegó a x3. Su liquidez es baja para su tamaño. No comprar GATO ni WASTED porque son del mismo tema GTA. Vender mihao si los vendedores dominan durante varias horas o si baja el volumen."
+  },
+  {
+   "t": "2026-11-16 19:22 UTC",
+   "market_view": "SOL está plano. El tema más fuerte sigue siendo GTA VI, cuyo lanzamiento está previsto para el 19 de noviembre. Las compras anteriores no aparecen en la cartera, así que repito las dos ideas con tamaño moderado.",
+   "actions": [
+    "buy 4kjruq: GTA6 es el número 1 en tendencia, con muchos más compradores que vendedores y mucho volumen antes del lanzamiento del juego. Ahora está en una pausa y no en plena subida.",
+    "buy 4CxjZy: mihao es una moneda de gatos, un tema distinto, con mucho volumen y casi el doble de compradores que de vendedores en la última hora. Entro con poco porque el precio está plano."
+   ],
+   "notes": "Revisar si estas compras se hicieron, porque las de las 18:47 no aparecen en la cartera. Vender buena parte de GTA6 el 18 o el 19 de noviembre si no llegó a x3, ya que suele caer cuando sale la noticia y su liquidez es baja. No comprar GATO, WASTED ni CATE porque repiten temas que ya tengo. Vender mihao si los vendedores dominan durante varias horas."
   }
  ],
  "buys": [
-  1794854862.2762723,
-  1794854862.2762723
+  1794856949.0757904,
+  1794856949.0757904
  ],
  "cooldown": {},
  "ai": {
   "month": "2026-11",
-  "spent_month": 0.1978,
+  "spent_month": 0.261,
   "budget_warned": false,
   "day": "2026-11-16",
-  "spent_day": 0.1978,
-  "last_decider": 1794854862.2762723
+  "spent_day": 0.261,
+  "last_decider": 1794856949.0757904
  },
  "history": [
   [
-   1794854862,
-   119.76
+   1794856949,
+   127.09
   ]
  ],
- "mode": "paper",
+ "mode": "real",
  "ntfy": {
   "welcomed": true
  },
- "start_equity_usd": 120.0,
- "last_summary_day": "2026-11-16",
- "last_run": "2026-11-16 18:47 UTC"
+ "last_run": "2026-11-16 19:22 UTC",
+ "low_sol_warned": false,
+ "start_equity_usd": 127.44,
+ "last_summary_day": "2026-11-16"
 }
