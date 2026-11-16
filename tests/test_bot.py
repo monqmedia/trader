@@ -275,3 +275,16 @@ def test_real_mode_needs_sol_and_converts_usdc(env, monkeypatch):
     assert wallet.swaps[0]["inputMint"] == C.USDC_MINT
     assert any("Convertidos 126.00 USDC" in m for m in net.sent)
     assert st["start_equity_usd"] == pytest.approx(0.86 * 150, rel=0.01)
+
+
+def test_load_keypair_formats():
+    from solders.keypair import Keypair
+    from bot.solana import load_keypair
+    kp = Keypair()
+    full = bytes(kp)
+    seed = full[:32]
+    addr = str(kp.pubkey())
+    for s in (str(kp), full.hex(), "0x" + seed.hex(), seed.hex(), json.dumps(list(full)), f' "{kp}" \n'):
+        assert str(load_keypair(s).pubkey()) == addr
+    with pytest.raises(ValueError):
+        load_keypair("hola mundo")

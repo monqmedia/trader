@@ -65,12 +65,36 @@ def value_in_sol(jup, mint, amount):
         return 0
 
 
+B58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
+
+
+def b58decode(s):
+    n = 0
+    for ch in s:
+        n = n * 58 + B58.index(ch)
+    raw = n.to_bytes((n.bit_length() + 7) // 8, "big") if n else b""
+    return b"\x00" * (len(s) - len(s.lstrip("1"))) + raw
+
+
 def load_keypair(secret):
+    """Acepta la clave en base58, hexadecimal o lista JSON; de 32 bytes (semilla) o 64."""
     from solders.keypair import Keypair
-    s = secret.strip()
+    s = secret.strip().strip('"').strip()
+    if s.lower().startswith("0x"):
+        s = s[2:]
     if s.startswith("["):
-        return Keypair.from_bytes(bytes(json.loads(s)))
-    return Keypair.from_base58_string(s)
+        raw = bytes(json.loads(s))
+    elif len(s) in (64, 128) and all(c in "0123456789abcdefABCDEF" for c in s):
+        raw = bytes.fromhex(s)
+    elif s and all(c in B58 for c in s):
+        raw = b58decode(s)
+    else:
+        raise ValueError(f"la clave privada no tiene un formato reconocible ({len(s)} caracteres)")
+    if len(raw) == 32:
+        return Keypair.from_seed(raw)
+    if len(raw) == 64:
+        return Keypair.from_bytes(raw)
+    raise ValueError(f"la clave privada mide {len(raw)} bytes; se esperaban 32 o 64")
 
 
 class RealWallet:
