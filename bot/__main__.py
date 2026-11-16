@@ -469,8 +469,9 @@ def run():
     r = Round(state)
 
     if state.get("mode") != C.MODE:  # cambio simulado <-> real: empezar de cero
-        state["positions"], state["buys"] = {}, []
+        state["positions"], state["buys"], state["closed"], state["history"] = {}, [], [], []
         state.pop("start_equity_usd", None)
+        state.pop("last_summary_day", None)
         state["mode"] = C.MODE
 
     cmds = telegram.read_commands(state) + ntfy.read_commands(state)
@@ -492,7 +493,7 @@ def run():
         r.refresh()
     r.daily_summary()
 
-    last_push = [time.time()]
+    last_push = [0.0]  # la primera ronda se guarda enseguida
 
     def on_save():
         if not state["history"] or r.now - state["history"][-1][0] >= 600:

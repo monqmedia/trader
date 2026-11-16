@@ -42,7 +42,7 @@ jobs:
       - name: Ronda del inversor
         run: python -m bot
         env:
-          MODE: ${{ vars.MODE }}
+          MODE: ${{ vars.MODE || 'real' }}   # en vivo; crea la variable MODE=paper para volver a simulado
           CHECK_ONLY: ${{ inputs.solo_comprobar && '1' || '' }}
           GUARD_MINUTES: ${{ vars.GUARD_MINUTES || (steps.vis.outputs.private == 'false' && '50' || '0') }}
           GIT_PERSIST: "1"

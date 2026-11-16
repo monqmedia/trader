@@ -37,7 +37,7 @@ Pestaña **Actions** → **inversor** → **Run workflow**. A partir de ahí se 
 ### 4. Modo simulado → real
 Empieza en **simulado**: usa precios reales con $120 ficticios y no toca dinero.
 
-Para pasar a real: **Settings → Secrets and variables → Actions → pestaña Variables → New variable**, nombre `MODE`, valor `real`. Además tiene que estar puesto el secreto `SOLANA_PRIVATE_KEY`.
+Ahora mismo está **en real** por defecto. Para volver a simulado: **Settings → Secrets and variables → Actions → pestaña Variables → New variable**, nombre `MODE`, valor `paper`.
 
 ## Costes
 - IA: tope de $25/mes (variable `AI_MONTHLY_BUDGET_USD`). Al llegar al tope, la IA se detiene, pero las ventas automáticas por beneficio siguen funcionando.
