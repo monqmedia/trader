@@ -37,6 +37,7 @@ jobs:
           MODE: ${{ vars.MODE }}
           CHECK_ONLY: ${{ inputs.solo_comprobar && '1' || '' }}
           SOLANA_PRIVATE_KEY: ${{ secrets.SOLANA_PRIVATE_KEY }}
+          SOLANA_ACCOUNT_INDEX: ${{ vars.SOLANA_ACCOUNT_INDEX }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

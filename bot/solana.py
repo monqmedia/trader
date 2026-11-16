@@ -76,10 +76,35 @@ def b58decode(s):
     return b"\x00" * (len(s) - len(s.lstrip("1"))) + raw
 
 
-def load_keypair(secret):
-    """Acepta la clave en base58, hexadecimal o lista JSON; de 32 bytes (semilla) o 64."""
+def slip10_ed25519(seed, path):
+    """Derivación de claves ed25519 (SLIP-0010), solo índices reforzados."""
+    import hashlib
+    import hmac
+    digest = hmac.new(b"ed25519 seed", seed, hashlib.sha512).digest()
+    key, chain = digest[:32], digest[32:]
+    for idx in path:
+        data = b"\x00" + key + (idx | 0x80000000).to_bytes(4, "big")
+        digest = hmac.new(chain, data, hashlib.sha512).digest()
+        key, chain = digest[:32], digest[32:]
+    return key
+
+
+def keypair_from_mnemonic(words, index=0):
+    """12/24 palabras -> cuenta de Solana nº `index` (ruta m/44'/501'/index'/0', la de MetaMask y Phantom)."""
+    import hashlib
+    import unicodedata
+    from solders.keypair import Keypair
+    phrase = unicodedata.normalize("NFKD", " ".join(words.lower().split()))
+    seed = hashlib.pbkdf2_hmac("sha512", phrase.encode(), b"mnemonic", 2048)
+    return Keypair.from_seed(slip10_ed25519(seed, [44, 501, index, 0]))
+
+
+def load_keypair(secret, index=None):
+    """Acepta 12/24 palabras, o la clave en base58, hexadecimal o lista JSON (32 o 64 bytes)."""
     from solders.keypair import Keypair
     s = secret.strip().strip('"').strip()
+    if len(s.split()) in (12, 15, 18, 21, 24):
+        return keypair_from_mnemonic(s, C.SOLANA_ACCOUNT_INDEX if index is None else index)
     if s.lower().startswith("0x"):
         s = s[2:]
     if s.startswith("["):

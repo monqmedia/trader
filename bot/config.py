@@ -20,6 +20,7 @@ MODE = _env("MODE", "paper").lower()
 
 # --- Claves (vienen de los Secrets de GitHub) ---
 SOLANA_PRIVATE_KEY = _env("SOLANA_PRIVATE_KEY", "")
+SOLANA_ACCOUNT_INDEX = _i("SOLANA_ACCOUNT_INDEX", 0)  # con 12 palabras: 0 = Account 1
 ANTHROPIC_API_KEY = _env("ANTHROPIC_API_KEY", "")
 TELEGRAM_BOT_TOKEN = _env("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = _env("TELEGRAM_CHAT_ID", "")

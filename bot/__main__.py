@@ -381,6 +381,16 @@ def check():
     usdc = w.token_balances().get(C.USDC_MINT, 0) / 1e6
     lines = [f"🔎 Comprobación de la cuenta real", f"Dirección: {w.pubkey}",
              f"SOL: {sol:.4f} (${sol * sol_usd:,.2f})", f"USDC: {usdc:,.2f}"]
+    if sol == 0 and usdc == 0 and len(C.SOLANA_PRIVATE_KEY.split()) >= 12:
+        from .solana import load_keypair
+        for i in range(1, 5):
+            alt = RealWallet.__new__(RealWallet)
+            alt.kp, alt.rpc, alt.jup = load_keypair(C.SOLANA_PRIVATE_KEY, i), w.rpc, jup
+            alt.pubkey = str(alt.kp.pubkey())
+            a_sol, a_usdc = alt.sol_lamports() / 1e9, alt.token_balances().get(C.USDC_MINT, 0) / 1e6
+            if a_sol or a_usdc:
+                lines.append(f"💡 Hay fondos en la cuenta Solana nº{i + 1} ({alt.pubkey}): "
+                             f"{a_sol:.4f} SOL, {a_usdc:.2f} USDC. Pon la variable SOLANA_ACCOUNT_INDEX={i}.")
     if sol < C.MIN_SOL_TO_OPERATE:
         lines.append("⛽ Falta SOL para comisiones: envía al menos 0.02 SOL.")
     else:

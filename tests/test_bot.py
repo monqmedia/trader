@@ -288,3 +288,15 @@ def test_load_keypair_formats():
         assert str(load_keypair(s).pubkey()) == addr
     with pytest.raises(ValueError):
         load_keypair("hola mundo")
+
+
+def test_slip10_vectors():
+    from bot.solana import slip10_ed25519, keypair_from_mnemonic, load_keypair
+    seed = bytes.fromhex("000102030405060708090a0b0c0d0e0f")
+    assert slip10_ed25519(seed, []).hex() == "2b4be7f19ee27bbf30c667b642d5f4aa69fd169872f8fc3059c08ebae2eb19e7"
+    assert slip10_ed25519(seed, [0]).hex() == "68e0fe46dfb67e368c75379acec591dad19df3cde26e63b93a8e704f1dade7a3"
+    words = "abandon " * 11 + "about"
+    a0 = str(keypair_from_mnemonic(words, 0).pubkey())
+    assert a0 == "HAgk14JpMQLgt6rVgv7cBQFJWFto5Dqxi472uT3DKpqk"  # referencia Phantom/MetaMask
+    assert str(load_keypair("  " + words.upper() + "\n").pubkey()) == a0
+    assert str(keypair_from_mnemonic(words, 1).pubkey()) != a0
