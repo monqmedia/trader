@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # para encadenar la siguiente ejecución
 
 concurrency:
   group: inversor
@@ -22,9 +23,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 75
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0   # historial completo: necesario para guardar la memoria sin conflictos
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -40,6 +43,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
 
       - name: Ronda del inversor
+        id: bot
         run: python -m bot
         env:
           MODE: ${{ vars.MODE || 'real' }}   # en vivo; crea la variable MODE=paper para volver a simulado
@@ -64,5 +68,13 @@ jobs:
           git add state/ || exit 0
           git diff --cached --quiet && exit 0
           git commit -m "ronda $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
           exit 1
+
+      # Encadena la siguiente ejecución (no depende de que GitHub lance el horario a tiempo).
+      # Solo si esta ronda terminó bien, para no entrar en un bucle de fallos rápidos.
+      - name: Lanzar la siguiente ronda
+        if: steps.bot.outcome == 'success' && !inputs.solo_comprobar && steps.vis.outputs.private == 'false'
+        run: gh api -X POST repos/${{ github.repository }}/actions/workflows/trader.yml/dispatches -f ref=main
+        env:
+          GH_TOKEN: ${{ github.token }}

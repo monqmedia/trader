@@ -98,6 +98,7 @@ class Round:
         self.cash_lamports = self.wallet.sol_lamports()
         self.balances = self.wallet.token_balances()
         self.values = {}
+        self.adopt_untracked()
         for mint in list(self.s["positions"]):
             amt = self.balances.get(mint, 0)
             pos = self.s["positions"][mint]
@@ -112,6 +113,31 @@ class Round:
             pos["peak_multiple"] = max(pos.get("peak_multiple", 1.0), pos["multiple"])
         self.cash_usd = self.cash_lamports / 1e9 * self.sol_usd
         self.equity = self.cash_usd + sum(self.values.values())
+
+    def adopt_untracked(self):
+        """Red de seguridad: si la memoria se perdió, recupera las monedas que hay en la cuenta
+        y no constan como apuestas, para que se sigan vigilando y vendiendo."""
+        ignored = self.s.setdefault("ignored_tokens", {})
+        for mint, amt in self.balances.items():
+            if mint in self.s["positions"] or mint in C.EXCLUDED_MINTS or amt <= 0:
+                continue
+            if self.now - ignored.get(mint, 0) < 6 * 3600:
+                continue
+            v = value_in_sol(self.jup, mint, amt) / 1e9 * self.sol_usd
+            if v < 2:  # polvo o monedas basura enviadas por terceros
+                ignored[mint] = self.now
+                continue
+            try:
+                symbol = (market.dex_tokens([mint]).get(mint) or {}).get("symbol") or mint[:6]
+            except Exception:
+                symbol = mint[:6]
+            self.s["positions"][mint] = {
+                "symbol": symbol, "name": symbol, "tier": None, "cost_usd": v, "amount_initial": amt,
+                "opened_at": self.now, "tp_stage": 0, "realized_usd": 0.0, "peak_multiple": 1.0,
+                "entry_reason": "recuperada: estaba en la cuenta pero no en la memoria del sistema",
+            }
+            self.notify(f"🔁 Recuperada {symbol} ({usd(v)}): estaba en tu cuenta sin vigilar. "
+                        f"La sigo vigilando desde su valor actual.")
 
     def close(self, mint, reason):
         pos = self.s["positions"].pop(mint)
@@ -543,7 +569,7 @@ def persist():
     cmds = [["git", "add", "state/"],
             ["git", "-c", "user.name=inversor-bot", "-c", "user.email=inversor-bot@users.noreply.github.com",
              "commit", "-q", "-m", f"memoria {iso(time.time())}"],
-            ["git", "pull", "-q", "--rebase"], ["git", "push", "-q"]]
+            ["git", "pull", "-q", "--rebase", "origin", "main"], ["git", "push", "-q", "origin", "HEAD:main"]]
     for c in cmds:
         if subprocess.run(c, capture_output=True).returncode != 0 and c[1] != "commit":
             print(f"[memoria] no se pudo guardar en git: {' '.join(c)}")

@@ -373,3 +373,23 @@ def test_portfolio_update_is_quiet_and_periodic(env, monkeypatch):
     M.run()
     assert len([t for t, q in sent if q]) == 2
     assert not any(q for t, q in sent if "📈 Cartera" not in t)  # el resto de avisos sí suenan
+
+
+def test_adopts_untracked_tokens(env, monkeypatch):
+    """Si la memoria se pierde tras una compra, la moneda se recupera y se sigue vigilando."""
+    M, net, calls = env
+    calls["decide"].append({"market_view": "", "notes_for_next_time": "", "actions": []})
+    calls["decide"].append({"market_view": "", "notes_for_next_time": "", "actions": []})
+    M.run()
+    st = json.load(open(C.STATE_PATH))
+    st["paper"]["tokens"][MEME] = 200_000_000_000  # (~$29) una moneda en la cuenta que no figura en la memoria
+    st["paper"]["tokens"][SCAM] = 1  # polvo: se ignora
+    st["ai"]["last_decider"] = 0
+    json.dump(st, open(C.STATE_PATH, "w"))
+    net.price_mult[SCAM] = 1.0
+    M.run()
+    st = json.load(open(C.STATE_PATH))
+    assert MEME in st["positions"] and SCAM not in st["positions"]
+    assert st["positions"][MEME]["entry_reason"].startswith("recuperada")
+    assert SCAM in st["ignored_tokens"]
+    assert any("Recuperada MEME" in m for m in net.sent)
