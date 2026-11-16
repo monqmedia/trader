@@ -1,0 +1,205 @@
+"""Pruebas sin red: reglas de cartera, filtros de seguridad y una ronda simulada completa."""
+import json
+import time
+
+import pytest
+
+from bot import config as C
+from bot import market, portfolio as P
+
+MEME = "Meme111111111111111111111111111111111111111"
+SCAM = "Scam111111111111111111111111111111111111111"
+BIG = "Bigg111111111111111111111111111111111111111"
+
+
+def pair(mint, sym, mcap, liq, vol24, age_h, chg_h1=10):
+    return {
+        "chainId": "solana", "dexId": "raydium",
+        "baseToken": {"address": mint, "symbol": sym, "name": sym},
+        "priceUsd": "0.001", "marketCap": mcap, "liquidity": {"usd": liq},
+        "volume": {"m5": vol24 / 200, "h1": vol24 / 20, "h6": vol24 / 4, "h24": vol24},
+        "priceChange": {"m5": 1, "h1": chg_h1, "h6": 20, "h24": 50},
+        "txns": {"h1": {"buys": 300, "sells": 200}, "h24": {"buys": 5000, "sells": 4000}},
+        "pairCreatedAt": (time.time() - age_h * 3600) * 1000,
+        "info": {"socials": [{"type": "twitter"}]},
+    }
+
+
+SAFE_REPORT = {"mintAuthority": None, "freezeAuthority": None, "rugged": False,
+               "topHolders": [{"address": "a", "pct": 5}, {"address": "b", "pct": 4}],
+               "risks": [{"name": "Low amount of LP Providers", "level": "warn"}],
+               "totalHolders": 9000, "score_normalised": 3}
+
+
+# ---------- reglas ----------
+
+def test_tier():
+    assert market.tier(market.parse_pair(pair(MEME, "M", 5e6, 150e3, 2e6, 48))) == "joven"
+    assert market.tier(market.parse_pair(pair(MEME, "M", 5e6, 150e3, 2e6, 1))) is None  # muy nueva
+    assert market.tier(market.parse_pair(pair(BIG, "B", 200e6, 3e6, 20e6, 900))) == "consolidada"
+    assert market.tier(market.parse_pair(pair(MEME, "M", 5e6, 10e3, 2e6, 48))) is None  # poca liquidez
+
+
+def test_judge_report():
+    ok, probs, warns, data = market.judge_report(SAFE_REPORT, "joven")
+    assert ok and data["top10_pct"] == 9
+    bad = {**SAFE_REPORT, "mintAuthority": "X"}
+    assert not market.judge_report(bad, "joven")[0]
+    whales = {**SAFE_REPORT, "topHolders": [{"address": str(i), "pct": 8} for i in range(10)]}
+    assert not market.judge_report(whales, "joven")[0]
+    fraction = {**SAFE_REPORT, "topHolders": [{"address": str(i), "pct": 0.08} for i in range(10)]}
+    assert not market.judge_report(fraction, "joven")[0]  # 80% en formato fracción
+    lp = {**SAFE_REPORT, "risks": [{"name": "Large Amount of LP Unlocked", "level": "danger"}]}
+    assert not market.judge_report(lp, "joven")[0]
+    assert market.judge_report(lp, "consolidada")[0]
+    pool = {**SAFE_REPORT, "knownAccounts": {"pool": {"type": "AMM"}},
+            "topHolders": [{"address": "pool", "pct": 60}, {"address": "x", "pct": 3}]}
+    assert market.judge_report(pool, "joven")[0]  # la reserva del mercado no cuenta
+
+
+def test_take_profit_and_multiple():
+    pos = {"cost_usd": 40, "amount_initial": 1000, "tp_stage": 0}
+    assert P.price_multiple(pos, 1000, 120) == pytest.approx(3.0)
+    assert P.take_profit_due(pos, 2.9) is None
+    assert P.take_profit_due(pos, 3.1) == (0, 1 / 3)
+    pos["tp_stage"] = 1
+    assert P.take_profit_due(pos, 4) is None
+    assert P.take_profit_due(pos, 6.5) == (1, 1 / 3)
+    pos["tp_stage"] = 2
+    assert P.take_profit_due(pos, 50) is None  # el resto lo decide la IA
+
+
+def test_validate():
+    positions = {"H1": {}, "H2": {}}
+    cands = [{"mint": "C1"}, {"mint": "C2"}]
+    acts = [
+        {"type": "buy", "mint": "C1", "size_fraction": 3, "sell_fraction": 0, "reason": ""},
+        {"type": "buy", "mint": "C2", "size_fraction": 1, "sell_fraction": 0, "reason": ""},
+        {"type": "buy", "mint": "INVENTADA", "size_fraction": 1, "sell_fraction": 0, "reason": ""},
+        {"type": "sell", "mint": "NOTENGO", "size_fraction": 0, "sell_fraction": 1, "reason": ""},
+    ]
+    sells, buys, rej = P.validate(acts, positions, cands, buys_left=4)
+    assert [b["mint"] for b in buys] == ["C1"]  # solo 1 hueco libre
+    assert buys[0]["size_fraction"] == 1.0
+    assert not sells and len(rej) == 3
+    acts.append({"type": "sell", "mint": "H1", "size_fraction": 0, "sell_fraction": 0.97, "reason": ""})
+    sells, buys, _ = P.validate(acts, positions, cands, buys_left=4)
+    assert sells[0]["sell_fraction"] == 1.0 and len(buys) == 2  # la venta libera hueco
+    _, buys, _ = P.validate(acts, positions, cands, buys_left=0)
+    assert not buys
+
+
+def test_standard_buy():
+    assert P.standard_buy_usd(120, 120, 150) == pytest.approx(40)
+    assert P.standard_buy_usd(120, 20, 150) == pytest.approx(20 - C.SOL_RESERVE * 150)
+
+
+# ---------- ronda simulada completa ----------
+
+class FakeNet:
+    def __init__(self):
+        self.sent = []
+        self.updates = [{"update_id": 1, "message": {"chat": {"id": 77}, "text": "/start"}}]
+        self.price_mult = {MEME: 1.0, BIG: 1.0}
+
+    def get(self, url, params=None, headers=None, tries=3):
+        if "geckoterminal" in url:
+            def pool(m):
+                return {"attributes": {"transactions": {"h1": {"buyers": 250, "sellers": 120}}},
+                        "relationships": {"base_token": {"data": {"id": f"solana_{m}"}}}}
+            return {"data": [pool(MEME), pool(SCAM), pool(BIG), pool(C.SOL_MINT)]}
+        if "token-boosts" in url:
+            return []
+        if "dexscreener.com/tokens" in url:
+            all_pairs = [pair(MEME, "MEME", 5e6, 150e3, 2e6, 48), pair(SCAM, "SCAM", 3e6, 90e3, 1e6, 30),
+                         pair(BIG, "BIG", 200e6, 3e6, 20e6, 900), pair(C.SOL_MINT, "SOL", 8e10, 1e8, 1e9, 9999)]
+            return [p for p in all_pairs if p["baseToken"]["address"] in url]
+        if "rugcheck" in url:
+            return {**SAFE_REPORT, "freezeAuthority": "X"} if SCAM in url else SAFE_REPORT
+        if "/swap/v1/quote" in url:
+            i, o, a = params["inputMint"], params["outputMint"], int(params["amount"])
+            if i == C.SOL_MINT and o == C.USDC_MINT:
+                out = a * 150 // 1000  # 1 SOL = 150 USDC
+            elif i == C.SOL_MINT:
+                out = a * 1000  # 1 lamport = 1000 unidades
+            else:
+                out = int(a / 1000 * 0.98 * self.price_mult[i])
+            return {"inputMint": i, "outputMint": o, "inAmount": str(a), "outAmount": str(out),
+                    "priceImpactPct": "0.001"}
+        if "getUpdates" in url:
+            u, self.updates = self.updates, []
+            return {"ok": True, "result": u}
+        raise AssertionError(url)
+
+    def post(self, url, body, headers=None, tries=3):
+        if "sendMessage" in url:
+            self.sent.append(body["text"])
+            return {"ok": True}
+        raise AssertionError(url)
+
+
+@pytest.fixture
+def env(tmp_path, monkeypatch):
+    from bot import __main__ as M, brain, solana, telegram
+    net = FakeNet()
+    for mod in (market, solana, telegram):
+        monkeypatch.setattr(mod, "get_json", net.get, raising=False)
+        monkeypatch.setattr(mod, "post_json", net.post, raising=False)
+    monkeypatch.setattr(market.time, "sleep", lambda s: None)
+    monkeypatch.setattr(C, "STATE_PATH", str(tmp_path / "state.json"))
+    monkeypatch.setattr(C, "MODE", "paper")
+    monkeypatch.setattr(C, "ANTHROPIC_API_KEY", "test")
+    monkeypatch.setattr(C, "TELEGRAM_BOT_TOKEN", "test")
+    monkeypatch.setattr(C, "TELEGRAM_CHAT_ID", "")
+    calls = {"watch": 0, "decide": [], "snaps": []}
+
+    def watch(snap):
+        calls["watch"] += 1
+        return {"escalate": True, "reason": "hay oportunidad"}, 0.001
+
+    def decide(snap):
+        calls["snaps"].append(snap)
+        return calls["decide"].pop(0), 0.2
+
+    monkeypatch.setattr(brain, "watch", watch)
+    monkeypatch.setattr(brain, "decide", decide)
+    return M, net, calls
+
+
+def test_full_paper_rounds(env):
+    M, net, calls = env
+    calls["decide"].append({"market_view": "fuerte", "notes_for_next_time": "", "actions": [
+        {"type": "buy", "mint": MEME, "size_fraction": 1, "sell_fraction": 0, "reason": "moda fuerte"},
+        {"type": "buy", "mint": SCAM, "size_fraction": 1, "sell_fraction": 0, "reason": "trampa"},
+    ]})
+    M.run()
+    st = json.load(open(C.STATE_PATH))
+    snap = calls["snaps"][0]
+    assert {c["mint"] for c in snap["candidates"]} == {MEME, BIG}  # SCAM y SOL filtradas
+    assert list(st["positions"]) == [MEME]  # SCAM rechazada por no estar verificada
+    pos = st["positions"][MEME]
+    assert pos["cost_usd"] == pytest.approx(40, rel=0.01)
+    assert st["telegram"]["chat_id"] == "77"
+    assert any("Compra MEME" in m for m in net.sent)
+    assert st["start_equity_usd"] == pytest.approx(120, rel=0.01)
+
+    # El precio se multiplica x3.5 -> venta automática de 1/3; la IA espera
+    net.price_mult[MEME] = 3.5
+    calls["decide"].append({"market_view": "esperar", "notes_for_next_time": "", "actions": []})
+    st["ai"]["last_decider"] = 0
+    json.dump(st, open(C.STATE_PATH, "w"))
+    M.run()
+    st = json.load(open(C.STATE_PATH))
+    assert st["positions"][MEME]["tp_stage"] == 1
+    assert st["positions"][MEME]["realized_usd"] > 40
+    assert any("Venta parcial" in m for m in net.sent)
+
+    # Orden por Telegram: vender todo y pausar
+    net.updates = [{"update_id": 2, "message": {"chat": {"id": 77}, "text": "/vender_todo"}},
+                   {"update_id": 3, "message": {"chat": {"id": 99}, "text": "/seguir"}}]  # extraño: ignorado
+    M.run()
+    st = json.load(open(C.STATE_PATH))
+    assert st["paused"] is True and not st["positions"]
+    closed = st["closed"][-1]
+    assert closed["symbol"] == "MEME" and closed["result_multiple"] > 3
+    assert calls["decide"] == []  # en pausa no se consulta a la IA
