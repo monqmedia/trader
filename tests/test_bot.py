@@ -357,8 +357,19 @@ def test_portfolio_update_is_quiet_and_periodic(env, monkeypatch):
     monkeypatch.setattr(M.time, "sleep", lambda s: clock.__setitem__(0, clock[0] + s))
     monkeypatch.setattr(C, "GUARD_MINUTES", 40)
     monkeypatch.setattr(C, "FULL_ROUND_MIN", 1000)
+    monkeypatch.setattr(C, "UPDATE_EVERY_MIN", 15)
     calls["decide"].append({"market_view": "", "notes_for_next_time": "", "actions": []})
     M.run()
     updates = [t for t, q in sent if q and "📈 Cartera" in t]
     assert len(updates) == 3  # minutos ~1, ~16 y ~31 de 40
+    # con tope diario de 2, no se envían más aunque toque
+    st = json.load(open(C.STATE_PATH))
+    st["quiet"] = {"day": st["quiet"]["day"], "count": 0}
+    st["last_update"] = 0
+    json.dump(st, open(C.STATE_PATH, "w"))
+    monkeypatch.setattr(C, "QUIET_DAILY_CAP", 2)
+    monkeypatch.setattr(C, "UPDATE_EVERY_MIN", 1)
+    sent.clear()
+    M.run()
+    assert len([t for t, q in sent if q]) == 2
     assert not any(q for t, q in sent if "📈 Cartera" not in t)  # el resto de avisos sí suenan

@@ -71,6 +71,13 @@ class Round:
         """Resumen corto y silencioso cada UPDATE_EVERY_MIN minutos."""
         if C.UPDATE_EVERY_MIN <= 0 or self.now - self.s.get("last_update", 0) < C.UPDATE_EVERY_MIN * 60:
             return
+        day = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        q = self.s.setdefault("quiet", {})
+        if q.get("day") != day:
+            q.update(day=day, count=0)
+        if q["count"] >= C.QUIET_DAILY_CAP:
+            return
+        q["count"] += 1
         self.s["last_update"] = self.now
         start = self.s.get("start_equity_usd")
         change = f" ({(self.equity / start - 1) * 100:+.1f}%)" if start else ""
