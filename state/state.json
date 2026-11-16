@@ -1,0 +1,75 @@
+{
+ "paper": {
+  "sol_lamports": 842766514,
+  "tokens": {
+   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 3310434019982,
+   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
+  }
+ },
+ "positions": {
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+   "symbol": "GTA6",
+   "name": "GTA VI",
+   "tier": "joven",
+   "cost_usd": 39.99999999222346,
+   "amount_initial": 3310434019982,
+   "opened_at": 1794854862.2762723,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.0,
+   "entry_reason": "GTA6 tiene la mejor historia del momento: el juego sale en 2-3 días y la atención va a subir. Hay mucho volumen y muchos más compradores que vendedores, y entramos en una pausa, no en plena subida.",
+   "multiple": 0.996
+  },
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+   "symbol": "mihao",
+   "name": "ni hao cat",
+   "tier": "joven",
+   "cost_usd": 19.99999996051637,
+   "amount_initial": 1277338789,
+   "opened_at": 1794854862.2762723,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.0,
+   "entry_reason": "mihao es de gatos, otro tema distinto, y está en el puesto 4 de tendencia. En la última hora tuvo el doble de compradores que de vendedores y el precio está estable, por eso entramos con tamaño pequeño.",
+   "multiple": 0.996
+  }
+ },
+ "closed": [],
+ "journal": [
+  {
+   "t": "2026-11-16 18:47 UTC",
+   "market_view": "SOL está plano. El tema más fuerte es GTA VI: el juego sale el 19 de noviembre, en unos 2,5 días, y el token GTA6 es el número 1 en tendencia de 6 horas. Tiene volumen creciente, más compradores que vendedores y ahora está tomando una pausa después de subir.",
+   "actions": [
+    "buy 4kjruq: GTA6 tiene la mejor historia del momento: el juego sale en 2-3 días y la atención va a subir. Hay mucho volumen y muchos más compradores que vendedores, y entramos en una pausa, no en plena subida.",
+    "buy 4CxjZy: mihao es de gatos, otro tema distinto, y está en el puesto 4 de tendencia. En la última hora tuvo el doble de compradores que de vendedores y el precio está estable, por eso entramos con tamaño pequeño."
+   ],
+   "notes": "GTA6 depende del lanzamiento del 19 de noviembre: hay riesgo de que caiga cuando salga la noticia, así que conviene vender buena parte el 18 o el 19 si no llegó a x3. Su liquidez es baja para su tamaño. No comprar GATO ni WASTED porque son del mismo tema GTA. Vender mihao si los vendedores dominan durante varias horas o si baja el volumen."
+  }
+ ],
+ "buys": [
+  1794854862.2762723,
+  1794854862.2762723
+ ],
+ "cooldown": {},
+ "ai": {
+  "month": "2026-11",
+  "spent_month": 0.1978,
+  "budget_warned": false,
+  "day": "2026-11-16",
+  "spent_day": 0.1978,
+  "last_decider": 1794854862.2762723
+ },
+ "history": [
+  [
+   1794854862,
+   119.76
+  ]
+ ],
+ "mode": "paper",
+ "ntfy": {
+  "welcomed": true
+ },
+ "start_equity_usd": 120.0,
+ "last_summary_day": "2026-11-16",
+ "last_run": "2026-11-16 18:47 UTC"
+}
