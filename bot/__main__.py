@@ -59,10 +59,27 @@ class Round:
             state.setdefault(k, v)
 
     # ---- utilidades ----
-    def notify(self, text):
+    def notify(self, text, quiet=False):
         prefix = "🧪 [SIMULADO] " if C.MODE != "real" else ""
-        telegram.send(self.s, prefix + text)
-        ntfy.send(self.s, prefix + text)
+        if not quiet:
+            telegram.send(self.s, prefix + text)
+        else:
+            print("[aviso]", text.replace("\n", " | "))
+        ntfy.send(self.s, prefix + text, quiet=quiet)
+
+    def portfolio_update(self):
+        """Resumen corto y silencioso cada UPDATE_EVERY_MIN minutos."""
+        if C.UPDATE_EVERY_MIN <= 0 or self.now - self.s.get("last_update", 0) < C.UPDATE_EVERY_MIN * 60:
+            return
+        self.s["last_update"] = self.now
+        start = self.s.get("start_equity_usd")
+        change = f" ({(self.equity / start - 1) * 100:+.1f}%)" if start else ""
+        parts = [f"{p['symbol']} x{p.get('multiple', 0):.2f} ({usd(self.values.get(m, 0))})"
+                 for m, p in self.s["positions"].items()]
+        lines = [f"📈 Cartera: {usd(self.equity)}{change}"]
+        lines += [f"• {x}" for x in parts] or ["• Sin apuestas abiertas"]
+        lines.append(f"Efectivo: {usd(self.cash_usd)}")
+        self.notify("\n".join(lines), quiet=True)
 
     def refresh(self):
         """Lee saldos, valora cada posición y cierra las que ya no están en la cuenta."""
@@ -422,6 +439,7 @@ class Round:
                     last_full = self.now
                     self.refresh()
                 self.daily_summary()
+                self.portfolio_update()
             except Exception as e:
                 print(f"[vigilancia] error: {e}")
             on_save()

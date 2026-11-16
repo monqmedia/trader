@@ -345,3 +345,20 @@ def test_guard_loop_sells_on_crash(env, monkeypatch):
     assert not st["positions"]
     assert "caída brusca" in st["closed"][-1]["exit_reason"]
     assert any("Venta de emergencia" in m for m in net.sent)
+
+
+def test_portfolio_update_is_quiet_and_periodic(env, monkeypatch):
+    M, net, calls = env
+    from bot import ntfy
+    sent = []
+    monkeypatch.setattr(ntfy, "send", lambda state, text, quiet=False: sent.append((text, quiet)))
+    clock = [2_000_000.0]
+    monkeypatch.setattr(M.time, "time", lambda: clock[0])
+    monkeypatch.setattr(M.time, "sleep", lambda s: clock.__setitem__(0, clock[0] + s))
+    monkeypatch.setattr(C, "GUARD_MINUTES", 40)
+    monkeypatch.setattr(C, "FULL_ROUND_MIN", 1000)
+    calls["decide"].append({"market_view": "", "notes_for_next_time": "", "actions": []})
+    M.run()
+    updates = [t for t, q in sent if q and "📈 Cartera" in t]
+    assert len(updates) == 3  # minutos ~1, ~16 y ~31 de 40
+    assert not any(q for t, q in sent if "📈 Cartera" not in t)  # el resto de avisos sí suenan

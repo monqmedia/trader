@@ -72,6 +72,7 @@ ALERT_MOVE = _f("ALERT_MOVE", 0.15)  # subida o bajada que despierta al decisor.
 ALERT_WINDOW_MIN = _f("ALERT_WINDOW_MIN", 15)  # ...en estos minutos
 TRAIL_DROP = _f("TRAIL_DROP", 0.45)  # tras asegurar beneficios: vende el resto si cae esto desde su máximo
 DECIDER_MIN_GAP_MIN = _f("DECIDER_MIN_GAP_MIN", 15)  # mínimo entre consultas al decisor por alertas
+UPDATE_EVERY_MIN = _f("UPDATE_EVERY_MIN", 15)  # resumen silencioso de la cartera (0 = desactivado)
 
 # --- IA ---
 WATCHER_MODEL = _env("WATCHER_MODEL", "claude-haiku-5-5")

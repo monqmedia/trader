@@ -46,11 +46,14 @@ def read_commands(state):
     return cmds
 
 
-def send(state, text):
+def send(state, text, quiet=False):
     if not enabled():
         return
+    headers = {"Title": TITLE}
+    if quiet:
+        headers["Priority"] = "low"  # aparece en la lista sin sonar ni vibrar
     try:
         requests.post(_url(), data=text[:4000].encode("utf-8"),
-                      headers={"Title": TITLE}, timeout=20).raise_for_status()
+                      headers=headers, timeout=20).raise_for_status()
     except Exception as e:
         print(f"[ntfy] no se pudo enviar: {e}")
