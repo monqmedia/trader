@@ -291,10 +291,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.309,
+  "spent_month": 3.31,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 2.3618,
+  "spent_day": 2.3628,
   "last_decider": 1794903485.2407253
  },
  "history": [
@@ -652,7 +652,7 @@
   "welcomed": true,
   "since": "Hs2mH2aD16cr"
  },
- "last_run": "2026-11-17 10:48 UTC",
+ "last_run": "2026-11-17 10:49 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
