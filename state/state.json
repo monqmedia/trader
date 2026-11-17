@@ -76,12 +76,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-16 22:22 UTC",
-   "market_view": "SOL está plano. GTA6 sigue fuerte antes de que salga el juego: los compradores superan con claridad a los vendedores y el volumen es alto. mihao aguanta con algo más de compradores que de vendedores. Ningún candidato nuevo tiene una ventaja clara.",
-   "actions": [],
-   "notes": "Mantener GTA6 mientras los compradores sigan ganando. Si el 18 o el 19 de noviembre todavía no llegó a x3, vender buena parte, porque estas monedas suelen caer cuando sale el juego. Vender mihao si los vendedores ganan durante varias horas o si su volumen de la última hora baja de unos 50.000 USD (ahora está en unos 98.000 USD). AudaCity (DKYc) subió 43% en la última hora y apenas empieza a bajar: comprarla solo si se calma durante varias horas sin perder mucho y sigue teniendo casi el doble de compradores. Dacity (nxPq) cayó 53% en una hora y ya hay más vendedores que compradores, así que no comprarla. Nunca comprar las dos Dacity juntas. WASTED, GTA y GATO no, porque repiten el tema GTA. JOB y Rocco tampoco: pagan promoción y la actividad real es floja."
-  },
-  {
    "t": "2026-11-16 22:53 UTC",
    "market_view": "SOL está plano. GTA6 sigue muy fuerte antes de que salga el juego y mihao aguanta con más compradores que vendedores. Según la búsqueda, las dos monedas Dacity salen de la moneda inventada del juego GTA 6, así que son del mismo tema que GTA6 y no compro ninguna.",
    "actions": [],
@@ -273,6 +267,12 @@
     "sell 2j5SaS: Cada vez menos gente compra CLAUDIA, ya hay más ventas que compras y está a solo un 2-3% de mi límite de x0,85. Vendo todo ahora, porque su interés se está apagando y no voy a esperar a que vuelva a subir."
    ],
    "notes": "Vendí CLAUDIA por x0,87 porque la gente perdió el interés: es mi quinta moneda joven seguida que pierde. La lección es que, cuando el volumen ya está bajando, una pausa lateral suele terminar en caída. Solo compro si el volumen de la última hora es igual o mayor que la media por hora de las últimas 6 horas. Me queda 1 compra hoy. No compro monedas de GTA (WASTED, GATO, LEOSTAR/Leonida, Dacity) hasta que salga el juego. BLOB solo la compro con la mitad de lo normal si pasa 1-2 horas en pausa (entre +/-10% por hora), con más compradores que vendedores, más de 300.000 USD por hora y sin bajar de 15 millones de capitalización. Ahora mismo tiene más ventas que compras. Sigo sin comprar JOB ni CBUCKS, que pagan promoción, ni PAID ni CATE, que no tienen fuerza. Prefiero quedarme sin comprar que forzar otra entrada floja."
+  },
+  {
+   "t": "2026-11-17 08:18 UTC",
+   "market_view": "SOL sube un 2,7% y no tengo monedas abiertas. BLOB es el único candidato con fuerza de verdad: mueve 681.000 USD en la última hora, más del doble de su media por hora, y tiene 1.354 compradores frente a 768 vendedores. Aun así, ha caído un 11% en la última hora, así que todavía no está en la pausa tranquila que me pedí.",
+   "actions": [],
+   "notes": "Llevo 5 monedas jóvenes seguidas en pérdida, así que solo uso la compra que me queda hoy si veo una ventaja clara. Compro BLOB con la mitad de lo normal (0,5) solo si se cumplen cuatro cosas: pasa 1 hora entre -10% y +10%, sigue con más compradores que vendedores, el volumen de la última hora es igual o mayor que su media por hora de las últimas 6 horas (unos 260.000 USD) y no baja de 15 millones de capitalización (ahora tiene 17,3 millones). Si la compro, la vendo toda si baja de x0,85 o si tiene más vendedores que compradores en dos revisiones seguidas. No compro monedas del tema GTA (LEOSTAR, WASTED, GATO, Dacity) hasta que salga el juego. Tampoco compro JOB, que paga promoción y tiene más ventas que compras; STONK, que casi no mueve volumen; ni CATE, que tiene más vendedores que compradores."
   }
  ],
  "buys": [
@@ -291,11 +291,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.2214,
+  "spent_month": 3.2949,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 2.2742,
-  "last_decider": 1794898060.9931965
+  "spent_day": 2.3477,
+  "last_decider": 1794903485.2407253
  },
  "history": [
   [
@@ -592,7 +592,7 @@
   "welcomed": true,
   "since": "85oFTJ4WZLsO"
  },
- "last_run": "2026-11-17 08:17 UTC",
+ "last_run": "2026-11-17 08:18 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
