@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.137,
    "entry_reason": "CATE es una moneda más estable, con 430.000 holders y mucho dinero disponible para comprar y vender. Su volumen crece de forma clara y sube sin picos bruscos. Entro con la mitad de lo normal porque hay casi tantos vendedores como compradores y avisa de posibles cuentas conectadas al creador.",
-   "multiple": 0.955
+   "multiple": 0.962
   }
  },
  "closed": [
@@ -290,8 +290,6 @@
   }
  ],
  "buys": [
-  1794856949.0757904,
-  1794856949.0757904,
   1794881089.8719409,
   1794891970.3386712,
   1794893879.275054,
@@ -856,22 +854,30 @@
   [
    1794943250,
    120.1
+  ],
+  [
+   1794943875,
+   120.0
+  ],
+  [
+   1794944489,
+   119.99
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "GVIihl6tq5UM"
+  "since": "i5K0fp0bgvUx"
  },
- "last_run": "2026-11-17 19:27 UTC",
+ "last_run": "2026-11-17 19:42 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-17",
-  "count": 112
+  "count": 113
  },
- "last_update": 1794943624.5777836,
+ "last_update": 1794944248.2052543,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794942543.461607
  }
