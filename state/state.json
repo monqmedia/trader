@@ -76,12 +76,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-16 22:53 UTC",
-   "market_view": "SOL está plano. GTA6 sigue muy fuerte antes de que salga el juego y mihao aguanta con más compradores que vendedores. Según la búsqueda, las dos monedas Dacity salen de la moneda inventada del juego GTA 6, así que son del mismo tema que GTA6 y no compro ninguna.",
-   "actions": [],
-   "notes": "Mantener GTA6 mientras los compradores sigan ganando, que ahora va x1,39. Si el 18 o el 19 de noviembre todavía no llegó a x3, vender buena parte, porque estas monedas suelen caer cuando sale el juego. Vender mihao si los vendedores ganan durante varias horas o si su volumen de la última hora baja de unos 50.000 USD (ahora está en unos 125.000 USD). Las dos Dacity (DKYc y nxPq) son del tema GTA. Solo pensar en AudaCity (DKYc) si vendo GTA6 y sigue teniendo casi el doble de compradores. WASTED, GTA y GATO tampoco, porque son del tema GTA. JOB paga promoción y tiene más vendedores. STONK casi no se mueve. Buscar un tema nuevo, que no sea GTA ni gatos, para llenar los huecos libres."
-  },
-  {
    "t": "2026-11-16 23:12 UTC",
    "market_view": "SOL está plano. GTA6 acaba de caer 32% en cinco minutos con mucho volumen, aunque en la última hora todavía hay más compradores que vendedores. mihao aguanta con más compradores que vendedores, y los candidatos nuevos o son del tema GTA, o pagan promoción, o casi no se mueven.",
    "actions": [
@@ -273,6 +267,12 @@
    "market_view": "SOL sube un 2,7% y no tengo monedas abiertas. BLOB es el único candidato con fuerza de verdad: mueve 681.000 USD en la última hora, más del doble de su media por hora, y tiene 1.354 compradores frente a 768 vendedores. Aun así, ha caído un 11% en la última hora, así que todavía no está en la pausa tranquila que me pedí.",
    "actions": [],
    "notes": "Llevo 5 monedas jóvenes seguidas en pérdida, así que solo uso la compra que me queda hoy si veo una ventaja clara. Compro BLOB con la mitad de lo normal (0,5) solo si se cumplen cuatro cosas: pasa 1 hora entre -10% y +10%, sigue con más compradores que vendedores, el volumen de la última hora es igual o mayor que su media por hora de las últimas 6 horas (unos 260.000 USD) y no baja de 15 millones de capitalización (ahora tiene 17,3 millones). Si la compro, la vendo toda si baja de x0,85 o si tiene más vendedores que compradores en dos revisiones seguidas. No compro monedas del tema GTA (LEOSTAR, WASTED, GATO, Dacity) hasta que salga el juego. Tampoco compro JOB, que paga promoción y tiene más ventas que compras; STONK, que casi no mueve volumen; ni CATE, que tiene más vendedores que compradores."
+  },
+  {
+   "t": "2026-11-17 14:20 UTC",
+   "market_view": "SOL sube un 3,6% y no tengo monedas abiertas. BLOB sigue cayendo (-12% en la última hora y -32% en 6 horas) y ya vale 12,5 millones, menos que mi mínimo de 15 millones, así que no cumple mis condiciones. Ningún otro candidato da una ventaja clara.",
+   "actions": [],
+   "notes": "Llevo 5 monedas jóvenes seguidas en pérdida y me queda 1 compra hoy, así que solo compro si veo una ventaja clara. Ya no compro BLOB: bajó de 15 millones de capitalización y cae sin pausa. Vigilo CATE: su volumen está subiendo (65.000 USD en la última hora frente a una media de unos 25.000), sube poco a poco sin picos fuertes y tiene más compradores que vendedores. La compraría con la mitad de lo normal como apuesta estable si mantiene esto otra revisión más y supera los 80.000 USD por hora. Sigo sin comprar monedas del tema GTA (WASTED, GATO, LEOSTAR, Dacity) hasta que salga el juego. Tampoco compro JOB ni CBUCKS, que pagan promoción y tienen pocas compras. STONK solo la compro si su volumen pasa de 150.000 USD por hora."
   }
  ],
  "buys": [
@@ -291,11 +291,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.3311,
+  "spent_month": 3.4062,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 2.3839,
-  "last_decider": 1794903485.2407253
+  "spent_day": 2.459,
+  "last_decider": 1794925224.9960027
  },
  "history": [
   [
@@ -721,22 +721,26 @@
   [
    1794924384,
    122.2
+  ],
+  [
+   1794925042,
+   122.47
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "Uc9NzLPG5yg3"
+  "since": "SniCBBchz0Cs"
  },
- "last_run": "2026-11-17 14:09 UTC",
+ "last_run": "2026-11-17 14:25 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-17",
-  "count": 81
+  "count": 83
  },
- "last_update": 1794924142.5339365,
+ "last_update": 1794925427.702814,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794920881.2032669
  }
