@@ -6,7 +6,21 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {},
+ "positions": {
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
+   "symbol": "CATE",
+   "name": "Catecoin",
+   "tier": "joven",
+   "cost_usd": 12.274939227439777,
+   "amount_initial": 584072095,
+   "opened_at": 1794926473.9693115,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.0,
+   "entry_reason": "CATE es una moneda más estable, con 430.000 holders y mucho dinero disponible para comprar y vender. Su volumen crece de forma clara y sube sin picos bruscos. Entro con la mitad de lo normal porque hay casi tantos vendedores como compradores y avisa de posibles cuentas conectadas al creador.",
+   "multiple": 0.995
+  }
+ },
  "closed": [
   {
    "symbol": "GTA6",
@@ -75,14 +89,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-16 23:12 UTC",
-   "market_view": "SOL está plano. GTA6 acaba de caer 32% en cinco minutos con mucho volumen, aunque en la última hora todavía hay más compradores que vendedores. mihao aguanta con más compradores que vendedores, y los candidatos nuevos o son del tema GTA, o pagan promoción, o casi no se mueven.",
-   "actions": [
-    "sell 4kjruq: GTA6 cayó 32% de golpe en cinco minutos con mucho volumen, a tres días de que salga el juego. Vendo la mitad para asegurar la ganancia (va x1,24 tras llegar a x1,55) y dejo el resto por si sigue la subida."
-   ],
-   "notes": "Vendí la mitad de GTA6 a las 23:12 tras una caída fuerte. Si los vendedores empiezan a ganar en la hora, o si el precio baja de x1,0, vender el resto, y si no, venderlo el 18 o el 19 de noviembre. Vender mihao si los vendedores ganan varias horas o si su volumen de la última hora baja de unos 50.000 USD (ahora está en unos 199.000 USD). Las Dacity, WASTED, GTA y GATO son del tema GTA, así que no comprarlas mientras tenga GTA6. JOB paga promoción y tiene más vendedores, y STONK casi no se mueve. Buscar un tema nuevo para los huecos libres."
-  },
   {
    "t": "2026-11-16 23:17 UTC",
    "market_view": "SOL está plano. GTA6 cayó fuerte hace unos minutos, pero ahora rebota (+7,7% en cinco minutos) y en la última hora sigue habiendo bastantes más compradores que vendedores. mihao también aguanta. Los candidatos son del tema GTA, pagan promoción o casi no se mueven, así que no hago nada.",
@@ -273,6 +279,14 @@
    "market_view": "SOL sube un 3,6% y no tengo monedas abiertas. BLOB sigue cayendo (-12% en la última hora y -32% en 6 horas) y ya vale 12,5 millones, menos que mi mínimo de 15 millones, así que no cumple mis condiciones. Ningún otro candidato da una ventaja clara.",
    "actions": [],
    "notes": "Llevo 5 monedas jóvenes seguidas en pérdida y me queda 1 compra hoy, así que solo compro si veo una ventaja clara. Ya no compro BLOB: bajó de 15 millones de capitalización y cae sin pausa. Vigilo CATE: su volumen está subiendo (65.000 USD en la última hora frente a una media de unos 25.000), sube poco a poco sin picos fuertes y tiene más compradores que vendedores. La compraría con la mitad de lo normal como apuesta estable si mantiene esto otra revisión más y supera los 80.000 USD por hora. Sigo sin comprar monedas del tema GTA (WASTED, GATO, LEOSTAR, Dacity) hasta que salga el juego. Tampoco compro JOB ni CBUCKS, que pagan promoción y tienen pocas compras. STONK solo la compro si su volumen pasa de 150.000 USD por hora."
+  },
+  {
+   "t": "2026-11-17 14:41 UTC",
+   "market_view": "SOL sube un 2,5% y no tengo monedas abiertas. CATE cumple las condiciones que me puse: mueve 84.500 USD en la última hora, casi el triple de su media por hora (unos 31.000), y sube poco a poco (+7% en 1 hora, +14% en 6 horas). Además, tiene algo más de compradores que de vendedores. Las demás no sirven: BLOB sigue cayendo y paga promoción, STONK mueve poco volumen, WASTED y GATO son del tema GTA, y JOB y CBUCKS pagan promoción.",
+   "actions": [
+    "buy Ai66LH: CATE es una moneda más estable, con 430.000 holders y mucho dinero disponible para comprar y vender. Su volumen crece de forma clara y sube sin picos bruscos. Entro con la mitad de lo normal porque hay casi tantos vendedores como compradores y avisa de posibles cuentas conectadas al creador."
+   ],
+   "notes": "Compré CATE con la mitad de lo normal como apuesta estable y ya he usado la última compra de hoy. La vendo toda si baja de x0,85, si tiene más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 40.000 USD. Vendo la mitad si llega a x1,5, y el resto si después cae un 20% desde su punto más alto. No compro monedas del tema GTA (WASTED, GATO, LEOSTAR, Dacity) hasta que salga el juego, ni BLOB, JOB o CBUCKS, que pagan promoción. STONK solo la compro si su volumen pasa de 150.000 USD por hora."
   }
  ],
  "buys": [
@@ -280,7 +294,8 @@
   1794856949.0757904,
   1794881089.8719409,
   1794891970.3386712,
-  1794893879.275054
+  1794893879.275054,
+  1794926473.9693115
  ],
  "cooldown": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794876792.7125387,
@@ -291,11 +306,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.4062,
+  "spent_month": 3.4847,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 2.459,
-  "last_decider": 1794925224.9960027
+  "spent_day": 2.5375,
+  "last_decider": 1794926473.9693115
  },
  "history": [
   [
@@ -725,22 +740,30 @@
   [
    1794925042,
    122.47
+  ],
+  [
+   1794925672,
+   122.19
+  ],
+  [
+   1794926292,
+   122.83
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "SniCBBchz0Cs"
+  "since": "1Zcx2wOMY04H"
  },
- "last_run": "2026-11-17 14:25 UTC",
+ "last_run": "2026-11-17 14:41 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-17",
-  "count": 83
+  "count": 84
  },
- "last_update": 1794925427.702814,
+ "last_update": 1794926049.1419556,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794920881.2032669
  }
