@@ -601,6 +601,10 @@
   [
    1794905731,
    120.08
+  ],
+  [
+   1794906347,
+   119.58
   ]
  ],
  "mode": "real",
@@ -608,7 +612,7 @@
   "welcomed": true,
   "since": "RuMS9xCkSAga"
  },
- "last_run": "2026-11-17 09:04 UTC",
+ "last_run": "2026-11-17 09:07 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
