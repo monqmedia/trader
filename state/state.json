@@ -7,19 +7,6 @@
   }
  },
  "positions": {
-  "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": {
-   "symbol": "GTA",
-   "name": "Grand Theft Anthropic",
-   "tier": "joven",
-   "cost_usd": 12.442799611404649,
-   "amount_initial": 10900790006,
-   "opened_at": 1794891970.3386712,
-   "tp_stage": 0,
-   "realized_usd": 0.0,
-   "peak_multiple": 1.006,
-   "entry_reason": "Su precio se ha calmado (+4% en la última hora) y hay casi tres compras por cada venta, con un volumen estable a dos días de que salga GTA 6. Entro con poco porque paga promoción y mis compras anteriores de GTA salieron mal.",
-   "multiple": 0.992
-  },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "symbol": "CLAUDIA",
    "name": "Claudia",
@@ -31,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.0,
    "entry_reason": "CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando.",
-   "multiple": 0.922
+   "multiple": 0.931
   }
  },
  "closed": [
@@ -73,15 +60,22 @@
    "closed": "2026-11-17 03:38 UTC",
    "entry_reason": "BAWSAQ es la número 2 en tendencia de 6 horas y en la última hora tiene el doble de compradores distintos que de vendedores. Además, después de su gran subida, el precio está en pausa. Entro con poco porque su volumen ya está bajando desde el máximo y paga promoción.",
    "exit_reason": "BAWSAQ bajó de x1,0, que era mi límite, y ha caído más de un 30% desde su punto más alto. Vendo el resto como había decidido. Con lo que ya vendí, la pérdida total es pequeña."
+  },
+  {
+   "symbol": "GTA",
+   "mint": "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump",
+   "tier": "joven",
+   "cost_usd": 12.44,
+   "returned_usd": 10.64,
+   "result_multiple": 0.86,
+   "peak_multiple": 1.01,
+   "opened": "2026-11-17 05:06 UTC",
+   "closed": "2026-11-17 06:00 UTC",
+   "entry_reason": "Su precio se ha calmado (+4% en la última hora) y hay casi tres compras por cada venta, con un volumen estable a dos días de que salga GTA 6. Entro con poco porque paga promoción y mis compras anteriores de GTA salieron mal.",
+   "exit_reason": "GTA llegó a x0,85, mi límite, y cae un 9% en 5 minutos. Vendo todo como había decidido para no esperar a que vuelva a subir."
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-16 20:24 UTC",
-   "market_view": "SOL está plano. GTA6 sigue fuerte antes del lanzamiento del juego, con más compradores que vendedores, y mihao está estable aunque su volumen baja un poco. Ningún candidato nuevo tiene una ventaja clara: varios repiten temas que ya tengo (GTA o gatos) y otros están pagando promoción o tienen poca actividad.",
-   "actions": [],
-   "notes": "Las compras de las 19:22 sí se hicieron: GTA6 costó 19,12 USD y mihao 12,74 USD, así que no hay que repetirlas. Conviene vender buena parte de GTA6 el 18 o el 19 de noviembre si no llegó a x3, porque suele caer cuando sale la noticia. Hay que vender mihao si los vendedores dominan durante varias horas o si el volumen de la última hora baja de unos 50.000 USD. Hay que vigilar JOB, que subió 60% y luego bajó 20%: solo compraría si los compradores vuelven a superar a los vendedores y el precio se calma, porque está pagando promoción y podría tener cuentas conectadas al creador. Por ahora no compro STONK, que casi no tiene volumen."
-  },
   {
    "t": "2026-11-16 21:42 UTC",
    "market_view": "SOL está plano. GTA6 sigue fuerte antes del lanzamiento del juego, con muchos más compradores que vendedores. mihao está estable y todavía tiene algo más de compradores que de vendedores. Ningún candidato nuevo tiene una ventaja clara: unos ya subieron en vertical, otros se están desplomando y otros repiten temas que ya tengo.",
@@ -270,6 +264,14 @@
     "buy 2j5SaS: CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando."
    ],
    "notes": "Tengo dos monedas: GTA (Grand Theft Anthropic) y CLAUDIA. Las reglas son iguales para las dos. Si llegan a x1,4, vendo la mitad, y si después caen un 20% desde su punto más alto, vendo el resto. Vendo todo si una baja de x0,85 o si tiene más vendedores que compradores en la última hora en dos revisiones seguidas. También vendo todo si el volumen por hora baja de 25.000 USD en GTA o de 150.000 USD en CLAUDIA. Lo que quede de GTA lo vendo el 19 de noviembre. No compro otras monedas de GTA (WASTED, Dacity) ni otras de influencers de IA. Tampoco compro JOB, CBUCKS ni BLOB, que pagan promoción, ni PAID, CATE o STONK, que no tienen fuerza. Me quedan 3 huecos libres, pero solo los lleno con un tema nuevo que tenga volumen creciente y una pausa de 1-2 horas."
+  },
+  {
+   "t": "2026-11-17 06:00 UTC",
+   "market_view": "SOL sube un poco. Grand Theft Anthropic cae rápido y ha llegado a x0,85, que es mi límite de venta, mientras que CLAUDIA sigue en pausa con mucho volumen y tantas compras como ventas. Ningún candidato es una compra clara: pagan promoción, son del tema GTA o no tienen fuerza.",
+   "actions": [
+    "sell 2NWgu4: GTA llegó a x0,85, mi límite, y cae un 9% en 5 minutos. Vendo todo como había decidido para no esperar a que vuelva a subir."
+   ],
+   "notes": "Vendí GTA en x0,85: es mi cuarta moneda joven que pierde, y la tercera del tema GTA, así que dejo de comprar monedas de GTA (WASTED, GATO, Dacity) hasta que salga el juego. Me quedo con CLAUDIA, que va por x0,94: vendo la mitad si llega a x1,4 y el resto si después cae un 20% desde su punto más alto. La vendo toda si baja de x0,85, si tiene más vendedores que compradores en dos revisiones seguidas o si el volumen por hora baja de 150.000 USD. Me queda 1 compra hoy y solo la uso en un tema nuevo con volumen creciente, muchos compradores distintos y una pausa de 1-2 horas. Sigo sin comprar BLOB, JOB ni CBUCKS, que pagan promoción, ni PAID ni CATE, que no tienen fuerza."
   }
  ],
  "buys": [
@@ -282,15 +284,16 @@
  "cooldown": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794876792.7125387,
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794876792.7125387,
-  "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794886706.0939817
+  "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794886706.0939817,
+  "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794895222.8388424
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 2.978,
+  "spent_month": 3.0512,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 2.0308,
-  "last_decider": 1794893879.275054
+  "spent_day": 2.104,
+  "last_decider": 1794895222.8388424
  },
  "history": [
   [
@@ -520,22 +523,30 @@
   [
    1794893992,
    124.16
+  ],
+  [
+   1794894604,
+   122.95
+  ],
+  [
+   1794895222,
+   121.08
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "Msu2BfUoYtrB"
+  "since": "mxymdTSHILrC"
  },
- "last_run": "2026-11-17 05:46 UTC",
+ "last_run": "2026-11-17 06:02 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 33
+  "count": 34
  },
- "last_update": 1794894239.0698228,
+ "last_update": 1794894848.0318303,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
  }
