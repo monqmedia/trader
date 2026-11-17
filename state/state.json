@@ -6,21 +6,7 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
-   "symbol": "CLAUDIA",
-   "name": "Claudia",
-   "tier": "joven",
-   "cost_usd": 12.390670529244144,
-   "amount_initial": 1569549555,
-   "opened_at": 1794893879.275054,
-   "tp_stage": 0,
-   "realized_usd": 0.0,
-   "peak_multiple": 1.0,
-   "entry_reason": "CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando.",
-   "multiple": 0.892
-  }
- },
+ "positions": {},
  "closed": [
   {
    "symbol": "GTA6",
@@ -73,15 +59,22 @@
    "closed": "2026-11-17 06:00 UTC",
    "entry_reason": "Su precio se ha calmado (+4% en la última hora) y hay casi tres compras por cada venta, con un volumen estable a dos días de que salga GTA 6. Entro con poco porque paga promoción y mis compras anteriores de GTA salieron mal.",
    "exit_reason": "GTA llegó a x0,85, mi límite, y cae un 9% en 5 minutos. Vendo todo como había decidido para no esperar a que vuelva a subir."
+  },
+  {
+   "symbol": "CLAUDIA",
+   "mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "tier": "joven",
+   "cost_usd": 12.39,
+   "returned_usd": 10.75,
+   "result_multiple": 0.87,
+   "peak_multiple": 1.0,
+   "opened": "2026-11-17 05:37 UTC",
+   "closed": "2026-11-17 06:47 UTC",
+   "entry_reason": "CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando.",
+   "exit_reason": "Cada vez menos gente compra CLAUDIA, ya hay más ventas que compras y está a solo un 2-3% de mi límite de x0,85. Vendo todo ahora, porque su interés se está apagando y no voy a esperar a que vuelva a subir."
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-16 22:03 UTC",
-   "market_view": "SOL está plano. GTA6 sigue fuerte antes del lanzamiento del juego, con muchos más compradores que vendedores y mucho volumen. mihao se mantiene, con algo más de compradores que vendedores. Ningún candidato nuevo tiene una ventaja clara, así que no hago nada.",
-   "actions": [],
-   "notes": "Mantener GTA6 mientras los compradores sigan ganando. Si el 18 o el 19 de noviembre no llegó a x3, vender buena parte, porque estas monedas suelen caer cuando sale el juego. Vender mihao si los vendedores ganan durante varias horas o si su volumen de la última hora baja de unos 50.000 USD (ahora está en unos 100.000 USD). AudaCity (DKYc) subió 58% en una hora sin pausa: solo comprarla si se calma varias horas y sigue habiendo casi el doble de compradores que de vendedores. Dacity (nxPq) cayó 38% en una hora: no comprarla hasta que el precio se estabilice, y nunca comprar las dos Dacity a la vez. WASTED, GTA y GATO no, porque repiten el tema GTA. JOB y CBUCKS tampoco: pagan promoción y no tienen compras de verdad. STONK tampoco, porque casi no tiene movimiento."
-  },
   {
    "t": "2026-11-16 22:22 UTC",
    "market_view": "SOL está plano. GTA6 sigue fuerte antes de que salga el juego: los compradores superan con claridad a los vendedores y el volumen es alto. mihao aguanta con algo más de compradores que de vendedores. Ningún candidato nuevo tiene una ventaja clara.",
@@ -272,6 +265,14 @@
    "market_view": "SOL sube un 2%. CLAUDIA va por x0,89 y bajó un 19% en la última hora, pero sigue sin cumplirse ninguna regla de venta: hay más compras que ventas y mueve 303.000 USD por hora. BLOB es el único candidato con fuerza de verdad, pero paga promoción y está subiendo otra vez ahora mismo, así que no es buen momento para entrar.",
    "actions": [],
    "notes": "Me quedo con CLAUDIA (x0,89). Si llega a x1,4, vendo la mitad, y si después cae un 20% desde su punto más alto, vendo el resto. La vendo toda en cualquiera de estos casos: si baja de x0,85, si tiene más vendedores que compradores en dos revisiones seguidas (ahora tiene más compradores) o si su volumen por hora baja de 150.000 USD (ahora está cerca, en 303.000). Me queda 1 compra hoy. BLOB paga promoción, pero tiene compradores reales: 1.083 compradores frente a 679 vendedores en una hora, 40.700 holders y los 10 mayores solo tienen el 1,5%. La compraría con la mitad de lo normal si pasa 1-2 horas en pausa (entre +/-10% por hora), sigue teniendo más compradores que vendedores y mueve más de 300.000 USD por hora sin bajar de unos 15 millones de capitalización. Sigo sin comprar monedas de GTA (WASTED) hasta que salga el juego, ni JOB o CBUCKS, que pagan promoción y casi no tienen volumen, ni PAID o CATE, que tienen más vendedores."
+  },
+  {
+   "t": "2026-11-17 06:47 UTC",
+   "market_view": "SOL sube un 1,6%. CLAUDIA va por x0,87, cerca de mi límite de x0,85. Su volumen se está hundiendo: ha pasado de 2,2 millones a 222.000 USD por hora, solo ha movido 5.000 USD en los últimos 5 minutos y ya hay más ventas que compras. Ningún candidato es una compra clara: LEOSTAR es del tema GTA (Leonida es el estado donde pasa GTA 6) y BLOB tiene más ventas que compras y todavía no ha tenido su pausa.",
+   "actions": [
+    "sell 2j5SaS: Cada vez menos gente compra CLAUDIA, ya hay más ventas que compras y está a solo un 2-3% de mi límite de x0,85. Vendo todo ahora, porque su interés se está apagando y no voy a esperar a que vuelva a subir."
+   ],
+   "notes": "Vendí CLAUDIA por x0,87 porque la gente perdió el interés: es mi quinta moneda joven seguida que pierde. La lección es que, cuando el volumen ya está bajando, una pausa lateral suele terminar en caída. Solo compro si el volumen de la última hora es igual o mayor que la media por hora de las últimas 6 horas. Me queda 1 compra hoy. No compro monedas de GTA (WASTED, GATO, LEOSTAR/Leonida, Dacity) hasta que salga el juego. BLOB solo la compro con la mitad de lo normal si pasa 1-2 horas en pausa (entre +/-10% por hora), con más compradores que vendedores, más de 300.000 USD por hora y sin bajar de 15 millones de capitalización. Ahora mismo tiene más ventas que compras. Sigo sin comprar JOB ni CBUCKS, que pagan promoción, ni PAID ni CATE, que no tienen fuerza. Prefiero quedarme sin comprar que forzar otra entrada floja."
   }
  ],
  "buys": [
@@ -285,15 +286,16 @@
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794876792.7125387,
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794876792.7125387,
   "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794886706.0939817,
-  "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794895222.8388424
+  "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794895222.8388424,
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794898060.9931965
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.1301,
+  "spent_month": 3.213,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 2.1829,
-  "last_decider": 1794897079.9623866
+  "spent_day": 2.2658,
+  "last_decider": 1794898060.9931965
  },
  "history": [
   [
@@ -543,22 +545,30 @@
   [
    1794897079,
    120.72
+  ],
+  [
+   1794897697,
+   120.08
+  ],
+  [
+   1794898336,
+   120.07
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "52o9XZaYIech"
+  "since": "3YBXdCcvMAZZ"
  },
- "last_run": "2026-11-17 06:37 UTC",
+ "last_run": "2026-11-17 06:53 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 38
+  "count": 39
  },
- "last_update": 1794897341.2592082,
+ "last_update": 1794898000.2481763,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
  }
