@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.0,
    "entry_reason": "CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando.",
-   "multiple": 0.928
+   "multiple": 0.899
   }
  },
  "closed": [
@@ -76,12 +76,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-16 21:42 UTC",
-   "market_view": "SOL está plano. GTA6 sigue fuerte antes del lanzamiento del juego, con muchos más compradores que vendedores. mihao está estable y todavía tiene algo más de compradores que de vendedores. Ningún candidato nuevo tiene una ventaja clara: unos ya subieron en vertical, otros se están desplomando y otros repiten temas que ya tengo.",
-   "actions": [],
-   "notes": "Mantener GTA6 mientras los compradores sigan ganando, y vender buena parte el 18 o el 19 de noviembre si no llegó a x3, porque suele caer cuando sale la noticia. Vender mihao si los vendedores dominan durante varias horas o si el volumen de la última hora baja de unos 50.000 USD; ahora está en unos 96.000 USD. Hay dos monedas 'Dacity' que compiten: AudaCity (DKYc) subió 55% en una hora y no hay que perseguirla, solo comprar si se calma y sigue teniendo el doble de compradores. Dacity (nxPq) cayó 36% tras un pico: no comprar hasta que el precio se estabilice. JOB ya tiene más vendedores que compradores y paga promoción, así que no comprar."
-  },
   {
    "t": "2026-11-16 22:03 UTC",
    "market_view": "SOL está plano. GTA6 sigue fuerte antes del lanzamiento del juego, con muchos más compradores que vendedores y mucho volumen. mihao se mantiene, con algo más de compradores que vendedores. Ningún candidato nuevo tiene una ventaja clara, así que no hago nada.",
@@ -272,6 +266,12 @@
     "sell 2NWgu4: GTA llegó a x0,85, mi límite, y cae un 9% en 5 minutos. Vendo todo como había decidido para no esperar a que vuelva a subir."
    ],
    "notes": "Vendí GTA en x0,85: es mi cuarta moneda joven que pierde, y la tercera del tema GTA, así que dejo de comprar monedas de GTA (WASTED, GATO, Dacity) hasta que salga el juego. Me quedo con CLAUDIA, que va por x0,94: vendo la mitad si llega a x1,4 y el resto si después cae un 20% desde su punto más alto. La vendo toda si baja de x0,85, si tiene más vendedores que compradores en dos revisiones seguidas o si el volumen por hora baja de 150.000 USD. Me queda 1 compra hoy y solo la uso en un tema nuevo con volumen creciente, muchos compradores distintos y una pausa de 1-2 horas. Sigo sin comprar BLOB, JOB ni CBUCKS, que pagan promoción, ni PAID ni CATE, que no tienen fuerza."
+  },
+  {
+   "t": "2026-11-17 06:31 UTC",
+   "market_view": "SOL sube un 2%. CLAUDIA va por x0,89 y bajó un 19% en la última hora, pero sigue sin cumplirse ninguna regla de venta: hay más compras que ventas y mueve 303.000 USD por hora. BLOB es el único candidato con fuerza de verdad, pero paga promoción y está subiendo otra vez ahora mismo, así que no es buen momento para entrar.",
+   "actions": [],
+   "notes": "Me quedo con CLAUDIA (x0,89). Si llega a x1,4, vendo la mitad, y si después cae un 20% desde su punto más alto, vendo el resto. La vendo toda en cualquiera de estos casos: si baja de x0,85, si tiene más vendedores que compradores en dos revisiones seguidas (ahora tiene más compradores) o si su volumen por hora baja de 150.000 USD (ahora está cerca, en 303.000). Me queda 1 compra hoy. BLOB paga promoción, pero tiene compradores reales: 1.083 compradores frente a 679 vendedores en una hora, 40.700 holders y los 10 mayores solo tienen el 1,5%. La compraría con la mitad de lo normal si pasa 1-2 horas en pausa (entre +/-10% por hora), sigue teniendo más compradores que vendedores y mueve más de 300.000 USD por hora sin bajar de unos 15 millones de capitalización. Sigo sin comprar monedas de GTA (WASTED) hasta que salga el juego, ni JOB o CBUCKS, que pagan promoción y casi no tienen volumen, ni PAID o CATE, que tienen más vendedores."
   }
  ],
  "buys": [
@@ -289,11 +289,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.0521,
+  "spent_month": 3.1291,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 2.1049,
-  "last_decider": 1794895222.8388424
+  "spent_day": 2.1819,
+  "last_decider": 1794897079.9623866
  },
  "history": [
   [
@@ -535,22 +535,30 @@
   [
    1794895855,
    121.08
+  ],
+  [
+   1794896468,
+   120.91
+  ],
+  [
+   1794897079,
+   120.72
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "lOZij0YblcBn"
+  "since": "Spiv722CWym1"
  },
- "last_run": "2026-11-17 06:18 UTC",
+ "last_run": "2026-11-17 06:33 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 36
+  "count": 37
  },
- "last_update": 1794896103.332688,
+ "last_update": 1794896716.350576,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
  }
