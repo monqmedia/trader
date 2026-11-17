@@ -18,7 +18,7 @@
    "realized_usd": 5.824951447047065,
    "peak_multiple": 1.072,
    "entry_reason": "BAWSAQ es la número 2 en tendencia de 6 horas y en la última hora tiene el doble de compradores distintos que de vendedores. Además, después de su gran subida, el precio está en pausa. Entro con poco porque su volumen ya está bajando desde el máximo y paga promoción.",
-   "multiple": 1.037
+   "multiple": 1.047
   }
  },
  "closed": [
@@ -197,10 +197,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 1.957,
+  "spent_month": 1.958,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 1.0098,
+  "spent_day": 1.0108,
   "last_decider": 1794883841.7443178
  },
  "history": [
@@ -382,7 +382,7 @@
   "welcomed": true,
   "since": "UoCwoCNfdFRt"
  },
- "last_run": "2026-11-17 03:13 UTC",
+ "last_run": "2026-11-17 03:14 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
