@@ -800,22 +800,26 @@
   [
    1794934478,
    119.7
+  ],
+  [
+   1794935098,
+   119.49
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "tdQ7o0F7Xaus"
+  "since": "tXWO7qRPCiTq"
  },
- "last_run": "2026-11-17 16:56 UTC",
+ "last_run": "2026-11-17 17:12 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-17",
-  "count": 97
+  "count": 99
  },
- "last_update": 1794934227.300643,
+ "last_update": 1794935460.5723546,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794920881.2032669
  }
