@@ -18,7 +18,7 @@
    "realized_usd": 5.824951447047065,
    "peak_multiple": 1.021,
    "entry_reason": "BAWSAQ es la número 2 en tendencia de 6 horas y en la última hora tiene el doble de compradores distintos que de vendedores. Además, después de su gran subida, el precio está en pausa. Entro con poco porque su volumen ya está bajando desde el máximo y paga promoción.",
-   "multiple": 0.785
+   "multiple": 0.81
   }
  },
  "closed": [
@@ -166,6 +166,12 @@
     "sell D9EcoQ: BAWSAQ cae casi 13% en 5 minutos y ya va por x0,78, así que cumplo mi regla de vender al menos la mitad si sigue cayendo rápido. Me quedo con la otra mitad porque todavía hay muchas más compras que ventas y buen volumen."
    ],
    "notes": "Vendí la mitad de BAWSAQ a unos x0,78. El resto lo vendo si baja de x0,7, si hay más vendedores que compradores en la última hora en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD. Lo que quede, lo vendo el 19 de noviembre, cuando sale GTA 6. Aprendizaje: entré en BAWSAQ cuando parecía en pausa, pero cayó 22% en 20 minutos, así que en monedas de moda con menos de 12 horas debo esperar a que la pausa dure al menos 1-2 horas. No comprar otras monedas de GTA (GTA Anthropic, Dacity, AudaCity, WASTED), ni JOB o CBUCKS, que pagan promoción, ni PAID, que parece el rebote de una moneda hundida. Para los huecos libres, buscar un tema nuevo con volumen creciente y muchos compradores distintos."
+  },
+  {
+   "t": "2026-11-17 02:22 UTC",
+   "market_view": "SOL está plano. BAWSAQ ha subido un poco, de x0,78 a x0,82, y en la última hora sigue con casi el triple de compras que de ventas y unos 105.000 USD de volumen, así que no se cumple ninguna regla de venta. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción o son rebotes de monedas que ya se hundieron.",
+   "actions": [],
+   "notes": "Mantengo la mitad de BAWSAQ (x0,82). Vendo el resto si baja de x0,7, si en la última hora hay más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD (ahora unos 105.000). Lo que quede lo vendo el 19 de noviembre, el día que sale GTA 6. No reacciono a las alertas si la moneda ya se está recuperando y no se cumple ninguna regla. No compro otras monedas de GTA (GTA Anthropic, Dacity, AudaCity, WASTED), ni JOB o CBUCKS, que pagan promoción, ni PAID, que parece el rebote de una moneda hundida. Para los huecos libres, busco un tema nuevo con volumen creciente, muchos compradores distintos y una pausa de al menos 1-2 horas antes de entrar."
   }
  ],
  "buys": [
@@ -179,11 +185,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 1.7527,
+  "spent_month": 1.8183,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 0.8055,
-  "last_decider": 1794882080.0577755
+  "spent_day": 0.8711,
+  "last_decider": 1794882169.5853267
  },
  "history": [
   [
@@ -342,17 +348,17 @@
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "Z4oJCWj5nVe0"
+  "since": "VcAi2weO3Jdf"
  },
- "last_run": "2026-11-17 02:21 UTC",
+ "last_run": "2026-11-17 02:22 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 13
+  "count": 14
  },
- "last_update": 1794881559.2023025,
+ "last_update": 1794882169.5853267,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
  }
