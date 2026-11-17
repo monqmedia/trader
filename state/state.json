@@ -6,7 +6,21 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {},
+ "positions": {
+  "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": {
+   "symbol": "GTA",
+   "name": "Grand Theft Anthropic",
+   "tier": "joven",
+   "cost_usd": 12.442799611404649,
+   "amount_initial": 10900790006,
+   "opened_at": 1794891970.3386712,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.0,
+   "entry_reason": "Su precio se ha calmado (+4% en la última hora) y hay casi tres compras por cada venta, con un volumen estable a dos días de que salga GTA 6. Entro con poco porque paga promoción y mis compras anteriores de GTA salieron mal.",
+   "multiple": 0.938
+  }
+ },
  "closed": [
   {
    "symbol": "GTA6",
@@ -239,12 +253,21 @@
    "market_view": "SOL está plano y no tengo posiciones. CLAUDIA subió casi un 100% en una hora con un volumen muy fuerte, pero ahora cae un 20% en 5 minutos y no ha hecho ninguna pausa. Los demás candidatos pagan promoción, son del tema GTA o tienen más vendedores que compradores.",
    "actions": [],
    "notes": "Hoy no compro. CLAUDIA despierta después de 41 días: casi todo el volumen del día está en la última hora y hay un aviso de cuentas conectadas al creador. Solo la compraría si se queda 1-2 horas en pausa sin perder más de la mitad de la subida, con más compradores que vendedores y un volumen por hora por encima de 300.000 USD. Sigo sin comprar JOB ni CBUCKS, que pagan promoción, ni PAID, Dacity o WASTED, que no tienen fuerza o tienen más vendedores. Lección de mis 3 operaciones cerradas: todas subieron hasta x1,4-1,55 y acabaron en x0,87-0,89. A partir de ahora, si una moneda joven llega a x1,4, vendo la mitad. Si después cae un 20% desde su punto más alto, vendo el resto."
+  },
+  {
+   "t": "2026-11-17 05:06 UTC",
+   "market_view": "SOL sube un poco y no tengo posiciones. CLAUDIA, la moneda de una influencer de IA, casi duplica su precio en una hora, pero aún no se ha parado a descansar. Grand Theft Anthropic lleva varias horas casi plana y tiene casi tres compras por cada venta, a dos días de que salga GTA 6.",
+   "actions": [
+    "buy 2NWgu4: Su precio se ha calmado (+4% en la última hora) y hay casi tres compras por cada venta, con un volumen estable a dos días de que salga GTA 6. Entro con poco porque paga promoción y mis compras anteriores de GTA salieron mal."
+   ],
+   "notes": "Compré poco de Grand Theft Anthropic (GTA). Estas son mis reglas para venderla: si llega a x1,4, vendo la mitad. Si después cae un 20% desde su punto más alto, vendo el resto. Lo vendo todo si baja de x0,85, si hay más ventas que compras en la última hora en dos revisiones seguidas o si su volumen por hora baja de 25.000 USD. Lo que quede lo vendo el 19 de noviembre. Mientras la tenga, no compro otras monedas de GTA (WASTED, Dacity). CLAUDIA es la moneda de una influencer de IA que ya llegó a unos 10,5 millones de capitalización el 8 de noviembre. Ahora vale 7,4 millones. Solo la compraría si se queda 1-2 horas en pausa, con más compradores que vendedores, un volumen por hora de más de 300.000 USD y sin perder más de la mitad de la subida. Sigo sin comprar JOB ni CBUCKS, que pagan promoción, ni PAID, que no tiene fuerza."
   }
  ],
  "buys": [
   1794856949.0757904,
   1794856949.0757904,
-  1794881089.8719409
+  1794881089.8719409,
+  1794891970.3386712
  ],
  "cooldown": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794876792.7125387,
@@ -253,11 +276,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 2.5912,
+  "spent_month": 2.8237,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 1.644,
-  "last_decider": 1794890184.297022
+  "spent_day": 1.8765,
+  "last_decider": 1794891970.3386712
  },
  "history": [
   [
@@ -467,22 +490,30 @@
   [
    1794890750,
    124.63
+  ],
+  [
+   1794891423,
+   124.39
+  ],
+  [
+   1794892079,
+   124.07
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "KSGN02WM9RT2"
+  "since": "jPCGzSEZ9pVb"
  },
- "last_run": "2026-11-17 04:55 UTC",
+ "last_run": "2026-11-17 05:12 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 28
+  "count": 29
  },
- "last_update": 1794891065.295657,
+ "last_update": 1794891726.9569218,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
  }
