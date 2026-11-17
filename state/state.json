@@ -16,9 +16,22 @@
    "opened_at": 1794891970.3386712,
    "tp_stage": 0,
    "realized_usd": 0.0,
-   "peak_multiple": 1.0,
+   "peak_multiple": 1.006,
    "entry_reason": "Su precio se ha calmado (+4% en la última hora) y hay casi tres compras por cada venta, con un volumen estable a dos días de que salga GTA 6. Entro con poco porque paga promoción y mis compras anteriores de GTA salieron mal.",
-   "multiple": 0.925
+   "multiple": 0.961
+  },
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
+   "symbol": "CLAUDIA",
+   "name": "Claudia",
+   "tier": "joven",
+   "cost_usd": 12.390670529244144,
+   "amount_initial": 1569549555,
+   "opened_at": 1794893879.275054,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.0,
+   "entry_reason": "CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando.",
+   "multiple": 0.947
   }
  },
  "closed": [
@@ -63,15 +76,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-16 19:22 UTC",
-   "market_view": "SOL está plano. El tema más fuerte sigue siendo GTA VI, cuyo lanzamiento está previsto para el 19 de noviembre. Las compras anteriores no aparecen en la cartera, así que repito las dos ideas con tamaño moderado.",
-   "actions": [
-    "buy 4kjruq: GTA6 es el número 1 en tendencia, con muchos más compradores que vendedores y mucho volumen antes del lanzamiento del juego. Ahora está en una pausa y no en plena subida.",
-    "buy 4CxjZy: mihao es una moneda de gatos, un tema distinto, con mucho volumen y casi el doble de compradores que de vendedores en la última hora. Entro con poco porque el precio está plano."
-   ],
-   "notes": "Revisar si estas compras se hicieron, porque las de las 18:47 no aparecen en la cartera. Vender buena parte de GTA6 el 18 o el 19 de noviembre si no llegó a x3, ya que suele caer cuando sale la noticia y su liquidez es baja. No comprar GATO, WASTED ni CATE porque repiten temas que ya tengo. Vender mihao si los vendedores dominan durante varias horas."
-  },
   {
    "t": "2026-11-16 20:24 UTC",
    "market_view": "SOL está plano. GTA6 sigue fuerte antes del lanzamiento del juego, con más compradores que vendedores, y mihao está estable aunque su volumen baja un poco. Ningún candidato nuevo tiene una ventaja clara: varios repiten temas que ya tengo (GTA o gatos) y otros están pagando promoción o tienen poca actividad.",
@@ -258,13 +262,22 @@
    "market_view": "SOL sube un poco. Grand Theft Anthropic va por x0,92, pero no se cumple ninguna regla de venta: hay el doble de compras que de ventas y unos 57.000 USD de volumen en la última hora. CLAUDIA lleva cerca de una hora plana con muchísimo volumen y algo más de compradores que vendedores, pero todavía no completa las 1-2 horas de pausa que me pedí.",
    "actions": [],
    "notes": "Me quedo con Grand Theft Anthropic (GTA), que va por x0,92. Si llega a x1,4, vendo la mitad, y si después cae un 20% desde su punto más alto, vendo el resto. Lo vendo todo en cualquiera de estos casos: si baja de x0,85, si hay más ventas que compras en la última hora en dos revisiones seguidas o si su volumen por hora baja de 25.000 USD. Lo que quede lo vendo el 19 de noviembre. Mientras tenga GTA, no compro otras monedas del mismo tema (WASTED, Dacity). CLAUDIA ya lleva cerca de una hora plana a 7,6 millones de capitalización, con 2,2 millones de USD de volumen en esa hora y 2.735 compradores frente a 2.474 vendedores. En la próxima revisión la compro con la mitad de lo normal (0,5-0,6) si se cumplen tres cosas: sigue entre +/-10% en la última hora, tiene más compradores que vendedores y mueve más de 300.000 USD por hora. No la compro si baja de unos 5,5 millones. Sigo sin comprar JOB, CBUCKS ni BLOB, que pagan promoción, ni PAID, que no tiene fuerza."
+  },
+  {
+   "t": "2026-11-17 05:37 UTC",
+   "market_view": "SOL sube un poco. Grand Theft Anthropic va por x0,95 y no se cumple ninguna regla de venta: hay casi el doble de compras que de ventas y 56.000 USD de volumen en la última hora. CLAUDIA cumple las condiciones que me puse: lleva unas 2 horas casi plana, tiene más compradores que vendedores y mueve 880.000 USD por hora.",
+   "actions": [
+    "buy 2j5SaS: CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando."
+   ],
+   "notes": "Tengo dos monedas: GTA (Grand Theft Anthropic) y CLAUDIA. Las reglas son iguales para las dos. Si llegan a x1,4, vendo la mitad, y si después caen un 20% desde su punto más alto, vendo el resto. Vendo todo si una baja de x0,85 o si tiene más vendedores que compradores en la última hora en dos revisiones seguidas. También vendo todo si el volumen por hora baja de 25.000 USD en GTA o de 150.000 USD en CLAUDIA. Lo que quede de GTA lo vendo el 19 de noviembre. No compro otras monedas de GTA (WASTED, Dacity) ni otras de influencers de IA. Tampoco compro JOB, CBUCKS ni BLOB, que pagan promoción, ni PAID, CATE o STONK, que no tienen fuerza. Me quedan 3 huecos libres, pero solo los lleno con un tema nuevo que tenga volumen creciente y una pausa de 1-2 horas."
   }
  ],
  "buys": [
   1794856949.0757904,
   1794856949.0757904,
   1794881089.8719409,
-  1794891970.3386712
+  1794891970.3386712,
+  1794893879.275054
  ],
  "cooldown": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794876792.7125387,
@@ -273,11 +286,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 2.9009,
+  "spent_month": 2.9769,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 1.9537,
-  "last_decider": 1794893242.244448
+  "spent_day": 2.0297,
+  "last_decider": 1794893879.275054
  },
  "history": [
   [
@@ -499,22 +512,30 @@
   [
    1794892697,
    123.06
+  ],
+  [
+   1794893331,
+   123.58
+  ],
+  [
+   1794893992,
+   124.16
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "GOx62UzTVFDN"
+  "since": "GreZeQRcVk3e"
  },
- "last_run": "2026-11-17 05:27 UTC",
+ "last_run": "2026-11-17 05:42 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 31
+  "count": 32
  },
- "last_update": 1794893000.185978,
+ "last_update": 1794893632.3341513,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
  }
