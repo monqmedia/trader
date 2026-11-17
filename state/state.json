@@ -18,7 +18,7 @@
    "realized_usd": 7.963723525134015,
    "peak_multiple": 1.552,
    "entry_reason": "GTA6 es el número 1 en tendencia, con muchos más compradores que vendedores y mucho volumen antes del lanzamiento del juego. Ahora está en una pausa y no en plena subida.",
-   "multiple": 1.147
+   "multiple": 1.153
   },
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
    "symbol": "mihao",
@@ -118,10 +118,10 @@
  "cooldown": {},
  "ai": {
   "month": "2026-11",
-  "spent_month": 1.1752,
+  "spent_month": 1.1762,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 0.228,
+  "spent_day": 0.229,
   "last_decider": 1794875038.3479464
  },
  "history": [
