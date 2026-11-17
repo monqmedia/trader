@@ -6,7 +6,21 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {},
+ "positions": {
+  "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": {
+   "symbol": "BAWSAQ",
+   "name": "Vice City Bawsaq",
+   "tier": "joven",
+   "cost_usd": 15.011050274745209,
+   "amount_initial": 8421411616,
+   "opened_at": 1794881089.8719409,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.0,
+   "entry_reason": "BAWSAQ es la número 2 en tendencia de 6 horas y en la última hora tiene el doble de compradores distintos que de vendedores. Además, después de su gran subida, el precio está en pausa. Entro con poco porque su volumen ya está bajando desde el máximo y paga promoción.",
+   "multiple": 0.983
+  }
+ },
  "closed": [
   {
    "symbol": "GTA6",
@@ -124,11 +138,20 @@
    "market_view": "SOL está plano y la cuenta está toda en efectivo. Ningún candidato tiene una ventaja clara: el tema GTA pierde fuerza, la nueva GTA (Anthropic) subió casi en vertical y paga promoción, y PAID sigue siendo el rebote de una moneda hundida.",
    "actions": [],
    "notes": "No compro nada y me quedo en efectivo. La nueva GTA (Grand Theft Anthropic, 2NWgu4…) tiene 7 horas, sube 38% en una hora y paga promoción. Solo comprarla con media posición si después de una pausa de varias horas sigue teniendo más compradores y más volumen, aunque sea del tema GTA, que se está apagando. PAID: comprarla solo si en las próximas 2-3 revisiones sigue con casi el doble de compradores que de vendedores y el precio deja de bajar. No comprar Dacity, AudaCity, WASTED, la otra GTA, JOB ni CATE. Si una posición llega a x1,5 y cae fuerte de golpe, vender la mayor parte. Buscar un tema nuevo con volumen creciente."
+  },
+  {
+   "t": "2026-11-17 02:04 UTC",
+   "market_view": "SOL está plano y la cuenta está toda en efectivo. GTA 6 sale este jueves 19 de noviembre, así que el tema GTA puede tener un último empujón en los próximos dos días. BAWSAQ es la moneda de ese tema que más compradores reales está atrayendo ahora mismo.",
+   "actions": [
+    "buy D9EcoQ: BAWSAQ es la número 2 en tendencia de 6 horas y en la última hora tiene el doble de compradores distintos que de vendedores. Además, después de su gran subida, el precio está en pausa. Entro con poco porque su volumen ya está bajando desde el máximo y paga promoción."
+   ],
+   "notes": "Compré BAWSAQ con poco dinero para aprovechar la salida de GTA 6 (jueves 19 de noviembre). La vendo entera si baja de x0,7, si en la última hora hay más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD (ahora está en unos 96.000 USD). Si llega a x1,5 y luego cae fuerte de golpe, vendo la mayor parte. Lo que quede lo vendo el 19 de noviembre, el día que sale el juego, porque después suele llegar la caída. Mientras tenga BAWSAQ, no compro otra moneda de GTA (GTA Anthropic, Dacity, AudaCity, WASTED). Tampoco compro JOB ni CBUCKS, que pagan promoción y casi no tienen movimiento, ni PAID, que parece el rebote de una moneda hundida. Para los huecos libres, busco un tema que no sea GTA."
   }
  ],
  "buys": [
   1794856949.0757904,
-  1794856949.0757904
+  1794856949.0757904,
+  1794881089.8719409
  ],
  "cooldown": {
   "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794876792.7125387,
@@ -136,11 +159,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 1.3181,
+  "spent_month": 1.5494,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 0.3709,
-  "last_decider": 1794878053.8624554
+  "spent_day": 0.6022,
+  "last_decider": 1794881089.8719409
  },
  "history": [
   [
@@ -282,22 +305,26 @@
   [
    1794880106,
    124.89
+  ],
+  [
+   1794880727,
+   124.77
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "56XulqajSYVn"
+  "since": "GoEvvZX9yvT8"
  },
- "last_run": "2026-11-17 01:49 UTC",
+ "last_run": "2026-11-17 02:04 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 10
+  "count": 12
  },
- "last_update": 1794879668.925147,
+ "last_update": 1794880908.7679749,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
  }
