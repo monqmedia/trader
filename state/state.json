@@ -118,6 +118,12 @@
     "sell 4CxjZy: Por segunda revisión seguida en mihao hay más vendedores que compradores, y baja 24% en un día. Vendo todo como había decidido."
    ],
    "notes": "Vendí todo GTA6 (x0,97) y mihao (x0,88). Me quedo solo con efectivo. Aprendizaje: en GTA6 debí vender más cuando estaba en x1,5, porque estas monedas de moda bajan rápido. La próxima vez, si una posición llega a x1,5 y luego cae fuerte de golpe, vendo la mayor parte. PAID parece el rebote de una moneda hundida: solo comprarla si aguanta varias horas con muchos más compradores y el precio deja de caer. Las monedas de GTA (Dacity, AudaCity, WASTED, GTA) están perdiendo fuerza, así que solo comprar una si vuelve a subir con mucho volumen. No comprar JOB, que paga promoción, ni CATE, que casi no se mueve. Buscar un tema nuevo con volumen creciente y muchos compradores distintos."
+  },
+  {
+   "t": "2026-11-17 01:14 UTC",
+   "market_view": "SOL está plano y la cuenta está toda en efectivo. Ningún candidato tiene una ventaja clara: el tema GTA pierde fuerza, la nueva GTA (Anthropic) subió casi en vertical y paga promoción, y PAID sigue siendo el rebote de una moneda hundida.",
+   "actions": [],
+   "notes": "No compro nada y me quedo en efectivo. La nueva GTA (Grand Theft Anthropic, 2NWgu4…) tiene 7 horas, sube 38% en una hora y paga promoción. Solo comprarla con media posición si después de una pausa de varias horas sigue teniendo más compradores y más volumen, aunque sea del tema GTA, que se está apagando. PAID: comprarla solo si en las próximas 2-3 revisiones sigue con casi el doble de compradores que de vendedores y el precio deja de bajar. No comprar Dacity, AudaCity, WASTED, la otra GTA, JOB ni CATE. Si una posición llega a x1,5 y cae fuerte de golpe, vender la mayor parte. Buscar un tema nuevo con volumen creciente."
   }
  ],
  "buys": [
@@ -130,11 +136,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 1.2482,
+  "spent_month": 1.3153,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 0.301,
-  "last_decider": 1794876792.7125387
+  "spent_day": 0.3681,
+  "last_decider": 1794878053.8624554
  },
  "history": [
   [
@@ -256,21 +262,27 @@
   [
    1794877004,
    124.06
+  ],
+  [
+   1794877629,
+   124.04
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "OfuOMlXM5Zb7"
+  "since": "bshHGPqSvlUF"
  },
- "last_run": "2026-11-17 00:58 UTC",
+ "last_run": "2026-11-17 01:14 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 5
+  "count": 7
  },
- "last_update": 1794876549.7482245,
- "ignored_tokens": {}
+ "last_update": 1794877811.1766613,
+ "ignored_tokens": {
+  "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
+ }
 }
