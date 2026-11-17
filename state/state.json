@@ -6,35 +6,35 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {
-  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": {
+ "positions": {},
+ "closed": [
+  {
    "symbol": "GTA6",
-   "name": "GTA VI",
+   "mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
    "tier": "joven",
-   "cost_usd": 19.115524033957467,
-   "amount_initial": 1504640746215,
-   "opened_at": 1794856949.0757904,
-   "tp_stage": 0,
-   "realized_usd": 7.963723525134015,
-   "peak_multiple": 1.552,
+   "cost_usd": 19.12,
+   "returned_usd": 17.1,
+   "result_multiple": 0.89,
+   "peak_multiple": 1.55,
+   "opened": "2026-11-16 19:22 UTC",
+   "closed": "2026-11-17 00:53 UTC",
    "entry_reason": "GTA6 es el número 1 en tendencia, con muchos más compradores que vendedores y mucho volumen antes del lanzamiento del juego. Ahora está en una pausa y no en plena subida.",
-   "multiple": 1.153
+   "exit_reason": "GTA6 bajó de x1,0, que era mi límite, y cae 13% en la última hora. Vendo lo que queda; con la mitad que ya vendí, la pérdida total es pequeña."
   },
-  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": {
+  {
    "symbol": "mihao",
-   "name": "ni hao cat",
+   "mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
    "tier": "joven",
-   "cost_usd": 12.743682665617644,
-   "amount_initial": 826909989,
-   "opened_at": 1794856949.0757904,
-   "tp_stage": 0,
-   "realized_usd": 0.0,
+   "cost_usd": 12.74,
+   "returned_usd": 11.22,
+   "result_multiple": 0.88,
    "peak_multiple": 1.0,
+   "opened": "2026-11-16 19:22 UTC",
+   "closed": "2026-11-17 00:53 UTC",
    "entry_reason": "mihao es una moneda de gatos, un tema distinto, con mucho volumen y casi el doble de compradores que de vendedores en la última hora. Entro con poco porque el precio está plano.",
-   "multiple": 0.874
+   "exit_reason": "Por segunda revisión seguida en mihao hay más vendedores que compradores, y baja 24% en un día. Vendo todo como había decidido."
   }
- },
- "closed": [],
+ ],
  "journal": [
   {
    "t": "2026-11-16 18:47 UTC",
@@ -109,20 +109,32 @@
    "market_view": "SOL baja un poco (-1,2%). GTA6 sigue con muchos más compradores que vendedores en la última hora y va x1,21. mihao pierde fuerza: su volumen de la última hora bajó de unos 193.000 a 78.000 USD y ahora hay algo más de vendedores. No hay ningún candidato nuevo con ventaja clara, así que no hago nada.",
    "actions": [],
    "notes": "PAID tiene muchos compradores, pero la búsqueda muestra que hace unos días valía unos 40 millones y ahora vale 1,3 millones. Parece un rebote de una moneda hundida, así que no comprarla salvo que aguante varias horas con compradores reales. GTA6 (ya vendí la mitad): vender el resto si en la última hora hay más vendedores que compradores o si baja de x1,0, y si no, venderlo el 18 o el 19 de noviembre si no llegó a x3. mihao va x0,89: venderlo entero si los vendedores vuelven a ganar en la próxima revisión, si su volumen de la última hora baja de 50.000 USD o si baja de x0,8. No comprar Dacity, AudaCity, WASTED, GTA ni GATO mientras tenga GTA6, porque son del mismo tema. Tampoco JOB, que paga promoción, ni CATE, que es otra moneda de gatos y casi no se mueve. Buscar un tema nuevo para los huecos libres."
+  },
+  {
+   "t": "2026-11-17 00:53 UTC",
+   "market_view": "SOL baja un poco. GTA6 bajó de x1,0 y mihao vuelve a tener más vendedores que compradores, así que hoy se cumplen mis reglas de venta en las dos. Ningún candidato tiene una ventaja clara y el tema GTA parece estar perdiendo fuerza.",
+   "actions": [
+    "sell 4kjruq: GTA6 bajó de x1,0, que era mi límite, y cae 13% en la última hora. Vendo lo que queda; con la mitad que ya vendí, la pérdida total es pequeña.",
+    "sell 4CxjZy: Por segunda revisión seguida en mihao hay más vendedores que compradores, y baja 24% en un día. Vendo todo como había decidido."
+   ],
+   "notes": "Vendí todo GTA6 (x0,97) y mihao (x0,88). Me quedo solo con efectivo. Aprendizaje: en GTA6 debí vender más cuando estaba en x1,5, porque estas monedas de moda bajan rápido. La próxima vez, si una posición llega a x1,5 y luego cae fuerte de golpe, vendo la mayor parte. PAID parece el rebote de una moneda hundida: solo comprarla si aguanta varias horas con muchos más compradores y el precio deja de caer. Las monedas de GTA (Dacity, AudaCity, WASTED, GTA) están perdiendo fuerza, así que solo comprar una si vuelve a subir con mucho volumen. No comprar JOB, que paga promoción, ni CATE, que casi no se mueve. Buscar un tema nuevo con volumen creciente y muchos compradores distintos."
   }
  ],
  "buys": [
   1794856949.0757904,
   1794856949.0757904
  ],
- "cooldown": {},
+ "cooldown": {
+  "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794876792.7125387,
+  "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794876792.7125387
+ },
  "ai": {
   "month": "2026-11",
-  "spent_month": 1.1762,
+  "spent_month": 1.2482,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 0.229,
-  "last_decider": 1794875038.3479464
+  "spent_day": 0.301,
+  "last_decider": 1794876792.7125387
  },
  "history": [
   [
@@ -236,21 +248,29 @@
   [
    1794875767,
    126.77
+  ],
+  [
+   1794876367,
+   126.19
+  ],
+  [
+   1794877004,
+   124.06
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "yyyskt9RMEYR"
+  "since": "OfuOMlXM5Zb7"
  },
- "last_run": "2026-11-17 00:42 UTC",
+ "last_run": "2026-11-17 00:58 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 4
+  "count": 5
  },
- "last_update": 1794875892.8780704,
+ "last_update": 1794876549.7482245,
  "ignored_tokens": {}
 }
