@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.006,
    "entry_reason": "Su precio se ha calmado (+4% en la última hora) y hay casi tres compras por cada venta, con un volumen estable a dos días de que salga GTA 6. Entro con poco porque paga promoción y mis compras anteriores de GTA salieron mal.",
-   "multiple": 0.994
+   "multiple": 0.992
   },
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": {
    "symbol": "CLAUDIA",
@@ -31,7 +31,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.0,
    "entry_reason": "CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando.",
-   "multiple": 0.924
+   "multiple": 0.922
   }
  },
  "closed": [
@@ -286,10 +286,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 2.9769,
+  "spent_month": 2.978,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 2.0297,
+  "spent_day": 2.0308,
   "last_decider": 1794893879.275054
  },
  "history": [
@@ -527,7 +527,7 @@
   "welcomed": true,
   "since": "Msu2BfUoYtrB"
  },
- "last_run": "2026-11-17 05:45 UTC",
+ "last_run": "2026-11-17 05:46 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
