@@ -18,7 +18,7 @@
    "realized_usd": 5.824951447047065,
    "peak_multiple": 1.021,
    "entry_reason": "BAWSAQ es la número 2 en tendencia de 6 horas y en la última hora tiene el doble de compradores distintos que de vendedores. Además, después de su gran subida, el precio está en pausa. Entro con poco porque su volumen ya está bajando desde el máximo y paga promoción.",
-   "multiple": 0.9
+   "multiple": 1.013
   }
  },
  "closed": [
@@ -178,6 +178,12 @@
    "market_view": "SOL está plano. BAWSAQ sube de x0,82 a x0,90 y en la última hora tiene más del doble de compras que de ventas, con unos 112.000 USD de volumen, así que la mitad que me queda sigue viva. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción, o son monedas viejas sin fuerza, como CATE, que tiene más vendedores que compradores.",
    "actions": [],
    "notes": "Mantengo la mitad de BAWSAQ (x0,90). No vendo solo por las alertas de subida. Vendo el resto si baja de x0,7, si en la última hora hay más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD (ahora unos 112.000). Si pasa de x1,5 y luego cae fuerte de golpe, vendo la mayor parte. Lo que quede lo vendo el 19 de noviembre, cuando sale GTA 6. No compro otras monedas de GTA (GTA Anthropic, Dacity, AudaCity, WASTED), ni JOB o CBUCKS, que pagan promoción, ni PAID, que parece el rebote de una moneda hundida, ni CATE, que es vieja y está plana. Para los huecos libres, busco un tema nuevo con volumen creciente, muchos compradores distintos y una pausa de al menos 1-2 horas antes de entrar."
+  },
+  {
+   "t": "2026-11-17 02:50 UTC",
+   "market_view": "SOL está plano. BAWSAQ se recupera hasta x0,99, con más del doble de compras que de ventas en la última hora y unos 120.000 USD de volumen, así que la mitad que me queda sigue viva. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
+   "actions": [],
+   "notes": "Mantengo la mitad de BAWSAQ (x0,99). No vendo solo porque salte una alerta de subida. Vendo el resto si baja de x0,7, si en la última hora hay más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD (ahora está en unos 120.000). Si pasa de x1,5 y después cae fuerte de golpe, vendo la mayor parte. Lo que quede lo vendo el 19 de noviembre, cuando sale GTA 6. Mientras tenga BAWSAQ, no compro otras monedas de GTA (GTA Anthropic, Dacity, AudaCity, WASTED). Tampoco compro JOB ni CBUCKS, que pagan promoción y casi no se mueven, ni PAID, que parece el rebote de una moneda hundida, ni CATE, que es vieja y está plana. Para los huecos libres, busco un tema nuevo con volumen creciente, muchos compradores distintos y una pausa de al menos 1-2 horas antes de entrar."
   }
  ],
  "buys": [
@@ -191,11 +197,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 1.8856,
+  "spent_month": 1.9551,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 0.9384,
-  "last_decider": 1794883161.918685
+  "spent_day": 1.0079,
+  "last_decider": 1794883841.7443178
  },
  "history": [
   [
@@ -353,22 +359,30 @@
   [
    1794882604,
    120.99
+  ],
+  [
+   1794883239,
+   122.24
+  ],
+  [
+   1794883841,
+   122.95
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "2xEkTk7nMcO2"
+  "since": "tNwhbTKvZ3eG"
  },
- "last_run": "2026-11-17 02:39 UTC",
+ "last_run": "2026-11-17 02:55 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 15
+  "count": 17
  },
- "last_update": 1794882785.7655592,
+ "last_update": 1794884101.570578,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
  }
