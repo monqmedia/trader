@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.0,
    "entry_reason": "CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando.",
-   "multiple": 0.931
+   "multiple": 0.928
   }
  },
  "closed": [
@@ -289,10 +289,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.0512,
+  "spent_month": 3.0521,
   "budget_warned": false,
   "day": "2026-11-17",
-  "spent_day": 2.104,
+  "spent_day": 2.1049,
   "last_decider": 1794895222.8388424
  },
  "history": [
@@ -531,22 +531,26 @@
   [
    1794895222,
    121.08
+  ],
+  [
+   1794895855,
+   121.08
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "mxymdTSHILrC"
+  "since": "lOZij0YblcBn"
  },
- "last_run": "2026-11-17 06:02 UTC",
+ "last_run": "2026-11-17 06:18 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-16",
  "quiet": {
   "day": "2026-11-17",
-  "count": 34
+  "count": 36
  },
- "last_update": 1794894848.0318303,
+ "last_update": 1794896103.332688,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794877629.2312953
  }
