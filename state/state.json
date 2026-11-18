@@ -304,10 +304,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.6424,
+  "spent_month": 3.6446,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 0.1577,
+  "spent_day": 0.1599,
   "last_decider": 1794963270.7452185
  },
  "history": [
@@ -990,22 +990,30 @@
   [
    1794964443,
    122.93
+  ],
+  [
+   1794965077,
+   122.63
+  ],
+  [
+   1794965697,
+   122.63
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "5s1PTzaNog9Z"
+  "since": "GzQgw0zifQsy"
  },
- "last_run": "2026-11-18 01:19 UTC",
+ "last_run": "2026-11-18 01:34 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-18",
-  "count": 8
+  "count": 9
  },
- "last_update": 1794964761.4977646,
+ "last_update": 1794965395.3771577,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794964194.798085
  }
