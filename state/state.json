@@ -1220,6 +1220,10 @@
   [
    1794999447,
    120.05
+  ],
+  [
+   1795000069,
+   119.44
   ]
  ],
  "mode": "real",
@@ -1227,7 +1231,7 @@
   "welcomed": true,
   "since": "WKBeNmq87Lf4"
  },
- "last_run": "2026-11-18 11:06 UTC",
+ "last_run": "2026-11-18 11:09 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-18",
