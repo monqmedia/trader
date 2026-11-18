@@ -102,12 +102,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-17 02:50 UTC",
-   "market_view": "SOL está plano. BAWSAQ se recupera hasta x0,99, con más del doble de compras que de ventas en la última hora y unos 120.000 USD de volumen, así que la mitad que me queda sigue viva. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
-   "actions": [],
-   "notes": "Mantengo la mitad de BAWSAQ (x0,99). No vendo solo porque salte una alerta de subida. Vendo el resto si baja de x0,7, si en la última hora hay más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD (ahora está en unos 120.000). Si pasa de x1,5 y después cae fuerte de golpe, vendo la mayor parte. Lo que quede lo vendo el 19 de noviembre, cuando sale GTA 6. Mientras tenga BAWSAQ, no compro otras monedas de GTA (GTA Anthropic, Dacity, AudaCity, WASTED). Tampoco compro JOB ni CBUCKS, que pagan promoción y casi no se mueven, ni PAID, que parece el rebote de una moneda hundida, ni CATE, que es vieja y está plana. Para los huecos libres, busco un tema nuevo con volumen creciente, muchos compradores distintos y una pausa de al menos 1-2 horas antes de entrar."
-  },
-  {
    "t": "2026-11-17 03:17 UTC",
    "market_view": "SOL está plano. BAWSAQ bajó de x0,99 a x0,89, pero en los últimos 5 minutos solo cae 1,6%. En la última hora tiene más del doble de compras que de ventas y unos 112.000 USD de volumen, así que no se cumple ninguna de mis reglas de venta. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
    "actions": [],
@@ -298,6 +292,12 @@
    "market_view": "SOL sube un 2,5% y sigue siendo de madrugada en UTC. CYBERLEEK es la única con interés nuevo: su volumen se ha disparado en la última hora (236.000 USD) y sube un 17%, pero es un pico repentino y ya cae un 8% en 5 minutos. Las demás no valen: GTA6, WASTED y GATO son del tema GTA, Max es una copia, mihao sigue cayendo, CBUCKS no tiene volumen y STONK está plana.",
    "actions": [],
    "notes": "No tengo monedas abiertas, tengo 120 USD en efectivo y me quedan 2 compras hoy. CYBERLEEK es una moneda antigua (unos 94 días) que ha despertado de golpe en la última hora: no la compro en pleno pico. Solo la miro si lleva al menos 2 horas estable, ha retrocedido un 20-40% desde su máximo, sigue moviendo más de 80.000 USD por hora y tiene más compradores que vendedores. Antes de comprarla, buscaría en X por qué ha subido, porque no tiene redes sociales y sus datos se pueden cambiar. No compro monedas del tema GTA (GTA6, WASTED, GATO, DacityCoin, LEOSTAR) porque el juego sale hacia el 19 de noviembre. Tampoco compro Max (es una copia), mihao (está cayendo) ni CBUCKS (paga promoción y tiene poco volumen). Lección: mis 8 últimas compras salieron mal por entrar justo después de un pico. Es mejor no hacer nada que repetir ese error."
+  },
+  {
+   "t": "2026-11-18 07:40 UTC",
+   "market_view": "SOL sube un 2,6% y todavía es temprano en UTC. SHIT es la única moneda nueva con fuerza, pero es una frase famosa de GTA San Andreas, así que pertenece al tema GTA justo antes de que salga el juego, y además no cumple mi regla de llevar 2 horas estable. Las demás tampoco valen: GTA6 y DacityCoin son del tema GTA, mihao y CLAUDIA siguen cayendo y Max es una copia con más vendedores que compradores.",
+   "actions": [],
+   "notes": "Hoy no compro nada. No tengo posiciones abiertas, tengo 120 USD en efectivo y me quedan 4 compras. SHIT tiene 8 horas, vale unos 1,02 millones, ha subido un 2.400% en un día y cae un 15% en la última hora. Solo la miraría si después del día del lanzamiento de GTA 6 (en torno al 19 de noviembre) se mantiene sobre 0,8 millones durante más de 2 horas, con más compradores que vendedores y más de 80.000 USD por hora. Antes de comprarla, buscaría en X si su comunidad es real. No compro monedas del tema GTA (GTA6, SHIT, WASTED, GATO, DacityCoin, LEOSTAR) hasta que pase el lanzamiento. Tampoco compro Max (es una copia), mihao (está cayendo), CLAUDIA (ya perdí con ella y sigue bajando) ni CBUCKS (paga promoción). Mi regla sigue igual: solo compro una moneda que haya bajado un 20-40% desde su máximo, lleve al menos 2 horas estable y cuyo volumen esté volviendo a subir."
   }
  ],
  "buys": [
@@ -310,11 +310,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 4.5324,
+  "spent_month": 4.6114,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 1.0477,
-  "last_decider": 1794977873.3829737
+  "spent_day": 1.1267,
+  "last_decider": 1794987608.228482
  },
  "history": [
   [
@@ -1140,22 +1140,26 @@
   [
    1794986924,
    120.72
+  ],
+  [
+   1794987547,
+   120.21
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "7J2ec5onN1nE"
+  "since": "o1Urp0dTxYBN"
  },
- "last_run": "2026-11-18 07:29 UTC",
+ "last_run": "2026-11-18 07:45 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-18",
-  "count": 43
+  "count": 45
  },
- "last_update": 1794986681.8251553,
+ "last_update": 1794987937.1659942,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794985817.738755
  }
