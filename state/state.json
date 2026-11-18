@@ -6,21 +6,7 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {
-  "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": {
-   "symbol": ":3",
-   "name": ":3",
-   "tier": "joven",
-   "cost_usd": 12.23705713963348,
-   "amount_initial": 7683625839,
-   "opened_at": 1794970556.8555646,
-   "tp_stage": 0,
-   "realized_usd": 0.0,
-   "peak_multiple": 1.0,
-   "entry_reason": ":3 cumple mis cuatro condiciones: se ha calmado (+8% en 1 hora), no ha perdido su subida, mueve mucho volumen y tiene más compradores que vendedores. Entro con la mitad porque la ventaja de compradores es pequeña y hay un aviso de cuentas conectadas al creador.",
-   "multiple": 0.781
-  }
- },
+ "positions": {},
  "closed": [
   {
    "symbol": "GTA6",
@@ -99,15 +85,22 @@
    "closed": "2026-11-18 00:04 UTC",
    "entry_reason": "CATE es una moneda más estable, con 430.000 holders y mucho dinero disponible para comprar y vender. Su volumen crece de forma clara y sube sin picos bruscos. Entro con la mitad de lo normal porque hay casi tantos vendedores como compradores y avisa de posibles cuentas conectadas al creador.",
    "exit_reason": "El volumen de CATE en la última hora (28.600 USD) está por debajo de mi límite de 40.000 y el precio no avanza. Vendo todo, como había decidido, para no quedarme esperando con una moneda sin fuerza."
+  },
+  {
+   "symbol": ":3",
+   "mint": "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump",
+   "tier": "joven",
+   "cost_usd": 12.24,
+   "returned_usd": 9.46,
+   "result_multiple": 0.77,
+   "peak_multiple": 1.0,
+   "opened": "2026-11-18 02:55 UTC",
+   "closed": "2026-11-18 03:36 UTC",
+   "entry_reason": ":3 cumple mis cuatro condiciones: se ha calmado (+8% en 1 hora), no ha perdido su subida, mueve mucho volumen y tiene más compradores que vendedores. Entro con la mitad porque la ventaja de compradores es pequeña y hay un aviso de cuentas conectadas al creador.",
+   "exit_reason": "Vendo todo :3 porque ha bajado de x0,8 y lleva dos revisiones seguidas con más ventas que compras, como había decidido. Su volumen también sigue bajando: de 384.000 a 126.000 USD por hora."
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-17 02:22 UTC",
-   "market_view": "SOL está plano. BAWSAQ ha subido un poco, de x0,78 a x0,82, y en la última hora sigue con casi el triple de compras que de ventas y unos 105.000 USD de volumen, así que no se cumple ninguna regla de venta. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción o son rebotes de monedas que ya se hundieron.",
-   "actions": [],
-   "notes": "Mantengo la mitad de BAWSAQ (x0,82). Vendo el resto si baja de x0,7, si en la última hora hay más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD (ahora unos 105.000). Lo que quede lo vendo el 19 de noviembre, el día que sale GTA 6. No reacciono a las alertas si la moneda ya se está recuperando y no se cumple ninguna regla. No compro otras monedas de GTA (GTA Anthropic, Dacity, AudaCity, WASTED), ni JOB o CBUCKS, que pagan promoción, ni PAID, que parece el rebote de una moneda hundida. Para los huecos libres, busco un tema nuevo con volumen creciente, muchos compradores distintos y una pausa de al menos 1-2 horas antes de entrar."
-  },
   {
    "t": "2026-11-17 02:39 UTC",
    "market_view": "SOL está plano. BAWSAQ sube de x0,82 a x0,90 y en la última hora tiene más del doble de compras que de ventas, con unos 112.000 USD de volumen, así que la mitad que me queda sigue viva. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción, o son monedas viejas sin fuerza, como CATE, que tiene más vendedores que compradores.",
@@ -297,6 +290,14 @@
    "market_view": "SOL sube un 3,5% y sigue siendo de madrugada en UTC. :3 baja un 12% en la última hora y está en x0,82, pero todavía mueve 167.000 USD por hora y tiene casi tantas compras como ventas (1.237 frente a 1.239), así que no llega a mis límites para vender. Ninguna de las otras merece la pena: GTA6, WASTED y GATO son del tema GTA, Max es una copia y mihao sigue cayendo.",
    "actions": [],
    "notes": "Sigo con :3, que compré con la mitad de lo normal a unos 1,48 millones. La vendo toda si baja de x0,8 (unos 1,18 millones), si mueve menos de 80.000 USD por hora o si hay más ventas que compras en otra revisión más. Esta revisión cuenta como la primera mala porque hubo 2 ventas más que compras. Su volumen ha bajado de 384.000 a 167.000 USD por hora, una señal de que el interés se enfría. Me quedan 2 compras hoy y solo las uso si la ventaja está clara. No compro monedas del tema GTA (GTA6, WASTED, GATO, DacityCoin, LEOSTAR) porque el juego sale hacia el 19 de noviembre, ni Max (copia), mihao (cae) ni CBUCKS (paga promoción). Lección: en mis 7 últimas compras entré cerca del punto más alto y nunca pasé mucho de x1. Por eso, en vez de comprar cuando el precio frena junto a su máximo, prefiero esperar a que retroceda un 20-40% y se estabilice."
+  },
+  {
+   "t": "2026-11-18 03:36 UTC",
+   "market_view": "SOL sube un 3% y sigue siendo de madrugada en UTC. :3 ha caído a x0,77, por debajo de mi límite de x0,8, y por segunda revisión seguida tiene más ventas que compras (989 frente a 931). Ninguna de las otras monedas ofrece una ventaja clara: GTA6, WASTED, GATO y DacityCoin son del tema GTA, Max es una copia y mihao sigue cayendo.",
+   "actions": [
+    "sell FSkyjf: Vendo todo :3 porque ha bajado de x0,8 y lleva dos revisiones seguidas con más ventas que compras, como había decidido. Su volumen también sigue bajando: de 384.000 a 126.000 USD por hora."
+   ],
+   "notes": "Vendo :3 con una pérdida de unos 3 USD. Me quedan 2 compras hoy y no compro solo por llenar huecos. Lección repetida: en mis 8 últimas compras entré cerca del máximo justo después de una gran subida, y el interés se apagó en menos de una hora. A partir de ahora solo compro monedas que hayan retrocedido un 20-40% desde su máximo, que lleven al menos 2 horas estables y cuyo volumen esté volviendo a subir. Si :3 se mantiene sobre 1,1 millones durante varias horas con más compradores que vendedores y el volumen vuelve a crecer, puedo volver a mirarla. No compro monedas del tema GTA (GTA6, WASTED, GATO, DacityCoin, LEOSTAR) porque el juego sale hacia el 19 de noviembre, ni Max (copia), mihao (cae) ni CBUCKS (paga promoción)."
   }
  ],
  "buys": [
@@ -309,15 +310,16 @@
   "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794886706.0939817,
   "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794895222.8388424,
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794898060.9931965,
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794960244.4064007
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794960244.4064007,
+  "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794972974.317606
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 4.3458,
+  "spent_month": 4.4264,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 0.8611,
-  "last_decider": 1794972443.223733
+  "spent_day": 0.9417,
+  "last_decider": 1794972974.317606
  },
  "history": [
   [
@@ -1058,7 +1060,7 @@
   "welcomed": true,
   "since": "WnzbQg6AysYZ"
  },
- "last_run": "2026-11-18 03:35 UTC",
+ "last_run": "2026-11-18 03:36 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
