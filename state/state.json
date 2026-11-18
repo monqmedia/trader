@@ -89,12 +89,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-17 00:23 UTC",
-   "market_view": "SOL baja un poco (-1,2%). GTA6 sigue con muchos más compradores que vendedores en la última hora y va x1,21. mihao pierde fuerza: su volumen de la última hora bajó de unos 193.000 a 78.000 USD y ahora hay algo más de vendedores. No hay ningún candidato nuevo con ventaja clara, así que no hago nada.",
-   "actions": [],
-   "notes": "PAID tiene muchos compradores, pero la búsqueda muestra que hace unos días valía unos 40 millones y ahora vale 1,3 millones. Parece un rebote de una moneda hundida, así que no comprarla salvo que aguante varias horas con compradores reales. GTA6 (ya vendí la mitad): vender el resto si en la última hora hay más vendedores que compradores o si baja de x1,0, y si no, venderlo el 18 o el 19 de noviembre si no llegó a x3. mihao va x0,89: venderlo entero si los vendedores vuelven a ganar en la próxima revisión, si su volumen de la última hora baja de 50.000 USD o si baja de x0,8. No comprar Dacity, AudaCity, WASTED, GTA ni GATO mientras tenga GTA6, porque son del mismo tema. Tampoco JOB, que paga promoción, ni CATE, que es otra moneda de gatos y casi no se mueve. Buscar un tema nuevo para los huecos libres."
-  },
-  {
    "t": "2026-11-17 00:53 UTC",
    "market_view": "SOL baja un poco. GTA6 bajó de x1,0 y mihao vuelve a tener más vendedores que compradores, así que hoy se cumplen mis reglas de venta en las dos. Ningún candidato tiene una ventaja clara y el tema GTA parece estar perdiendo fuerza.",
    "actions": [
@@ -288,6 +282,12 @@
    "market_view": "SOL sube un 5%, pero sigue siendo medianoche y el volumen está bajo. La única moneda con fuerza de verdad es :3, que sube un 193% en una hora y un 20% en 5 minutos. Está en plena subida vertical y no ha hecho ninguna pausa, así que comprar ahora sería perseguir el precio. Las demás no sirven: WASTED, GATO, GTA6 y Dacity son del tema GTA; mihao y Max van a la baja; CBUCKS paga promoción y STONK tiene poco volumen y más vendedores que compradores.",
    "actions": [],
    "notes": "No tengo monedas abiertas y me quedan 2 compras hoy. Vigilo :3, que es una moneda antigua (751 horas) que ha despertado con mucho volumen y más compradores que vendedores (1.034 frente a 837). Solo la compro con la mitad de lo normal si pasa 1-2 horas en pausa (entre -10% y +10% por hora) sin perder más de un 30% desde su máximo, si sigue con más compradores que vendedores y si mueve más de 100.000 USD por hora. Si la compro, la vendo toda si baja de x0,85. Sigo sin comprar monedas del tema GTA (GTA6, WASTED, GATO, Dacity, LEOSTAR), CBUCKS (paga promoción), Max (es una copia) ni mihao (está cayendo). STONK solo la compro si pasa de 150.000 USD por hora con más compradores que vendedores."
+  },
+  {
+   "t": "2026-11-18 01:45 UTC",
+   "market_view": "SOL sube un 3,4%, pero sigue siendo de madrugada en UTC. :3 tiene mucha fuerza: mueve 393.000 USD en una hora y tiene 2.366 compradores frente a 1.990 vendedores. Aun así, ha subido otro 50% en la última hora sin hacer ninguna pausa, así que todavía no cumple mi condición. Las demás no sirven: unas son del tema GTA o pagan promoción, Max es una copia y STONK mueve poco volumen.",
+   "actions": [],
+   "notes": "No tengo monedas abiertas y me quedan 2 compras hoy. He cerrado 6 operaciones seguidas con pérdidas pequeñas, así que solo compro si veo una ventaja clara. Sigo vigilando :3. La compro con la mitad de lo normal (0,5) solo si se cumplen cuatro cosas: pasa 1-2 horas con cambios de entre -10% y +10% por hora, no pierde más de un 30% desde su punto más alto (ahora vale 1,1 millones), mueve más de 100.000 USD por hora y tiene más compradores que vendedores. Si la compro, la vendo toda si baja de x0,85 o si tiene más vendedores que compradores en dos revisiones seguidas. Si cae más de un 30% desde su punto más alto sin pausa, la olvido. No compro monedas del tema GTA (GTA6, WASTED, GATO, Dacity, LEOSTAR), Max (es una copia y tiene más vendedores), mihao (está cayendo) ni CBUCKS (paga promoción). STONK solo la compro si mueve más de 150.000 USD por hora y tiene más compradores que vendedores."
   }
  ],
  "buys": [
@@ -304,11 +304,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.6446,
+  "spent_month": 3.7212,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 0.1599,
-  "last_decider": 1794963270.7452185
+  "spent_day": 0.2365,
+  "last_decider": 1794966315.972775
  },
  "history": [
   [
@@ -998,22 +998,26 @@
   [
    1794965697,
    122.63
+  ],
+  [
+   1794966315,
+   122.48
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "GzQgw0zifQsy"
+  "since": "1U8ONVK4gFDq"
  },
- "last_run": "2026-11-18 01:34 UTC",
+ "last_run": "2026-11-18 01:50 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-18",
-  "count": 9
+  "count": 11
  },
- "last_update": 1794965395.3771577,
+ "last_update": 1794966646.6897535,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794964194.798085
  }
