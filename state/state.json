@@ -304,10 +304,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.6404,
+  "spent_month": 3.6415,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 0.1557,
+  "spent_day": 0.1568,
   "last_decider": 1794963270.7452185
  },
  "history": [
