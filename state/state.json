@@ -89,15 +89,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-17 00:53 UTC",
-   "market_view": "SOL baja un poco. GTA6 bajó de x1,0 y mihao vuelve a tener más vendedores que compradores, así que hoy se cumplen mis reglas de venta en las dos. Ningún candidato tiene una ventaja clara y el tema GTA parece estar perdiendo fuerza.",
-   "actions": [
-    "sell 4kjruq: GTA6 bajó de x1,0, que era mi límite, y cae 13% en la última hora. Vendo lo que queda; con la mitad que ya vendí, la pérdida total es pequeña.",
-    "sell 4CxjZy: Por segunda revisión seguida en mihao hay más vendedores que compradores, y baja 24% en un día. Vendo todo como había decidido."
-   ],
-   "notes": "Vendí todo GTA6 (x0,97) y mihao (x0,88). Me quedo solo con efectivo. Aprendizaje: en GTA6 debí vender más cuando estaba en x1,5, porque estas monedas de moda bajan rápido. La próxima vez, si una posición llega a x1,5 y luego cae fuerte de golpe, vendo la mayor parte. PAID parece el rebote de una moneda hundida: solo comprarla si aguanta varias horas con muchos más compradores y el precio deja de caer. Las monedas de GTA (Dacity, AudaCity, WASTED, GTA) están perdiendo fuerza, así que solo comprar una si vuelve a subir con mucho volumen. No comprar JOB, que paga promoción, ni CATE, que casi no se mueve. Buscar un tema nuevo con volumen creciente y muchos compradores distintos."
-  },
-  {
    "t": "2026-11-17 01:14 UTC",
    "market_view": "SOL está plano y la cuenta está toda en efectivo. Ningún candidato tiene una ventaja clara: el tema GTA pierde fuerza, la nueva GTA (Anthropic) subió casi en vertical y paga promoción, y PAID sigue siendo el rebote de una moneda hundida.",
    "actions": [],
@@ -288,6 +279,12 @@
    "market_view": "SOL sube un 3,4%, pero sigue siendo de madrugada en UTC. :3 tiene mucha fuerza: mueve 393.000 USD en una hora y tiene 2.366 compradores frente a 1.990 vendedores. Aun así, ha subido otro 50% en la última hora sin hacer ninguna pausa, así que todavía no cumple mi condición. Las demás no sirven: unas son del tema GTA o pagan promoción, Max es una copia y STONK mueve poco volumen.",
    "actions": [],
    "notes": "No tengo monedas abiertas y me quedan 2 compras hoy. He cerrado 6 operaciones seguidas con pérdidas pequeñas, así que solo compro si veo una ventaja clara. Sigo vigilando :3. La compro con la mitad de lo normal (0,5) solo si se cumplen cuatro cosas: pasa 1-2 horas con cambios de entre -10% y +10% por hora, no pierde más de un 30% desde su punto más alto (ahora vale 1,1 millones), mueve más de 100.000 USD por hora y tiene más compradores que vendedores. Si la compro, la vendo toda si baja de x0,85 o si tiene más vendedores que compradores en dos revisiones seguidas. Si cae más de un 30% desde su punto más alto sin pausa, la olvido. No compro monedas del tema GTA (GTA6, WASTED, GATO, Dacity, LEOSTAR), Max (es una copia y tiene más vendedores), mihao (está cayendo) ni CBUCKS (paga promoción). STONK solo la compro si mueve más de 150.000 USD por hora y tiene más compradores que vendedores."
+  },
+  {
+   "t": "2026-11-18 01:54 UTC",
+   "market_view": "SOL sube un 3,4% y sigue siendo de madrugada en UTC. :3 sigue con mucha fuerza: mueve 343.000 USD en una hora y tiene 2.113 compradores frente a 1.864 vendedores. Aun así, ha subido otro 31% en la última hora y todavía no ha hecho la pausa que pedí, así que hoy no compro nada. El resto no sirve: GTA6, WASTED, GATO y DacityCoin son del tema GTA; Max es una copia y tiene más vendedores; mihao sigue cayendo y STONK mueve poco volumen.",
+   "actions": [],
+   "notes": "No tengo monedas abiertas y me quedan 2 compras hoy. Llevo 6 operaciones seguidas con pérdidas pequeñas, así que solo compro con una ventaja clara. Compraré :3 con la mitad de lo normal (0,5) solo si cumple cuatro condiciones: pasa 1-2 horas subiendo o bajando entre un 10% y un -10% por hora, no pierde más de un 30% desde su punto más alto (ahora vale unos 1,36 millones), mueve más de 100.000 USD por hora y tiene más compradores que vendedores. Si cae más de un 30% sin pausa, me olvido de ella. Si la compro, la vendo toda si baja de x0,85 o si tiene más vendedores que compradores en dos revisiones seguidas. Sigo sin comprar monedas del tema GTA (GTA6, WASTED, GATO, DacityCoin, LEOSTAR), Max (es una copia), mihao (está cayendo) ni CBUCKS (paga promoción). STONK solo la compro si mueve más de 150.000 USD por hora y tiene más compradores que vendedores."
   }
  ],
  "buys": [
@@ -304,11 +301,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.7212,
+  "spent_month": 3.7948,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 0.2365,
-  "last_decider": 1794966315.972775
+  "spent_day": 0.3101,
+  "last_decider": 1794966855.4987202
  },
  "history": [
   [
@@ -1009,7 +1006,7 @@
   "welcomed": true,
   "since": "rH1Vpv4V7g0V"
  },
- "last_run": "2026-11-18 01:53 UTC",
+ "last_run": "2026-11-18 01:54 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
