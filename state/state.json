@@ -102,12 +102,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-17 03:24 UTC",
-   "market_view": "SOL está plano. BAWSAQ sube con fuerza hasta x1,23, con el doble de compras que de ventas en la última hora y unos 111.000 USD de volumen, así que la moda sigue viva. Ningún candidato es una compra clara, porque casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
-   "actions": [],
-   "notes": "Me quedo con la mitad de BAWSAQ, que va por x1,23. Con lo que ya vendí, voy más o menos sin ganar ni perder. Subió casi 30% en 5 minutos, así que es un salto rápido y puede caer de golpe. Si llega a x1,5 o más y luego cae más de un 30% desde su punto más alto, vendo casi todo. También vendo lo que quede si baja de x0,7, si en la última hora hay más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD. Lo que quede lo vendo el 19 de noviembre, cuando sale GTA 6. Mientras tenga BAWSAQ, no compro otras monedas de GTA (Grand Theft Anthropic, Dacity, AudaCity, GATO). Tampoco compro JOB ni CBUCKS, que pagan promoción, ni PAID ni CATE, que son viejas y no tienen fuerza. Para los huecos libres busco un tema nuevo con volumen creciente y muchos compradores distintos, y antes de entrar espero a que el precio lleve al menos 1-2 horas en pausa."
-  },
-  {
    "t": "2026-11-17 03:25 UTC",
    "market_view": "SOL está plano. BAWSAQ sigue subiendo, va por x1,25, con el doble de compras que de ventas en la última hora y unos 111.000 USD de volumen, así que la moda sigue viva y no se cumple ninguna regla de venta. Ningún candidato es una compra clara, porque casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
    "actions": [],
@@ -298,6 +292,12 @@
    "market_view": "SOL sube un 1,3% y el mercado sigue dominado por el tema GTA a un día del lanzamiento del juego, cuando estas monedas suelen caer. La única moneda fuera de ese tema con fuerza, HOGE, tiene interés real, pero hoy no cumple mis reglas de compra porque sigue cayendo con fuerza después de una subida vertical.",
    "actions": [],
    "notes": "Hoy no compro nada. No tengo posiciones abiertas, tengo 119 USD en efectivo y me quedan 4 compras.\n\nMiro HOGE, que vale unos 1,4 millones y ha subido un 201% en 6 horas, pero baja un 12% en la última hora y un 13% en 5 minutos. Sus compradores y vendedores están casi igualados (1.096 frente a 1.070). Solo la compraría si se cumplen todas estas condiciones:\n- se mantiene entre 0,9 y 1,1 millones al menos 2 horas;\n- tiene más compradores que vendedores;\n- mueve más de 150.000 USD por hora;\n- su volumen vuelve a subir.\nAntes de comprarla, buscaría en X si su comunidad es real.\n\nSTONK es estable, pero está plana y no tiene impulso.\n\nNo compro:\n- Monedas del tema GTA (GTA, GTA6, GTAVI, Leonida, GATO, WASTED, DacityCoin, SHIT) hasta que pase el lanzamiento del 19 de noviembre y alguna se mantenga estable varias horas después.\n- Max, porque es una copia.\n- CBUCKS, porque paga promoción y tiene poco volumen."
+  },
+  {
+   "t": "2026-11-18 14:23 UTC",
+   "market_view": "SOL sube un 0,7% y casi todo el mercado sigue girando alrededor de GTA, a un día del lanzamiento del juego. HOGE es la única moneda fuera de ese tema con interés real, pero ahora mismo está subiendo en vertical, así que no es buen momento para entrar.",
+   "actions": [],
+   "notes": "No compro nada: no tengo posiciones, tengo 119 USD en efectivo y me quedan 4 compras hoy. HOGE no se estabilizó entre 0,9 y 1,1 millones como yo quería, sino que siguió subiendo hasta 1,8 millones (+26% en 1 hora y +12% en 5 minutos), con casi tantos vendedores como compradores (684 frente a 730) y paga promoción. Solo la miraré si retrocede a 1,1-1,4 millones, se mantiene ahí al menos 2 horas con más compradores que vendedores y sigue moviendo más de 150.000 USD por hora; antes de comprar, buscaré en X si tiene una comunidad real. GTA6 rebota un 40% en 1 hora, pero sigue en el tema GTA y no compro monedas de ese tema (GTA, GTA6, GTAVI, Leonida, GATO, WASTED, DacityCoin, SHIT) hasta que pase el lanzamiento del 19 de noviembre y alguna aguante estable varias horas. Tampoco compro Max (es una copia y tiene el doble de vendedores), mihao (hay más vendedores que compradores) ni CLAUDIA (ya perdí con ella y está plana). Lección: mis 7 operaciones cerradas acabaron en pérdida por entrar cerca de un pico, así que es mejor esperar que perseguir subidas."
   }
  ],
  "buys": [
@@ -310,11 +310,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 4.7394,
+  "spent_month": 4.8218,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 1.2547,
-  "last_decider": 1795009259.6213143
+  "spent_day": 1.3371,
+  "last_decider": 1795011804.9213796
  },
  "history": [
   [
@@ -1292,22 +1292,30 @@
   [
    1795010739,
    119.15
+  ],
+  [
+   1795011361,
+   119.21
+  ],
+  [
+   1795012017,
+   119.37
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "Djwphmb4yyxZ"
+  "since": "UGqBCbAccNws"
  },
- "last_run": "2026-11-18 14:12 UTC",
+ "last_run": "2026-11-18 14:28 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-18",
  "quiet": {
   "day": "2026-11-18",
-  "count": 81
+  "count": 83
  },
- "last_update": 1795010612.741017,
+ "last_update": 1795011896.6306667,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795007420.981222
  }
