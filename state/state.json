@@ -964,6 +964,10 @@
   [
    1794960001,
    123.76
+  ],
+  [
+   1794960639,
+   123.46
   ]
  ],
  "mode": "real",
@@ -971,7 +975,7 @@
   "welcomed": true,
   "since": "EYbt8hHcdxvX"
  },
- "last_run": "2026-11-18 00:09 UTC",
+ "last_run": "2026-11-18 00:12 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
