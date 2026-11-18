@@ -1169,17 +1169,17 @@
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "5yPguOiusZPI"
+  "since": "ZuARQOZiQYj8"
  },
- "last_run": "2026-11-18 08:36 UTC",
+ "last_run": "2026-11-18 08:39 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-18",
  "quiet": {
   "day": "2026-11-18",
-  "count": 49
+  "count": 50
  },
- "last_update": 1794990461.3628922,
+ "last_update": 1794991084.5174103,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794985817.738755
  }
