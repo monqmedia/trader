@@ -6,21 +6,7 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {
-  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": {
-   "symbol": "CATE",
-   "name": "Catecoin",
-   "tier": "joven",
-   "cost_usd": 12.274939227439777,
-   "amount_initial": 584072095,
-   "opened_at": 1794926473.9693115,
-   "tp_stage": 0,
-   "realized_usd": 0.0,
-   "peak_multiple": 1.137,
-   "entry_reason": "CATE es una moneda más estable, con 430.000 holders y mucho dinero disponible para comprar y vender. Su volumen crece de forma clara y sube sin picos bruscos. Entro con la mitad de lo normal porque hay casi tantos vendedores como compradores y avisa de posibles cuentas conectadas al creador.",
-   "multiple": 0.946
-  }
- },
+ "positions": {},
  "closed": [
   {
    "symbol": "GTA6",
@@ -86,15 +72,22 @@
    "closed": "2026-11-17 06:47 UTC",
    "entry_reason": "CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando.",
    "exit_reason": "Cada vez menos gente compra CLAUDIA, ya hay más ventas que compras y está a solo un 2-3% de mi límite de x0,85. Vendo todo ahora, porque su interés se está apagando y no voy a esperar a que vuelva a subir."
+  },
+  {
+   "symbol": "CATE",
+   "mint": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+   "tier": "joven",
+   "cost_usd": 12.27,
+   "returned_usd": 11.59,
+   "result_multiple": 0.94,
+   "peak_multiple": 1.14,
+   "opened": "2026-11-17 14:41 UTC",
+   "closed": "2026-11-18 00:04 UTC",
+   "entry_reason": "CATE es una moneda más estable, con 430.000 holders y mucho dinero disponible para comprar y vender. Su volumen crece de forma clara y sube sin picos bruscos. Entro con la mitad de lo normal porque hay casi tantos vendedores como compradores y avisa de posibles cuentas conectadas al creador.",
+   "exit_reason": "El volumen de CATE en la última hora (28.600 USD) está por debajo de mi límite de 40.000 y el precio no avanza. Vendo todo, como había decidido, para no quedarme esperando con una moneda sin fuerza."
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-16 23:17 UTC",
-   "market_view": "SOL está plano. GTA6 cayó fuerte hace unos minutos, pero ahora rebota (+7,7% en cinco minutos) y en la última hora sigue habiendo bastantes más compradores que vendedores. mihao también aguanta. Los candidatos son del tema GTA, pagan promoción o casi no se mueven, así que no hago nada.",
-   "actions": [],
-   "notes": "Ya vendí la mitad de GTA6, que ahora va x1,16. Vender el resto si en la última hora hay más vendedores que compradores o si baja de x1,0. Si no pasa nada de eso, venderlo el 18 o el 19 de noviembre si no llegó a x3. Vender mihao si los vendedores ganan durante varias horas o si su volumen de la última hora baja de unos 50.000 USD; ahora está en unos 194.000 USD. No comprar Dacity, AudaCity, WASTED, GTA ni GATO mientras tenga GTA6, porque son del mismo tema. Tampoco comprar JOB, que paga promoción y tiene más vendedores, ni STONK, que casi no se mueve. Buscar un tema nuevo que no sea GTA ni gatos para los huecos libres."
-  },
   {
    "t": "2026-11-16 23:19 UTC",
    "market_view": "SOL está plano. GTA6 está en x1,19, mejor que hace dos minutos (x1,16), y en la última hora sigue habiendo muchos más compradores que vendedores, así que la alerta no cumple mis reglas de venta. mihao baja un poco, pero tiene buen volumen y más compradores que vendedores. Los candidatos son del tema GTA, pagan promoción o casi no se mueven, así que hoy no hago nada.",
@@ -287,6 +280,14 @@
     "buy Ai66LH: CATE es una moneda más estable, con 430.000 holders y mucho dinero disponible para comprar y vender. Su volumen crece de forma clara y sube sin picos bruscos. Entro con la mitad de lo normal porque hay casi tantos vendedores como compradores y avisa de posibles cuentas conectadas al creador."
    ],
    "notes": "Compré CATE con la mitad de lo normal como apuesta estable y ya he usado la última compra de hoy. La vendo toda si baja de x0,85, si tiene más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 40.000 USD. Vendo la mitad si llega a x1,5, y el resto si después cae un 20% desde su punto más alto. No compro monedas del tema GTA (WASTED, GATO, LEOSTAR, Dacity) hasta que salga el juego, ni BLOB, JOB o CBUCKS, que pagan promoción. STONK solo la compro si su volumen pasa de 150.000 USD por hora."
+  },
+  {
+   "t": "2026-11-18 00:04 UTC",
+   "market_view": "SOL sube un 5%, pero es medianoche y casi todas las monedas mueven poco volumen. CATE va por x0,95 y solo ha movido 28.600 USD en la última hora, por debajo del mínimo de 40.000 que me puse, así que la vendo. Ningún candidato da una ventaja clara.",
+   "actions": [
+    "sell Ai66LH: El volumen de CATE en la última hora (28.600 USD) está por debajo de mi límite de 40.000 y el precio no avanza. Vendo todo, como había decidido, para no quedarme esperando con una moneda sin fuerza."
+   ],
+   "notes": "Hoy me quedan 2 compras y no tengo monedas abiertas. No compro monedas del tema GTA (WASTED, GATO, LEOSTAR, Dacity) hasta que salga el juego, ni CBUCKS, que paga promoción y casi no tiene volumen, ni Max, que es una copia y tiene más vendedores. STONK solo la compro si mueve más de 150.000 USD por hora y tiene más compradores que vendedores (ahora tiene 125.000 USD, con 151 vendedores frente a 108 compradores). Solo compro si el volumen de la última hora es igual o mayor que la media por hora de las últimas 6 horas. A medianoche UTC hay poco volumen, así que es mejor esperar a que el mercado se active."
   }
  ],
  "buys": [
@@ -300,15 +301,16 @@
   "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794876792.7125387,
   "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794886706.0939817,
   "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794895222.8388424,
-  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794898060.9931965
+  "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794898060.9931965,
+  "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794960244.4064007
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.4847,
+  "spent_month": 3.5634,
   "budget_warned": true,
-  "day": "2026-11-17",
-  "spent_day": 2.5375,
-  "last_decider": 1794926473.9693115
+  "day": "2026-11-18",
+  "spent_day": 0.0787,
+  "last_decider": 1794960244.4064007
  },
  "history": [
   [
@@ -958,22 +960,26 @@
   [
    1794959382,
    123.58
+  ],
+  [
+   1794960001,
+   123.76
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "tYPuXhT4Os6q"
+  "since": "EYbt8hHcdxvX"
  },
- "last_run": "2026-11-17 23:53 UTC",
+ "last_run": "2026-11-18 00:09 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
-  "day": "2026-11-17",
-  "count": 137
+  "day": "2026-11-18",
+  "count": 1
  },
- "last_update": 1794959079.1101098,
+ "last_update": 1794960334.6378484,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794942543.461607
  }
