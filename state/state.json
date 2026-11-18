@@ -89,12 +89,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-17 01:14 UTC",
-   "market_view": "SOL está plano y la cuenta está toda en efectivo. Ningún candidato tiene una ventaja clara: el tema GTA pierde fuerza, la nueva GTA (Anthropic) subió casi en vertical y paga promoción, y PAID sigue siendo el rebote de una moneda hundida.",
-   "actions": [],
-   "notes": "No compro nada y me quedo en efectivo. La nueva GTA (Grand Theft Anthropic, 2NWgu4…) tiene 7 horas, sube 38% en una hora y paga promoción. Solo comprarla con media posición si después de una pausa de varias horas sigue teniendo más compradores y más volumen, aunque sea del tema GTA, que se está apagando. PAID: comprarla solo si en las próximas 2-3 revisiones sigue con casi el doble de compradores que de vendedores y el precio deja de bajar. No comprar Dacity, AudaCity, WASTED, la otra GTA, JOB ni CATE. Si una posición llega a x1,5 y cae fuerte de golpe, vender la mayor parte. Buscar un tema nuevo con volumen creciente."
-  },
-  {
    "t": "2026-11-17 02:04 UTC",
    "market_view": "SOL está plano y la cuenta está toda en efectivo. GTA 6 sale este jueves 19 de noviembre, así que el tema GTA puede tener un último empujón en los próximos dos días. BAWSAQ es la moneda de ese tema que más compradores reales está atrayendo ahora mismo.",
    "actions": [
@@ -285,6 +279,12 @@
    "market_view": "SOL sube un 3,4% y sigue siendo de madrugada en UTC. :3 sigue con mucha fuerza: mueve 343.000 USD en una hora y tiene 2.113 compradores frente a 1.864 vendedores. Aun así, ha subido otro 31% en la última hora y todavía no ha hecho la pausa que pedí, así que hoy no compro nada. El resto no sirve: GTA6, WASTED, GATO y DacityCoin son del tema GTA; Max es una copia y tiene más vendedores; mihao sigue cayendo y STONK mueve poco volumen.",
    "actions": [],
    "notes": "No tengo monedas abiertas y me quedan 2 compras hoy. Llevo 6 operaciones seguidas con pérdidas pequeñas, así que solo compro con una ventaja clara. Compraré :3 con la mitad de lo normal (0,5) solo si cumple cuatro condiciones: pasa 1-2 horas subiendo o bajando entre un 10% y un -10% por hora, no pierde más de un 30% desde su punto más alto (ahora vale unos 1,36 millones), mueve más de 100.000 USD por hora y tiene más compradores que vendedores. Si cae más de un 30% sin pausa, me olvido de ella. Si la compro, la vendo toda si baja de x0,85 o si tiene más vendedores que compradores en dos revisiones seguidas. Sigo sin comprar monedas del tema GTA (GTA6, WASTED, GATO, DacityCoin, LEOSTAR), Max (es una copia), mihao (está cayendo) ni CBUCKS (paga promoción). STONK solo la compro si mueve más de 150.000 USD por hora y tiene más compradores que vendedores."
+  },
+  {
+   "t": "2026-11-18 02:36 UTC",
+   "market_view": "SOL sube un 4% y sigue siendo de madrugada en UTC. :3 empieza a frenar: sube un 17% en la última hora, baja un 3% en 5 minutos y vale unos 1,29 millones, cerca de su máximo de 1,36. Sigue con mucho volumen (414.000 USD) y con más compradores que vendedores, pero todavía no ha pasado una hora entera en pausa. Las demás no sirven: GTA6, WASTED y GATO son del tema GTA, Max es una copia y mihao sigue cayendo.",
+   "actions": [],
+   "notes": "No tengo monedas abiertas y me quedan 3 compras hoy. :3 está muy cerca de cumplir mis condiciones. La compro con la mitad de lo normal (0,5) si en la próxima revisión su cambio en 1 hora está entre -10% y +10%, vale más de unos 950.000 USD (no ha perdido más del 30% desde su máximo de 1,36 millones), mueve más de 100.000 USD por hora y tiene más compradores que vendedores. Si cae más de un 30% sin pausa, me olvido de ella. Si la compro, la vendo toda si baja de x0,85 o si tiene más vendedores que compradores en dos revisiones seguidas. Sigo sin comprar monedas del tema GTA (GTA6, WASTED, GATO, DacityCoin, LEOSTAR), Max (es una copia), mihao (está cayendo), ni CBUCKS ni GATO (pagan promoción). STONK solo la compro si mueve más de 150.000 USD por hora con más compradores que vendedores."
   }
  ],
  "buys": [
@@ -300,11 +300,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.7979,
+  "spent_month": 3.8757,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 0.3132,
-  "last_decider": 1794966855.4987202
+  "spent_day": 0.391,
+  "last_decider": 1794969370.7146566
  },
  "history": [
   [
@@ -1010,22 +1010,30 @@
   [
    1794968202,
    122.49
+  ],
+  [
+   1794968824,
+   122.97
+  ],
+  [
+   1794969458,
+   122.92
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "QjSIBcykL9YP"
+  "since": "DWocfneDJKu7"
  },
- "last_run": "2026-11-18 02:25 UTC",
+ "last_run": "2026-11-18 02:41 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-18",
-  "count": 14
+  "count": 15
  },
- "last_update": 1794968505.7782872,
+ "last_update": 1794969127.9929519,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794964194.798085
  }
