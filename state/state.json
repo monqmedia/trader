@@ -288,7 +288,6 @@
   }
  ],
  "buys": [
-  1794881089.8719409,
   1794891970.3386712,
   1794893879.275054,
   1794926473.9693115
@@ -301,10 +300,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 3.7948,
+  "spent_month": 3.7958,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 0.3101,
+  "spent_day": 0.3111,
   "last_decider": 1794966855.4987202
  },
  "history": [
@@ -999,22 +998,30 @@
   [
    1794966315,
    122.48
+  ],
+  [
+   1794966958,
+   122.25
+  ],
+  [
+   1794967578,
+   122.28
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "rH1Vpv4V7g0V"
+  "since": "BXbq8GnXr9Mj"
  },
- "last_run": "2026-11-18 01:54 UTC",
+ "last_run": "2026-11-18 02:10 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-18",
-  "count": 11
+  "count": 12
  },
- "last_update": 1794966646.6897535,
+ "last_update": 1794967262.4012318,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794964194.798085
  }
