@@ -305,17 +305,16 @@
   1794970556.8555646
  ],
  "cooldown": {
-  "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794895222.8388424,
   "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794898060.9931965,
   "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794960244.4064007,
   "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794972974.317606
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 4.5226,
+  "spent_month": 4.5237,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 1.0379,
+  "spent_day": 1.039,
   "last_decider": 1794977873.3829737
  },
  "history": [
@@ -1117,7 +1116,7 @@
   "welcomed": true,
   "since": "bAAo2PUo1GWN"
  },
- "last_run": "2026-11-18 06:07 UTC",
+ "last_run": "2026-11-18 06:08 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
