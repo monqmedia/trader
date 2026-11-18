@@ -102,12 +102,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-17 02:39 UTC",
-   "market_view": "SOL está plano. BAWSAQ sube de x0,82 a x0,90 y en la última hora tiene más del doble de compras que de ventas, con unos 112.000 USD de volumen, así que la mitad que me queda sigue viva. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción, o son monedas viejas sin fuerza, como CATE, que tiene más vendedores que compradores.",
-   "actions": [],
-   "notes": "Mantengo la mitad de BAWSAQ (x0,90). No vendo solo por las alertas de subida. Vendo el resto si baja de x0,7, si en la última hora hay más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD (ahora unos 112.000). Si pasa de x1,5 y luego cae fuerte de golpe, vendo la mayor parte. Lo que quede lo vendo el 19 de noviembre, cuando sale GTA 6. No compro otras monedas de GTA (GTA Anthropic, Dacity, AudaCity, WASTED), ni JOB o CBUCKS, que pagan promoción, ni PAID, que parece el rebote de una moneda hundida, ni CATE, que es vieja y está plana. Para los huecos libres, busco un tema nuevo con volumen creciente, muchos compradores distintos y una pausa de al menos 1-2 horas antes de entrar."
-  },
-  {
    "t": "2026-11-17 02:50 UTC",
    "market_view": "SOL está plano. BAWSAQ se recupera hasta x0,99, con más del doble de compras que de ventas en la última hora y unos 120.000 USD de volumen, así que la mitad que me queda sigue viva. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
    "actions": [],
@@ -298,6 +292,12 @@
     "sell FSkyjf: Vendo todo :3 porque ha bajado de x0,8 y lleva dos revisiones seguidas con más ventas que compras, como había decidido. Su volumen también sigue bajando: de 384.000 a 126.000 USD por hora."
    ],
    "notes": "Vendo :3 con una pérdida de unos 3 USD. Me quedan 2 compras hoy y no compro solo por llenar huecos. Lección repetida: en mis 8 últimas compras entré cerca del máximo justo después de una gran subida, y el interés se apagó en menos de una hora. A partir de ahora solo compro monedas que hayan retrocedido un 20-40% desde su máximo, que lleven al menos 2 horas estables y cuyo volumen esté volviendo a subir. Si :3 se mantiene sobre 1,1 millones durante varias horas con más compradores que vendedores y el volumen vuelve a crecer, puedo volver a mirarla. No compro monedas del tema GTA (GTA6, WASTED, GATO, DacityCoin, LEOSTAR) porque el juego sale hacia el 19 de noviembre, ni Max (copia), mihao (cae) ni CBUCKS (paga promoción)."
+  },
+  {
+   "t": "2026-11-18 04:57 UTC",
+   "market_view": "SOL sube un 2,5% y sigue siendo de madrugada en UTC. CYBERLEEK es la única con interés nuevo: su volumen se ha disparado en la última hora (236.000 USD) y sube un 17%, pero es un pico repentino y ya cae un 8% en 5 minutos. Las demás no valen: GTA6, WASTED y GATO son del tema GTA, Max es una copia, mihao sigue cayendo, CBUCKS no tiene volumen y STONK está plana.",
+   "actions": [],
+   "notes": "No tengo monedas abiertas, tengo 120 USD en efectivo y me quedan 2 compras hoy. CYBERLEEK es una moneda antigua (unos 94 días) que ha despertado de golpe en la última hora: no la compro en pleno pico. Solo la miro si lleva al menos 2 horas estable, ha retrocedido un 20-40% desde su máximo, sigue moviendo más de 80.000 USD por hora y tiene más compradores que vendedores. Antes de comprarla, buscaría en X por qué ha subido, porque no tiene redes sociales y sus datos se pueden cambiar. No compro monedas del tema GTA (GTA6, WASTED, GATO, DacityCoin, LEOSTAR) porque el juego sale hacia el 19 de noviembre. Tampoco compro Max (es una copia), mihao (está cayendo) ni CBUCKS (paga promoción y tiene poco volumen). Lección: mis 8 últimas compras salieron mal por entrar justo después de un pico. Es mejor no hacer nada que repetir ese error."
   }
  ],
  "buys": [
@@ -314,11 +314,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 4.4332,
+  "spent_month": 4.5164,
   "budget_warned": true,
   "day": "2026-11-18",
-  "spent_day": 0.9485,
-  "last_decider": 1794972974.317606
+  "spent_day": 1.0317,
+  "last_decider": 1794977873.3829737
  },
  "history": [
   [
@@ -1080,22 +1080,26 @@
   [
    1794976950,
    120.22
+  ],
+  [
+   1794977570,
+   120.29
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "GsLo3kk309IE"
+  "since": "mZfAi954xlxU"
  },
- "last_run": "2026-11-18 04:42 UTC",
+ "last_run": "2026-11-18 04:57 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-18",
-  "count": 27
+  "count": 29
  },
- "last_update": 1794976633.999564,
+ "last_update": 1794977873.3829737,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794964194.798085
  }
