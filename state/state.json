@@ -1079,15 +1079,15 @@
   "welcomed": true,
   "since": "zJHU7Cq7040w"
  },
- "last_run": "2026-11-18 04:23 UTC",
+ "last_run": "2026-11-18 04:26 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-17",
  "quiet": {
   "day": "2026-11-18",
-  "count": 25
+  "count": 26
  },
- "last_update": 1794975362.2127035,
+ "last_update": 1794975982.3053393,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1794964194.798085
  }
