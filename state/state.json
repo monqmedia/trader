@@ -300,18 +300,16 @@
    "notes": "No compro nada. No tengo posiciones, tengo 117,25 USD en efectivo y me quedan 5 compras hoy.\n\nDCTY (DacityCoin) vale unos 11,2 millones y ha subido un 33.700% en un día. Una noticia dice que sube por el rumor, no confirmado, de que sale en el móvil de GTA 6, así que es del tema GTA. En la última hora está plana (+0,1%), con más compradores que vendedores (6.281 frente a 4.382), pero mueve 1,15 millones por hora frente a unos 5 millones por hora de media en las últimas 6 horas. Solo la miraré después del lanzamiento si se confirma que sale en el juego, si baja entre un 30% y un 40% desde su máximo y si se mantiene estable al menos 2 horas con más compradores que vendedores. En ese caso compraría con la mitad de lo normal. AudaCity (otra DacityCoin) es una copia que se ha hundido un 82%, así que la descarto.\n\nHOGE vale 1,25 millones, pero solo mueve 56.000 USD por hora, muy por debajo de mi mínimo de 150.000. Además baja un 11% en la última hora. Está descartada salvo que su volumen vuelva a superar los 150.000 USD por hora.\n\nNo compro:\n- Monedas del tema GTA (GTA6, VTC/VICE 6, Leonida, GATO, DCTY, DacityCoin) hasta que pase el lanzamiento y alguna aguante estable varias horas.\n- Max: es una copia y tiene más vendedores que compradores.\n- mihao: sigue cayendo.\n\nLección: mis 7 operaciones cerradas acabaron en pérdida por entrar cerca de un pico. Esperar sigue siendo mejor que perseguir subidas."
   }
  ],
- "buys": [
-  1794970556.8555646
- ],
+ "buys": [],
  "cooldown": {
   "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794972974.317606
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 5.3479,
+  "spent_month": 5.3492,
   "budget_warned": true,
   "day": "2026-11-19",
-  "spent_day": 0.0215,
+  "spent_day": 0.0228,
   "last_decider": 1795036495.5987751
  },
  "history": [
@@ -1582,22 +1580,26 @@
   [
    1795056275,
    117.63
+  ],
+  [
+   1795056894,
+   117.56
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "vg12Cw6fIWuF"
+  "since": "v0u8Ke1kP7IA"
  },
- "last_run": "2026-11-19 02:48 UTC",
+ "last_run": "2026-11-19 03:04 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-18",
  "quiet": {
   "day": "2026-11-19",
-  "count": 16
+  "count": 17
  },
- "last_update": 1795056275.113421,
+ "last_update": 1795056894.068811,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795050685.7729874
  }
