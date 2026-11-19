@@ -1974,23 +1974,31 @@
   [
    1795114418,
    117.81
+  ],
+  [
+   1795115071,
+   117.35
+  ],
+  [
+   1795115689,
+   117.25
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "6jiwQpHW3ViZ"
+  "since": "ZBcFzosZKbs9"
  },
- "last_run": "2026-11-19 19:02 UTC",
+ "last_run": "2026-11-19 19:17 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-19",
  "quiet": {
   "day": "2026-11-19",
-  "count": 109
+  "count": 111
  },
- "last_update": 1795114418.8089197,
+ "last_update": 1795115689.5149868,
  "ignored_tokens": {
-  "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795093924.7228816
+  "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795115555.8585608
  }
 }
