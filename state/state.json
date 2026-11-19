@@ -323,10 +323,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 5.802,
+  "spent_month": 5.8031,
   "budget_warned": true,
   "day": "2026-11-19",
-  "spent_day": 0.4756,
+  "spent_day": 0.4767,
   "last_decider": 1795064686.204567
  },
  "history": [
