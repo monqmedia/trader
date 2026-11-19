@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.013,
    "entry_reason": "Según varias noticias, en vídeos del juego aparece una moneda con el mismo nombre y ticker (DCTY), y millones de jugadores la verán desde hoy. Mueve 1,25 millones por hora, tiene más compradores que vendedores (3.732 frente a 2.807) y sube un 12% en la hora, sin ir en vertical. Entro con algo más de la mitad porque es una moneda del tema GTA el día del lanzamiento y hay aviso de cuentas conectadas al creador.",
-   "multiple": 0.876
+   "multiple": 0.899
   }
  },
  "closed": [
@@ -322,10 +322,10 @@
  "cooldown": {},
  "ai": {
   "month": "2026-11",
-  "spent_month": 5.6236,
+  "spent_month": 5.6262,
   "budget_warned": true,
   "day": "2026-11-19",
-  "spent_day": 0.2972,
+  "spent_day": 0.2998,
   "last_decider": 1795058288.5032148
  },
  "history": [
@@ -1628,22 +1628,30 @@
   [
    1795061333,
    118.26
+  ],
+  [
+   1795061953,
+   117.57
+  ],
+  [
+   1795062577,
+   117.72
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "QwvTz7tkPWfw"
+  "since": "k170lawE16un"
  },
- "last_run": "2026-11-19 04:14 UTC",
+ "last_run": "2026-11-19 04:29 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-18",
  "quiet": {
   "day": "2026-11-19",
-  "count": 24
+  "count": 26
  },
- "last_update": 1795061333.5348094,
+ "last_update": 1795062577.1293845,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795050685.7729874
  }
