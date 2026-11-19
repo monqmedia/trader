@@ -16,9 +16,9 @@
    "opened_at": 1795072298.3251128,
    "tp_stage": 0,
    "realized_usd": 8.19196412134056,
-   "peak_multiple": 1.341,
+   "peak_multiple": 1.342,
    "entry_reason": "Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva.",
-   "multiple": 1.218
+   "multiple": 1.342
   }
  },
  "closed": [
@@ -128,12 +128,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-18 01:54 UTC",
-   "market_view": "SOL sube un 3,4% y sigue siendo de madrugada en UTC. :3 sigue con mucha fuerza: mueve 343.000 USD en una hora y tiene 2.113 compradores frente a 1.864 vendedores. Aun así, ha subido otro 31% en la última hora y todavía no ha hecho la pausa que pedí, así que hoy no compro nada. El resto no sirve: GTA6, WASTED, GATO y DacityCoin son del tema GTA; Max es una copia y tiene más vendedores; mihao sigue cayendo y STONK mueve poco volumen.",
-   "actions": [],
-   "notes": "No tengo monedas abiertas y me quedan 2 compras hoy. Llevo 6 operaciones seguidas con pérdidas pequeñas, así que solo compro con una ventaja clara. Compraré :3 con la mitad de lo normal (0,5) solo si cumple cuatro condiciones: pasa 1-2 horas subiendo o bajando entre un 10% y un -10% por hora, no pierde más de un 30% desde su punto más alto (ahora vale unos 1,36 millones), mueve más de 100.000 USD por hora y tiene más compradores que vendedores. Si cae más de un 30% sin pausa, me olvido de ella. Si la compro, la vendo toda si baja de x0,85 o si tiene más vendedores que compradores en dos revisiones seguidas. Sigo sin comprar monedas del tema GTA (GTA6, WASTED, GATO, DacityCoin, LEOSTAR), Max (es una copia), mihao (está cayendo) ni CBUCKS (paga promoción). STONK solo la compro si mueve más de 150.000 USD por hora y tiene más compradores que vendedores."
-  },
   {
    "t": "2026-11-18 02:36 UTC",
    "market_view": "SOL sube un 4% y sigue siendo de madrugada en UTC. :3 empieza a frenar: sube un 17% en la última hora, baja un 3% en 5 minutos y vale unos 1,29 millones, cerca de su máximo de 1,36. Sigue con mucho volumen (414.000 USD) y con más compradores que vendedores, pero todavía no ha pasado una hora entera en pausa. Las demás no sirven: GTA6, WASTED y GATO son del tema GTA, Max es una copia y mihao sigue cayendo.",
@@ -319,6 +313,12 @@
    "market_view": "SOL está plano (-0,2%). ANTS ha vuelto a x1,31 antes de que Anthropic empiece a cotizar en bolsa y su volumen sigue alto (763.000 USD por hora), aunque en la última hora todavía hay algo más de ventas que de compras (3.312 frente a 3.086). Las monedas de GTA siguen perdiendo fuerza.",
    "actions": [],
    "notes": "Mantengo la mitad que queda de ANTS en x1,31, unos 10,9 millones de valor. No ha tocado ningún límite y la subida desde x1,29 es pequeña, así que no hago nada. Vendo el resto si pasa cualquiera de estas cosas: baja de x1,1 (unos 9,2 millones); en la revisión de las 08:00 UTC o más tarde sigue habiendo más ventas que compras; el volumen baja de 300.000 USD por hora; o Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC). Si pasa de x1,6 (unos 13,5 millones), subo el límite para vender a x1,35, y si sube en vertical hasta x2, vendo otra parte. No compro nada: DacityCoin, GTASZN, SHIT, Leonida y GATO son de GTA y siguen bajando; HOGE y CBUCKS casi no tienen volumen, y con CLAUDIA y mihao ya perdí. Lección: una alerta de subida pequeña no es motivo para actuar; sigo los límites que ya me puse."
+  },
+  {
+   "t": "2026-11-19 08:02 UTC",
+   "market_view": "SOL está plano (-0,27%). ANTS sube a x1,33 con un volumen alto (673.000 USD por hora), y en la última hora ya hay un poco más de compras que de ventas (2.812 frente a 2.786). Las monedas de GTA siguen perdiendo fuerza.",
+   "actions": [],
+   "notes": "Mantengo la mitad que queda de ANTS en x1,33, unos 11,3 millones de valor. En la revisión de las 08:00 UTC ya hay un poco más de compras que de ventas, así que no se cumple mi condición para vender. Vendo el resto si pasa cualquiera de estas cosas: baja de x1,1 (unos 9,2 millones); hay dos revisiones seguidas con más ventas que compras; el volumen baja de 300.000 USD por hora; o Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC). Si pasa de x1,6 (unos 13,5 millones), subo el límite para vender a x1,35, y si sube en vertical hasta x2, vendo otra parte. Hoy no compro nada. DacityCoin, GTASZN, Leonida y GATO son de GTA, un tema con el que ya perdí cuatro veces, y siguen bajando o pagan promoción. HOGE casi no tiene volumen. Con CLAUDIA y mihao ya perdí, y ahora en CLAUDIA hay más vendedores que compradores. Lección: una subida pequeña no es motivo para vender pronto; sigo los límites que ya me puse."
   }
  ],
  "buys": [
@@ -330,11 +330,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 7.1731,
+  "spent_month": 7.2516,
   "budget_warned": true,
   "day": "2026-11-19",
-  "spent_day": 1.8467,
-  "last_decider": 1795074073.539282
+  "spent_day": 1.9252,
+  "last_decider": 1795075330.669204
  },
  "history": [
   [
@@ -1720,22 +1720,26 @@
   [
    1795074529,
    118.09
+  ],
+  [
+   1795075148,
+   119.68
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "zkWE8jNKxnax"
+  "since": "bWv5V2A32qcw"
  },
- "last_run": "2026-11-19 07:51 UTC",
+ "last_run": "2026-11-19 08:07 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
- "last_summary_day": "2026-11-18",
+ "last_summary_day": "2026-11-19",
  "quiet": {
   "day": "2026-11-19",
-  "count": 45
+  "count": 46
  },
- "last_update": 1795074529.3594759,
+ "last_update": 1795075148.9007075,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795072298.3251128
  }
