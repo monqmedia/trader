@@ -18,7 +18,7 @@
    "realized_usd": 13.274038463042064,
    "peak_multiple": 2.094,
    "entry_reason": "Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva.",
-   "multiple": 1.267
+   "multiple": 1.262
   }
  },
  "closed": [
@@ -1826,22 +1826,30 @@
   [
    1795091371,
    119.38
+  ],
+  [
+   1795092016,
+   119.39
+  ],
+  [
+   1795092631,
+   120.1
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "zwreoHgIp4u5"
+  "since": "bxN9XIAN12NO"
  },
- "last_run": "2026-11-19 12:38 UTC",
+ "last_run": "2026-11-19 12:53 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-19",
  "quiet": {
   "day": "2026-11-19",
-  "count": 72
+  "count": 74
  },
- "last_update": 1795091371.83551,
+ "last_update": 1795092631.1100829,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795072298.3251128
  }
