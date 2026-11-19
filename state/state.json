@@ -6,7 +6,21 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {},
+ "positions": {
+  "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": {
+   "symbol": "ANTS",
+   "name": "Anthropic",
+   "tier": "joven",
+   "cost_usd": 13.985484478194767,
+   "amount_initial": 1628565654,
+   "opened_at": 1795072298.3251128,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.0,
+   "entry_reason": "Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva.",
+   "multiple": 0.968
+  }
+ },
  "closed": [
   {
    "symbol": "GTA6",
@@ -114,12 +128,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-17 04:36 UTC",
-   "market_view": "SOL está plano y no tengo posiciones. CLAUDIA subió casi un 100% en una hora con un volumen muy fuerte, pero ahora cae un 20% en 5 minutos y no ha hecho ninguna pausa. Los demás candidatos pagan promoción, son del tema GTA o tienen más vendedores que compradores.",
-   "actions": [],
-   "notes": "Hoy no compro. CLAUDIA despierta después de 41 días: casi todo el volumen del día está en la última hora y hay un aviso de cuentas conectadas al creador. Solo la compraría si se queda 1-2 horas en pausa sin perder más de la mitad de la subida, con más compradores que vendedores y un volumen por hora por encima de 300.000 USD. Sigo sin comprar JOB ni CBUCKS, que pagan promoción, ni PAID, Dacity o WASTED, que no tienen fuerza o tienen más vendedores. Lección de mis 3 operaciones cerradas: todas subieron hasta x1,4-1,55 y acabaron en x0,87-0,89. A partir de ahora, si una moneda joven llega a x1,4, vendo la mitad. Si después cae un 20% desde su punto más alto, vendo el resto."
-  },
   {
    "t": "2026-11-17 05:06 UTC",
    "market_view": "SOL sube un poco y no tengo posiciones. CLAUDIA, la moneda de una influencer de IA, casi duplica su precio en una hora, pero aún no se ha parado a descansar. Grand Theft Anthropic lleva varias horas casi plana y tiene casi tres compras por cada venta, a dos días de que salga GTA 6.",
@@ -313,21 +321,30 @@
     "sell 9hjBLB: DCTY ha llegado a x0,75 (unos 11,2 millones), que era el límite que me puse para vender, y está cayendo rápido. La vendo entera, como había decidido, aunque todavía tiene más compradores que vendedores."
    ],
    "notes": "He vendido DCTY entera en x0,75 porque llegó al límite que había fijado. No he buscado en la red porque ninguna candidata merecía la compra. Si dentro de unas horas aguanta estable entre 8 y 11 millones, con más compradores que vendedores y más de 400.000 USD por hora, podría volver a entrar con la mitad de lo normal.\n\nNo compro:\n- AudaCity: es una copia y acaba de subir un 58% en 5 minutos.\n- SHIT: es del tema GTA y cae un 22% en una hora.\n- Leonida y GATO: son del tema GTA y pagan promoción.\n- HOGE: tiene poco volumen.\n- Max: es una copia con más vendedores que compradores.\n- CATE y CLAUDIA: están planas y ya perdí con ellas.\n- CBUCKS: casi no tiene volumen.\n\nLección: ya llevo 8 pérdidas seguidas, y en las 5 últimas he entrado en monedas del tema GTA justo en su momento de más atención, el día de mayor ruido. A partir de ahora solo compro monedas de otros temas que lleven horas estables, con volumen en aumento."
+  },
+  {
+   "t": "2026-11-19 07:11 UTC",
+   "market_view": "SOL está plano (+0,1%) y hoy hay dos eventos: el lanzamiento de GTA 6, cuyas monedas ya se están desinflando, y la salida a bolsa de Anthropic en el Nasdaq (ticker ANT). Varias fuentes confirman que empieza a cotizar hoy, 19 de noviembre. ANTS es una moneda de un tema distinto, ya bajó un 19% en 6 horas, ahora se está recuperando y tiene muchos más compradores que vendedores.",
+   "actions": [
+    "buy ejrz94: Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva."
+   ],
+   "notes": "He comprado ANTS (Anthropic) a unos 8,4 millones de valor con el 60% del tamaño normal. Es una apuesta a la atención antes de que Anthropic empiece a cotizar hoy en el Nasdaq, que abre a las 14:30 UTC y suele estrenar las salidas a bolsa entre las 16:00 y las 19:00 UTC. La vendo entera si baja de x0,75 (unos 6,3 millones), si hay más vendedores que compradores en dos revisiones seguidas o si su volumen baja de 300.000 USD por hora. Cuando la acción ya esté cotizando, vendo al menos la mitad aunque vaya ganando, porque el día del evento suele haber una venta masiva, como pasó con DCTY. No compro: monedas de GTA (AudaCity, SHIT, GTASZN, Leonida, GATO), que están en plena venta masiva tras el lanzamiento; HOGE, que casi no tiene volumen; CLAUDIA, que está plana; ni mihao, con la que ya perdí. Lección: llevo 8 pérdidas seguidas, así que entro antes de que llegue la atención, con poco dinero, y vendo cuando llegue la noticia."
   }
  ],
  "buys": [
-  1795058288.5032148
+  1795058288.5032148,
+  1795072298.3251128
  ],
  "cooldown": {
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795064686.204567
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 5.8144,
+  "spent_month": 6.1998,
   "budget_warned": true,
   "day": "2026-11-19",
-  "spent_day": 0.488,
-  "last_decider": 1795064686.204567
+  "spent_day": 0.8734,
+  "last_decider": 1795072298.3251128
  },
  "history": [
   [
@@ -1693,23 +1710,31 @@
   [
    1795071316,
    116.46
+  ],
+  [
+   1795071934,
+   116.62
+  ],
+  [
+   1795072594,
+   115.98
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "cqJFDt8TY7PB"
+  "since": "V4Wzo9taMK99"
  },
- "last_run": "2026-11-19 07:01 UTC",
+ "last_run": "2026-11-19 07:16 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-18",
  "quiet": {
   "day": "2026-11-19",
-  "count": 40
+  "count": 42
  },
- "last_update": 1795071316.2470655,
+ "last_update": 1795072594.5914187,
  "ignored_tokens": {
-  "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795050685.7729874
+  "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795072298.3251128
  }
 }
