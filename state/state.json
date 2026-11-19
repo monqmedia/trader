@@ -15,10 +15,10 @@
    "amount_initial": 1628565654,
    "opened_at": 1795072298.3251128,
    "tp_stage": 0,
-   "realized_usd": 0.0,
-   "peak_multiple": 1.0,
+   "realized_usd": 8.19196412134056,
+   "peak_multiple": 1.311,
    "entry_reason": "Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva.",
-   "multiple": 0.959
+   "multiple": 1.212
   }
  },
  "closed": [
@@ -128,62 +128,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-17 05:06 UTC",
-   "market_view": "SOL sube un poco y no tengo posiciones. CLAUDIA, la moneda de una influencer de IA, casi duplica su precio en una hora, pero aún no se ha parado a descansar. Grand Theft Anthropic lleva varias horas casi plana y tiene casi tres compras por cada venta, a dos días de que salga GTA 6.",
-   "actions": [
-    "buy 2NWgu4: Su precio se ha calmado (+4% en la última hora) y hay casi tres compras por cada venta, con un volumen estable a dos días de que salga GTA 6. Entro con poco porque paga promoción y mis compras anteriores de GTA salieron mal."
-   ],
-   "notes": "Compré poco de Grand Theft Anthropic (GTA). Estas son mis reglas para venderla: si llega a x1,4, vendo la mitad. Si después cae un 20% desde su punto más alto, vendo el resto. Lo vendo todo si baja de x0,85, si hay más ventas que compras en la última hora en dos revisiones seguidas o si su volumen por hora baja de 25.000 USD. Lo que quede lo vendo el 19 de noviembre. Mientras la tenga, no compro otras monedas de GTA (WASTED, Dacity). CLAUDIA es la moneda de una influencer de IA que ya llegó a unos 10,5 millones de capitalización el 8 de noviembre. Ahora vale 7,4 millones. Solo la compraría si se queda 1-2 horas en pausa, con más compradores que vendedores, un volumen por hora de más de 300.000 USD y sin perder más de la mitad de la subida. Sigo sin comprar JOB ni CBUCKS, que pagan promoción, ni PAID, que no tiene fuerza."
-  },
-  {
-   "t": "2026-11-17 05:27 UTC",
-   "market_view": "SOL sube un poco. Grand Theft Anthropic va por x0,92, pero no se cumple ninguna regla de venta: hay el doble de compras que de ventas y unos 57.000 USD de volumen en la última hora. CLAUDIA lleva cerca de una hora plana con muchísimo volumen y algo más de compradores que vendedores, pero todavía no completa las 1-2 horas de pausa que me pedí.",
-   "actions": [],
-   "notes": "Me quedo con Grand Theft Anthropic (GTA), que va por x0,92. Si llega a x1,4, vendo la mitad, y si después cae un 20% desde su punto más alto, vendo el resto. Lo vendo todo en cualquiera de estos casos: si baja de x0,85, si hay más ventas que compras en la última hora en dos revisiones seguidas o si su volumen por hora baja de 25.000 USD. Lo que quede lo vendo el 19 de noviembre. Mientras tenga GTA, no compro otras monedas del mismo tema (WASTED, Dacity). CLAUDIA ya lleva cerca de una hora plana a 7,6 millones de capitalización, con 2,2 millones de USD de volumen en esa hora y 2.735 compradores frente a 2.474 vendedores. En la próxima revisión la compro con la mitad de lo normal (0,5-0,6) si se cumplen tres cosas: sigue entre +/-10% en la última hora, tiene más compradores que vendedores y mueve más de 300.000 USD por hora. No la compro si baja de unos 5,5 millones. Sigo sin comprar JOB, CBUCKS ni BLOB, que pagan promoción, ni PAID, que no tiene fuerza."
-  },
-  {
-   "t": "2026-11-17 05:37 UTC",
-   "market_view": "SOL sube un poco. Grand Theft Anthropic va por x0,95 y no se cumple ninguna regla de venta: hay casi el doble de compras que de ventas y 56.000 USD de volumen en la última hora. CLAUDIA cumple las condiciones que me puse: lleva unas 2 horas casi plana, tiene más compradores que vendedores y mueve 880.000 USD por hora.",
-   "actions": [
-    "buy 2j5SaS: CLAUDIA lleva unas 2 horas en pausa sin perder su subida, con más compradores que vendedores y mucho volumen. Entro con poco porque hay un aviso de cuentas conectadas al creador y el volumen está bajando."
-   ],
-   "notes": "Tengo dos monedas: GTA (Grand Theft Anthropic) y CLAUDIA. Las reglas son iguales para las dos. Si llegan a x1,4, vendo la mitad, y si después caen un 20% desde su punto más alto, vendo el resto. Vendo todo si una baja de x0,85 o si tiene más vendedores que compradores en la última hora en dos revisiones seguidas. También vendo todo si el volumen por hora baja de 25.000 USD en GTA o de 150.000 USD en CLAUDIA. Lo que quede de GTA lo vendo el 19 de noviembre. No compro otras monedas de GTA (WASTED, Dacity) ni otras de influencers de IA. Tampoco compro JOB, CBUCKS ni BLOB, que pagan promoción, ni PAID, CATE o STONK, que no tienen fuerza. Me quedan 3 huecos libres, pero solo los lleno con un tema nuevo que tenga volumen creciente y una pausa de 1-2 horas."
-  },
-  {
-   "t": "2026-11-17 06:00 UTC",
-   "market_view": "SOL sube un poco. Grand Theft Anthropic cae rápido y ha llegado a x0,85, que es mi límite de venta, mientras que CLAUDIA sigue en pausa con mucho volumen y tantas compras como ventas. Ningún candidato es una compra clara: pagan promoción, son del tema GTA o no tienen fuerza.",
-   "actions": [
-    "sell 2NWgu4: GTA llegó a x0,85, mi límite, y cae un 9% en 5 minutos. Vendo todo como había decidido para no esperar a que vuelva a subir."
-   ],
-   "notes": "Vendí GTA en x0,85: es mi cuarta moneda joven que pierde, y la tercera del tema GTA, así que dejo de comprar monedas de GTA (WASTED, GATO, Dacity) hasta que salga el juego. Me quedo con CLAUDIA, que va por x0,94: vendo la mitad si llega a x1,4 y el resto si después cae un 20% desde su punto más alto. La vendo toda si baja de x0,85, si tiene más vendedores que compradores en dos revisiones seguidas o si el volumen por hora baja de 150.000 USD. Me queda 1 compra hoy y solo la uso en un tema nuevo con volumen creciente, muchos compradores distintos y una pausa de 1-2 horas. Sigo sin comprar BLOB, JOB ni CBUCKS, que pagan promoción, ni PAID ni CATE, que no tienen fuerza."
-  },
-  {
-   "t": "2026-11-17 06:31 UTC",
-   "market_view": "SOL sube un 2%. CLAUDIA va por x0,89 y bajó un 19% en la última hora, pero sigue sin cumplirse ninguna regla de venta: hay más compras que ventas y mueve 303.000 USD por hora. BLOB es el único candidato con fuerza de verdad, pero paga promoción y está subiendo otra vez ahora mismo, así que no es buen momento para entrar.",
-   "actions": [],
-   "notes": "Me quedo con CLAUDIA (x0,89). Si llega a x1,4, vendo la mitad, y si después cae un 20% desde su punto más alto, vendo el resto. La vendo toda en cualquiera de estos casos: si baja de x0,85, si tiene más vendedores que compradores en dos revisiones seguidas (ahora tiene más compradores) o si su volumen por hora baja de 150.000 USD (ahora está cerca, en 303.000). Me queda 1 compra hoy. BLOB paga promoción, pero tiene compradores reales: 1.083 compradores frente a 679 vendedores en una hora, 40.700 holders y los 10 mayores solo tienen el 1,5%. La compraría con la mitad de lo normal si pasa 1-2 horas en pausa (entre +/-10% por hora), sigue teniendo más compradores que vendedores y mueve más de 300.000 USD por hora sin bajar de unos 15 millones de capitalización. Sigo sin comprar monedas de GTA (WASTED) hasta que salga el juego, ni JOB o CBUCKS, que pagan promoción y casi no tienen volumen, ni PAID o CATE, que tienen más vendedores."
-  },
-  {
-   "t": "2026-11-17 06:47 UTC",
-   "market_view": "SOL sube un 1,6%. CLAUDIA va por x0,87, cerca de mi límite de x0,85. Su volumen se está hundiendo: ha pasado de 2,2 millones a 222.000 USD por hora, solo ha movido 5.000 USD en los últimos 5 minutos y ya hay más ventas que compras. Ningún candidato es una compra clara: LEOSTAR es del tema GTA (Leonida es el estado donde pasa GTA 6) y BLOB tiene más ventas que compras y todavía no ha tenido su pausa.",
-   "actions": [
-    "sell 2j5SaS: Cada vez menos gente compra CLAUDIA, ya hay más ventas que compras y está a solo un 2-3% de mi límite de x0,85. Vendo todo ahora, porque su interés se está apagando y no voy a esperar a que vuelva a subir."
-   ],
-   "notes": "Vendí CLAUDIA por x0,87 porque la gente perdió el interés: es mi quinta moneda joven seguida que pierde. La lección es que, cuando el volumen ya está bajando, una pausa lateral suele terminar en caída. Solo compro si el volumen de la última hora es igual o mayor que la media por hora de las últimas 6 horas. Me queda 1 compra hoy. No compro monedas de GTA (WASTED, GATO, LEOSTAR/Leonida, Dacity) hasta que salga el juego. BLOB solo la compro con la mitad de lo normal si pasa 1-2 horas en pausa (entre +/-10% por hora), con más compradores que vendedores, más de 300.000 USD por hora y sin bajar de 15 millones de capitalización. Ahora mismo tiene más ventas que compras. Sigo sin comprar JOB ni CBUCKS, que pagan promoción, ni PAID ni CATE, que no tienen fuerza. Prefiero quedarme sin comprar que forzar otra entrada floja."
-  },
-  {
-   "t": "2026-11-17 08:18 UTC",
-   "market_view": "SOL sube un 2,7% y no tengo monedas abiertas. BLOB es el único candidato con fuerza de verdad: mueve 681.000 USD en la última hora, más del doble de su media por hora, y tiene 1.354 compradores frente a 768 vendedores. Aun así, ha caído un 11% en la última hora, así que todavía no está en la pausa tranquila que me pedí.",
-   "actions": [],
-   "notes": "Llevo 5 monedas jóvenes seguidas en pérdida, así que solo uso la compra que me queda hoy si veo una ventaja clara. Compro BLOB con la mitad de lo normal (0,5) solo si se cumplen cuatro cosas: pasa 1 hora entre -10% y +10%, sigue con más compradores que vendedores, el volumen de la última hora es igual o mayor que su media por hora de las últimas 6 horas (unos 260.000 USD) y no baja de 15 millones de capitalización (ahora tiene 17,3 millones). Si la compro, la vendo toda si baja de x0,85 o si tiene más vendedores que compradores en dos revisiones seguidas. No compro monedas del tema GTA (LEOSTAR, WASTED, GATO, Dacity) hasta que salga el juego. Tampoco compro JOB, que paga promoción y tiene más ventas que compras; STONK, que casi no mueve volumen; ni CATE, que tiene más vendedores que compradores."
-  },
-  {
-   "t": "2026-11-17 14:20 UTC",
-   "market_view": "SOL sube un 3,6% y no tengo monedas abiertas. BLOB sigue cayendo (-12% en la última hora y -32% en 6 horas) y ya vale 12,5 millones, menos que mi mínimo de 15 millones, así que no cumple mis condiciones. Ningún otro candidato da una ventaja clara.",
-   "actions": [],
-   "notes": "Llevo 5 monedas jóvenes seguidas en pérdida y me queda 1 compra hoy, así que solo compro si veo una ventaja clara. Ya no compro BLOB: bajó de 15 millones de capitalización y cae sin pausa. Vigilo CATE: su volumen está subiendo (65.000 USD en la última hora frente a una media de unos 25.000), sube poco a poco sin picos fuertes y tiene más compradores que vendedores. La compraría con la mitad de lo normal como apuesta estable si mantiene esto otra revisión más y supera los 80.000 USD por hora. Sigo sin comprar monedas del tema GTA (WASTED, GATO, LEOSTAR, Dacity) hasta que salga el juego. Tampoco compro JOB ni CBUCKS, que pagan promoción y tienen pocas compras. STONK solo la compro si su volumen pasa de 150.000 USD por hora."
-  },
   {
    "t": "2026-11-17 14:41 UTC",
    "market_view": "SOL sube un 2,5% y no tengo monedas abiertas. CATE cumple las condiciones que me puse: mueve 84.500 USD en la última hora, casi el triple de su media por hora (unos 31.000), y sube poco a poco (+7% en 1 hora, +14% en 6 horas). Además, tiene algo más de compradores que de vendedores. Las demás no sirven: BLOB sigue cayendo y paga promoción, STONK mueve poco volumen, WASTED y GATO son del tema GTA, y JOB y CBUCKS pagan promoción.",
@@ -329,6 +273,56 @@
     "buy ejrz94: Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva."
    ],
    "notes": "He comprado ANTS (Anthropic) a unos 8,4 millones de valor con el 60% del tamaño normal. Es una apuesta a la atención antes de que Anthropic empiece a cotizar hoy en el Nasdaq, que abre a las 14:30 UTC y suele estrenar las salidas a bolsa entre las 16:00 y las 19:00 UTC. La vendo entera si baja de x0,75 (unos 6,3 millones), si hay más vendedores que compradores en dos revisiones seguidas o si su volumen baja de 300.000 USD por hora. Cuando la acción ya esté cotizando, vendo al menos la mitad aunque vaya ganando, porque el día del evento suele haber una venta masiva, como pasó con DCTY. No compro: monedas de GTA (AudaCity, SHIT, GTASZN, Leonida, GATO), que están en plena venta masiva tras el lanzamiento; HOGE, que casi no tiene volumen; CLAUDIA, que está plana; ni mihao, con la que ya perdí. Lección: llevo 8 pérdidas seguidas, así que entro antes de que llegue la atención, con poco dinero, y vendo cuando llegue la noticia."
+  },
+  {
+   "t": "2026-11-19 07:26 UTC",
+   "market_view": "SOL está plano (-0,5%). Las monedas de GTA siguen desinflándose tras el lanzamiento, y la atención se va moviendo hacia la salida a bolsa de Anthropic, que es hoy. ANTS sube un 28% en la última hora y mueve 876.000 USD por hora.",
+   "actions": [],
+   "notes": "Mantengo ANTS (x1,10, unos 9,3 millones de valor). Ojo: en la última hora hubo algo más de ventas que de compras (3.659 frente a 3.331), así que esta es la primera revisión con más vendedores. Si en la próxima revisión vuelve a pasar, la vendo entera. También la vendo entera si baja de x0,75 (unos 6,3 millones) o si su volumen cae por debajo de 300.000 USD por hora. Cuando Anthropic ya cotice (entre las 16:00 y las 19:00 UTC), vendo al menos la mitad aunque vaya ganando. Si antes de eso sube por encima de x2 de forma vertical, vendo un tercio para asegurar ganancias. No compro nada nuevo:\n- AudaCity, SHIT, GTASZN, Leonida y GATO: son monedas de GTA y siguen en plena venta.\n- SHIT: además tiene compras muy raras (6 por cada venta) y un aviso de cuentas que actúan juntas.\n- HOGE: casi no tiene volumen.\n- CLAUDIA y CATE: están planas y ya perdí con ellas.\n- mihao: ya perdí con ella y tiene más ventas que compras.\n\nLección: no perseguir subidas; vender según las reglas que me he puesto."
+  },
+  {
+   "t": "2026-11-19 07:27 UTC",
+   "market_view": "SOL está plano (-0,4%). Las monedas de GTA siguen bajando tras el lanzamiento y la atención se va hacia la salida a bolsa de Anthropic, que es hoy. ANTS sube un 58% en una hora, una subida casi vertical, mientras hay más ventas que compras.",
+   "actions": [
+    "sell ejrz94: ANTS sube casi en vertical (x1,17) y por segunda revisión seguida hay más ventas que compras (3.627 frente a 3.319). Vendo la mitad para asegurar ganancia y dejo la otra mitad para aprovechar la atención antes de que Anthropic empiece a cotizar."
+   ],
+   "notes": "He vendido la mitad de ANTS en x1,17, a unos 9,9 millones de valor. No la vendí entera porque la revisión anterior fue hace solo un minuto y casi no hay datos nuevos, y porque el precio sigue subiendo. Con la otra mitad, la vendo entera si baja de x0,9 (unos 7,6 millones), si en la próxima revisión (dentro de más de 30 minutos) sigue habiendo más ventas que compras, si su volumen baja de 300.000 USD por hora o cuando Anthropic ya cotice (entre las 16:00 y las 19:00 UTC). No compro nada: AudaCity, SHIT, GTASZN, Leonida y GATO son de GTA y siguen bajando; HOGE casi no tiene volumen; CLAUDIA y CATE están planas; y con mihao ya perdí. Lección: cuando una moneda suba rápido antes de su noticia, conviene asegurar parte de la ganancia en vez de esperar a que se pierda, como pasó con GTA6 y BAWSAQ."
+  },
+  {
+   "t": "2026-11-19 07:29 UTC",
+   "market_view": "SOL está plano (-0,3%). Las monedas de GTA siguen bajando tras el lanzamiento y la atención se va hacia la salida a bolsa de Anthropic, que es hoy. ANTS sigue en x1,16, casi igual que hace dos minutos, después de que vendiera la mitad.",
+   "actions": [],
+   "notes": "Mantengo la otra mitad de ANTS (x1,16, unos 10 millones de valor), porque solo han pasado 2 minutos desde la venta y no hay datos nuevos. La vendo entera en cualquiera de estos casos: baja de x0,9 (unos 7,6 millones), en la próxima revisión (dentro de más de 30 minutos) siguen las ventas por encima de las compras, su volumen baja de 300.000 USD por hora o Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC). Si se dispara hasta x3, la venta automática se encarga de una parte. No compro nada: AudaCity (DacityCoin), SHIT, GTASZN, Leonida y GATO son de GTA y siguen bajando; HOGE casi no tiene volumen; CLAUDIA está plana y con mihao ya perdí. Lección: cuando aparezca una alerta de subida rápida justo después de vender, no hay que reaccionar a cada minuto. Mejor seguir las reglas que ya me puse."
+  },
+  {
+   "t": "2026-11-19 07:30 UTC",
+   "market_view": "SOL está plano (-0,4%). Las monedas de GTA siguen bajando tras el lanzamiento y la atención va hacia la salida a bolsa de Anthropic, que es hoy. ANTS está en x1,16, igual que hace un minuto, así que la alerta no trae nada nuevo.",
+   "actions": [],
+   "notes": "Mantengo la otra mitad de ANTS (x1,16, unos 9,9 millones de valor), porque solo ha pasado un minuto y no hay datos nuevos. En la última hora sigue habiendo algo más de ventas que de compras (3.468 frente a 3.136), aunque el volumen es alto (798.000 USD por hora).\n\nLa vendo entera en cualquiera de estos casos:\n- Baja de x0,9 (unos 7,6 millones).\n- En la próxima revisión de verdad, desde las 08:00 UTC, sigue habiendo más ventas que compras.\n- Su volumen baja de 300.000 USD por hora.\n- Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC).\n\nNo compro nada:\n- DacityCoin (AudaCity), SHIT, GTASZN, Leonida y GATO son del tema GTA y siguen bajando.\n- HOGE casi no tiene volumen.\n- CLAUDIA está plana y ya perdí con ella.\n- Con mihao también perdí.\n\nLección: si llega una alerta sin cambios en el precio, no hago nada y sigo mis reglas."
+  },
+  {
+   "t": "2026-11-19 07:32 UTC",
+   "market_view": "SOL está plano (-0,4%). ANTS sube un 61% en una hora y está en x1,21 antes de la salida a bolsa de Anthropic, aunque sigue habiendo algo más de ventas que de compras. Las monedas de GTA siguen bajando tras el lanzamiento.",
+   "actions": [],
+   "notes": "Mantengo la otra mitad de ANTS (x1,21, unos 10,4 millones de valor). Solo han pasado 2 minutos desde la última revisión y el precio apenas ha cambiado. Ya vendí la mitad en x1,17, así que no vuelvo a vender por una alerta.\n\nVendo el resto de ANTS si pasa cualquiera de estas cosas:\n- Baja de x0,9 (unos 7,6 millones).\n- Pierde la mayor parte de la subida y vuelve por debajo de x1,05 (unos 8,9 millones).\n- En la revisión de las 08:00 UTC o más tarde sigue habiendo más ventas que compras.\n- Su volumen baja de 300.000 USD por hora.\n- Anthropic empieza a cotizar, entre las 16:00 y las 19:00 UTC.\n\nNo compro nada:\n- DacityCoin, SHIT, GTASZN, Leonida y GATO son monedas de GTA y siguen bajando.\n- HOGE casi no tiene volumen.\n- CLAUDIA está plana y ya perdí con ella.\n- Con mihao también perdí, y tiene tantas ventas como compras.\n\nLección: si llega una alerta y el precio apenas ha cambiado, no hago nada y sigo las reglas que ya me puse."
+  },
+  {
+   "t": "2026-11-19 07:33 UTC",
+   "market_view": "SOL está plano (-0,4%). ANTS está en x1,23, apenas por encima de la revisión anterior, antes de que Anthropic empiece a cotizar en bolsa. Las monedas de GTA siguen bajando después del lanzamiento del juego.",
+   "actions": [],
+   "notes": "Mantengo la otra mitad de ANTS (x1,23, unos 10,5 millones de valor). Solo ha pasado un minuto, el precio casi no ha cambiado y ya vendí la mitad en x1,17. En la última hora sigue habiendo algo más de ventas que de compras (3.416 frente a 3.115), aunque mueve mucho dinero: 771.000 USD por hora.\n\nVendo el resto de ANTS si pasa cualquiera de estas cosas:\n- Baja de x0,9 (unos 7,6 millones).\n- Vuelve por debajo de x1,05 (unos 8,9 millones).\n- En la revisión de las 08:00 UTC o más tarde sigue habiendo más ventas que compras.\n- Su volumen baja de 300.000 USD por hora.\n- Anthropic empieza a cotizar, entre las 16:00 y las 19:00 UTC.\n\nSi sube en vertical hasta x2, vendo otra parte.\n\nNo compro nada:\n- DacityCoin, GTASZN, SHIT, Leonida y GATO son monedas de GTA y siguen bajando.\n- HOGE casi no tiene volumen.\n- CLAUDIA tiene más ventas que compras y ya perdí con ella.\n- Con mihao también perdí y está plana.\n\nLección: si una alerta llega con el precio casi igual, no hago nada y sigo mis reglas."
+  },
+  {
+   "t": "2026-11-19 07:34 UTC",
+   "market_view": "SOL está plano (-0,2%). ANTS sube con fuerza antes de que Anthropic empiece a cotizar en bolsa y está en x1,31, aunque en la última hora sigue habiendo algo más de ventas que de compras. Las monedas de GTA siguen perdiendo fuerza.",
+   "actions": [],
+   "notes": "Mantengo la mitad que queda de ANTS en x1,31 (unos 10,9 millones de valor), porque ya vendí la otra mitad en x1,17 y la atención sigue creciendo antes de la salida a bolsa. Ahora el límite para vender lo subo a x1,1 (unos 9,2 millones) para no perder toda la ganancia, como pasó con GTA6 (llegó a x1,55 y la cerré en x0,89) y con BAWSAQ (llegó a x1,41 y la cerré en x0,87). También vendo todo si en la revisión de las 08:00 UTC o más tarde sigue habiendo más ventas que compras, si el volumen baja de 300.000 USD por hora o cuando Anthropic empiece a cotizar (entre las 16:00 y las 19:00 UTC). Si sube en vertical hasta x2, vendo otra parte. No compro nada: DacityCoin, GTASZN, SHIT, Leonida y GATO son de GTA y siguen bajando; HOGE y CBUCKS casi no tienen volumen; con CLAUDIA y mihao ya perdí. Lección: cuando una moneda sube, también hay que subir el límite para vender y así proteger la ganancia."
+  },
+  {
+   "t": "2026-11-19 07:36 UTC",
+   "market_view": "SOL está plano (-0,1%). ANTS bajó de x1,31 a x1,21 en dos minutos antes de que Anthropic empiece a cotizar en bolsa. La alerta no trae nada nuevo y en la última hora sigue habiendo algo más de ventas que de compras (3.416 frente a 3.149). Las monedas de GTA siguen perdiendo fuerza.",
+   "actions": [],
+   "notes": "Mantengo la mitad que queda de ANTS en x1,21 (unos 10,2 millones de valor). Ya vendí la otra mitad en x1,17 y todavía no ha tocado ninguno de mis límites. Vendo el resto si pasa cualquiera de estas cosas: baja de x1,1 (unos 9,2 millones); en la revisión de las 08:00 UTC o más tarde sigue habiendo más ventas que compras; el volumen baja de 300.000 USD por hora; o Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC). Si sube en vertical hasta x2, vendo otra parte. No compro nada: DacityCoin, GTASZN, SHIT, Leonida y GATO son de GTA y siguen bajando; HOGE y CBUCKS casi no tienen volumen; con CLAUDIA y mihao ya perdí. Lección: no hay que reaccionar a cada alerta de pocos minutos, sino seguir los límites ya fijados."
   }
  ],
  "buys": [
@@ -340,11 +334,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 6.2012,
+  "spent_month": 6.8592,
   "budget_warned": true,
   "day": "2026-11-19",
-  "spent_day": 0.8748,
-  "last_decider": 1795072298.3251128
+  "spent_day": 1.5328,
+  "last_decider": 1795073763.2856472
  },
  "history": [
   [
@@ -1718,22 +1712,26 @@
   [
    1795072594,
    115.98
+  ],
+  [
+   1795073270,
+   118.45
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "KKXSVJKgLJIS"
+  "since": "QSjCyFNKACih"
  },
- "last_run": "2026-11-19 07:19 UTC",
+ "last_run": "2026-11-19 07:36 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-18",
  "quiet": {
   "day": "2026-11-19",
-  "count": 42
+  "count": 43
  },
- "last_update": 1795072594.5914187,
+ "last_update": 1795073270.7556071,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795072298.3251128
  }
