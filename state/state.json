@@ -6,7 +6,21 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {},
+ "positions": {
+  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": {
+   "symbol": "DCTY",
+   "name": "DacityCoin",
+   "tier": "joven",
+   "cost_usd": 14.082149168744122,
+   "amount_initial": 906681819,
+   "opened_at": 1795058288.5032148,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.0,
+   "entry_reason": "Según varias noticias, en vídeos del juego aparece una moneda con el mismo nombre y ticker (DCTY), y millones de jugadores la verán desde hoy. Mueve 1,25 millones por hora, tiene más compradores que vendedores (3.732 frente a 2.807) y sube un 12% en la hora, sin ir en vertical. Entro con algo más de la mitad porque es una moneda del tema GTA el día del lanzamiento y hay aviso de cuentas conectadas al creador.",
+   "multiple": 0.977
+  }
+ },
  "closed": [
   {
    "symbol": "GTA6",
@@ -101,12 +115,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-17 03:29 UTC",
-   "market_view": "SOL está plano. BAWSAQ va por x1,37, en su punto más alto. En la última hora tiene el doble de compras que de ventas y unos 130.000 USD de volumen, así que la moda sigue viva y no hay ninguna regla de venta que se cumpla. Ningún candidato es una compra clara, porque casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
-   "actions": [],
-   "notes": "Me quedo con la mitad de BAWSAQ, que va por x1,37. Contando lo que ya vendí, voy unos 1 USD en ganancia. Ha subido muy rápido (+79% en una hora, +15% en 5 minutos), así que puede caer de golpe. Si llega a x1,5 o más y luego cae más de un 30% desde su punto más alto, vendo casi todo. También vendo el resto en cualquiera de estos casos: si baja de x1,0, si hay más vendedores que compradores en la última hora en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD. Lo que quede lo vendo el 19 de noviembre, cuando sale GTA 6. Una alerta de subida no es motivo para vender si no se cumple ninguna regla. Mientras tenga BAWSAQ, no compro otras monedas de GTA (Grand Theft Anthropic, Dacity, AudaCity, GATO). Tampoco compro JOB ni CBUCKS, que pagan promoción, ni PAID ni CATE, que son viejas y no tienen fuerza. Para los huecos libres busco un tema nuevo con volumen creciente y muchos compradores distintos, y antes de entrar espero a que el precio lleve al menos 1-2 horas en pausa."
-  },
   {
    "t": "2026-11-17 03:30 UTC",
    "market_view": "SOL está plano. BAWSAQ va por x1,36, cerca de su punto más alto (x1,39). En la última hora tiene el doble de compras que de ventas y unos 134.000 USD de volumen, así que la moda sigue viva y no se cumple ninguna regla de venta. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
@@ -298,19 +306,29 @@
    "market_view": "SOL está plano (-0,12%) y casi todo el mercado sigue girando alrededor de GTA 6, que sale mañana 19 de noviembre. La moneda más fuerte, DCTY, ha subido de forma vertical por el rumor de que aparece en el móvil del juego, pero ese rumor no está confirmado y comprar ahora sería entrar en un pico. HOGE ya no cumple mis condiciones porque su volumen se ha hundido.",
    "actions": [],
    "notes": "No compro nada. No tengo posiciones, tengo 117,25 USD en efectivo y me quedan 5 compras hoy.\n\nDCTY (DacityCoin) vale unos 11,2 millones y ha subido un 33.700% en un día. Una noticia dice que sube por el rumor, no confirmado, de que sale en el móvil de GTA 6, así que es del tema GTA. En la última hora está plana (+0,1%), con más compradores que vendedores (6.281 frente a 4.382), pero mueve 1,15 millones por hora frente a unos 5 millones por hora de media en las últimas 6 horas. Solo la miraré después del lanzamiento si se confirma que sale en el juego, si baja entre un 30% y un 40% desde su máximo y si se mantiene estable al menos 2 horas con más compradores que vendedores. En ese caso compraría con la mitad de lo normal. AudaCity (otra DacityCoin) es una copia que se ha hundido un 82%, así que la descarto.\n\nHOGE vale 1,25 millones, pero solo mueve 56.000 USD por hora, muy por debajo de mi mínimo de 150.000. Además baja un 11% en la última hora. Está descartada salvo que su volumen vuelva a superar los 150.000 USD por hora.\n\nNo compro:\n- Monedas del tema GTA (GTA6, VTC/VICE 6, Leonida, GATO, DCTY, DacityCoin) hasta que pase el lanzamiento y alguna aguante estable varias horas.\n- Max: es una copia y tiene más vendedores que compradores.\n- mihao: sigue cayendo.\n\nLección: mis 7 operaciones cerradas acabaron en pérdida por entrar cerca de un pico. Esperar sigue siendo mejor que perseguir subidas."
+  },
+  {
+   "t": "2026-11-19 03:18 UTC",
+   "market_view": "SOL baja un 2,3% y hoy sale GTA 6. DCTY es la única moneda del tema que tiene una noticia de verdad detrás: varias webs cuentan que en vídeos del juego aparece una moneda falsa llamada DacityCoin (DCTY) en el móvil. Además sube poco a poco, sin picos bruscos, y mantiene un volumen alto.",
+   "actions": [
+    "buy 9hjBLB: Según varias noticias, en vídeos del juego aparece una moneda con el mismo nombre y ticker (DCTY), y millones de jugadores la verán desde hoy. Mueve 1,25 millones por hora, tiene más compradores que vendedores (3.732 frente a 2.807) y sube un 12% en la hora, sin ir en vertical. Entro con algo más de la mitad porque es una moneda del tema GTA el día del lanzamiento y hay aviso de cuentas conectadas al creador."
+   ],
+   "notes": "He comprado DCTY a unos 15,1 millones de valor, con algo más de la mitad del tamaño normal. Es una apuesta a que el juego le dé atención durante días, no a un rebote rápido. La vendo entera si baja de x0,75 (unos 11,3 millones), si hay más vendedores que compradores en dos revisiones seguidas o si su volumen baja de 400.000 USD por hora. Si Rockstar dice que no tiene nada que ver o la atención se va a otra copia, también la vendo. No compro otras monedas de GTA mientras tenga DCTY. Descarto: Leonida (paga promoción y tiene más vendedores), HOGE (más ventas que compras), VTC (ventas raras), GATO (cae), CLAUDIA (plana) y STONK (sin impulso)."
   }
  ],
- "buys": [],
+ "buys": [
+  1795058288.5032148
+ ],
  "cooldown": {
   "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794972974.317606
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 5.3506,
+  "spent_month": 5.617,
   "budget_warned": true,
   "day": "2026-11-19",
-  "spent_day": 0.0242,
-  "last_decider": 1795036495.5987751
+  "spent_day": 0.2906,
+  "last_decider": 1795058288.5032148
  },
  "history": [
   [
@@ -1588,22 +1606,26 @@
   [
    1795057514,
    117.52
+  ],
+  [
+   1795058167,
+   117.21
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "8hN0r75YgP27"
+  "since": "fuxQJSfy1RRK"
  },
- "last_run": "2026-11-19 03:07 UTC",
+ "last_run": "2026-11-19 03:23 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-18",
  "quiet": {
   "day": "2026-11-19",
-  "count": 18
+  "count": 19
  },
- "last_update": 1795057514.9786153,
+ "last_update": 1795058167.3603587,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795050685.7729874
  }
