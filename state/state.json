@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.013,
    "entry_reason": "Según varias noticias, en vídeos del juego aparece una moneda con el mismo nombre y ticker (DCTY), y millones de jugadores la verán desde hoy. Mueve 1,25 millones por hora, tiene más compradores que vendedores (3.732 frente a 2.807) y sube un 12% en la hora, sin ir en vertical. Entro con algo más de la mitad porque es una moneda del tema GTA el día del lanzamiento y hay aviso de cuentas conectadas al creador.",
-   "multiple": 0.899
+   "multiple": 0.912
   }
  },
  "closed": [
@@ -115,12 +115,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-17 03:30 UTC",
-   "market_view": "SOL está plano. BAWSAQ va por x1,36, cerca de su punto más alto (x1,39). En la última hora tiene el doble de compras que de ventas y unos 134.000 USD de volumen, así que la moda sigue viva y no se cumple ninguna regla de venta. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
-   "actions": [],
-   "notes": "Me quedo con la mitad de BAWSAQ, que va por x1,36 con un máximo de x1,39. Contando lo que ya vendí, voy un poco en ganancia. Sube muy rápido (+70% en una hora), así que puede caer de golpe. Si llega a x1,5 o más y luego cae más de un 30% desde su punto más alto, vendo casi todo. También vendo el resto en cualquiera de estos casos: si baja de x1,0, si en la última hora hay más vendedores que compradores en dos revisiones seguidas o si su volumen por hora baja de 30.000 USD. Lo que quede lo vendo el 19 de noviembre, cuando sale GTA 6. Una alerta de subida no es motivo para vender si no se cumple ninguna regla. Mientras tenga BAWSAQ, no compro otras monedas de GTA (Grand Theft Anthropic, Dacity, AudaCity, GATO, WASTED). Tampoco compro JOB ni CBUCKS, que pagan promoción, ni PAID ni CATE, que son viejas y no tienen fuerza. Para los huecos libres busco un tema nuevo con volumen creciente y muchos compradores distintos, y antes de entrar espero a que el precio lleve al menos 1-2 horas en pausa."
-  },
   {
    "t": "2026-11-17 03:38 UTC",
    "market_view": "SOL está plano. BAWSAQ cayó de golpe a x0,95 desde su máximo de x1,41 y baja un 11% en 5 minutos, así que ha cruzado mi límite de x1,0. Ningún candidato es una compra clara: casi todos son del tema GTA, pagan promoción o son monedas viejas sin fuerza.",
@@ -314,6 +308,12 @@
     "buy 9hjBLB: Según varias noticias, en vídeos del juego aparece una moneda con el mismo nombre y ticker (DCTY), y millones de jugadores la verán desde hoy. Mueve 1,25 millones por hora, tiene más compradores que vendedores (3.732 frente a 2.807) y sube un 12% en la hora, sin ir en vertical. Entro con algo más de la mitad porque es una moneda del tema GTA el día del lanzamiento y hay aviso de cuentas conectadas al creador."
    ],
    "notes": "He comprado DCTY a unos 15,1 millones de valor, con algo más de la mitad del tamaño normal. Es una apuesta a que el juego le dé atención durante días, no a un rebote rápido. La vendo entera si baja de x0,75 (unos 11,3 millones), si hay más vendedores que compradores en dos revisiones seguidas o si su volumen baja de 400.000 USD por hora. Si Rockstar dice que no tiene nada que ver o la atención se va a otra copia, también la vendo. No compro otras monedas de GTA mientras tenga DCTY. Descarto: Leonida (paga promoción y tiene más vendedores), HOGE (más ventas que compras), VTC (ventas raras), GATO (cae), CLAUDIA (plana) y STONK (sin impulso)."
+  },
+  {
+   "t": "2026-11-19 04:39 UTC",
+   "market_view": "SOL está plano (-0,4%) y hoy sale GTA 6, así que casi todo el mercado sigue girando alrededor de ese tema. DCTY aguanta estable, con mucho volumen y más compradores que vendedores, y ninguna otra candidata tiene una oportunidad clara ahora mismo.",
+   "actions": [],
+   "notes": "Mantengo DCTY (x0,94, unos 14 millones de valor): mueve 833.000 USD por hora y tiene casi el doble de compras que de ventas (4.117 frente a 2.325). La vendo entera si baja de x0,75 (unos 11,3 millones), si hay más vendedores que compradores en dos revisiones seguidas, si su volumen baja de 400.000 USD por hora o si Rockstar dice que no tiene nada que ver con ella. Si llega a x3, la venta automática se encarga de una parte. No compro otras monedas de GTA mientras tenga DCTY (Leonida, GATO y SHIT, que es una frase de GTA San Andreas). Descarto también: HOGE (solo mueve 21.000 USD por hora), Max (es una copia y tiene casi el doble de vendedores), mihao (más ventas que compras), CLAUDIA (plana y ya perdí con ella) y CATE (poco volumen y ya perdí con ella). Solo compraré algo nuevo si es de otro tema, lleva tiempo estable después de una subida, tiene más compradores que vendedores y su volumen va en aumento. Lección: mis 7 operaciones cerradas acabaron en pérdida por entrar cerca de un pico, así que es mejor esperar que comprar lo que ya está subiendo."
   }
  ],
  "buys": [
@@ -322,11 +322,11 @@
  "cooldown": {},
  "ai": {
   "month": "2026-11",
-  "spent_month": 5.6262,
+  "spent_month": 5.7096,
   "budget_warned": true,
   "day": "2026-11-19",
-  "spent_day": 0.2998,
-  "last_decider": 1795058288.5032148
+  "spent_day": 0.3832,
+  "last_decider": 1795063195.7903342
  },
  "history": [
   [
@@ -1636,22 +1636,26 @@
   [
    1795062577,
    117.72
+  ],
+  [
+   1795063195,
+   118.81
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "k170lawE16un"
+  "since": "x4HbPPSQkRVE"
  },
- "last_run": "2026-11-19 04:29 UTC",
+ "last_run": "2026-11-19 04:45 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-18",
  "quiet": {
   "day": "2026-11-19",
-  "count": 26
+  "count": 27
  },
- "last_update": 1795062577.1293845,
+ "last_update": 1795063195.7903342,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795050685.7729874
  }
