@@ -6,21 +6,7 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {
-  "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": {
-   "symbol": "ANTS",
-   "name": "Anthropic",
-   "tier": "joven",
-   "cost_usd": 13.985484478194767,
-   "amount_initial": 1628565654,
-   "opened_at": 1795072298.3251128,
-   "tp_stage": 0,
-   "realized_usd": 13.274038463042064,
-   "peak_multiple": 2.094,
-   "entry_reason": "Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva.",
-   "multiple": 1.171
-  }
- },
+ "positions": {},
  "closed": [
   {
    "symbol": "GTA6",
@@ -125,6 +111,19 @@
    "closed": "2026-11-19 05:04 UTC",
    "entry_reason": "Según varias noticias, en vídeos del juego aparece una moneda con el mismo nombre y ticker (DCTY), y millones de jugadores la verán desde hoy. Mueve 1,25 millones por hora, tiene más compradores que vendedores (3.732 frente a 2.807) y sube un 12% en la hora, sin ir en vertical. Entro con algo más de la mitad porque es una moneda del tema GTA el día del lanzamiento y hay aviso de cuentas conectadas al creador.",
    "exit_reason": "DCTY ha llegado a x0,75 (unos 11,2 millones), que era el límite que me puse para vender, y está cayendo rápido. La vendo entera, como había decidido, aunque todavía tiene más compradores que vendedores."
+  },
+  {
+   "symbol": "ANTS",
+   "mint": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
+   "tier": "joven",
+   "cost_usd": 13.99,
+   "returned_usd": 16.68,
+   "result_multiple": 1.19,
+   "peak_multiple": 2.09,
+   "opened": "2026-11-19 07:11 UTC",
+   "closed": "2026-11-19 14:18 UTC",
+   "entry_reason": "Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva.",
+   "exit_reason": "caída brusca: de x1.64 a x0.97 en pocos minutos. Venta de emergencia"
   }
  ],
  "journal": [
@@ -324,7 +323,8 @@
   1795072298.3251128
  ],
  "cooldown": {
-  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795064686.204567
+  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795064686.204567,
+  "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795097891.5522919
  },
  "ai": {
   "month": "2026-11",
@@ -1858,22 +1858,30 @@
   [
    1795096364,
    119.16
+  ],
+  [
+   1795097025,
+   120.28
+  ],
+  [
+   1795097649,
+   120.13
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "ichET4ukjrYm"
+  "since": "NMe60Ye76zpY"
  },
- "last_run": "2026-11-19 14:02 UTC",
+ "last_run": "2026-11-19 14:18 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-19",
  "quiet": {
   "day": "2026-11-19",
-  "count": 80
+  "count": 82
  },
- "last_update": 1795096364.9186974,
+ "last_update": 1795097649.3882313,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795093924.7228816
  }
