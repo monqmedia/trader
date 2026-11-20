@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.014,
    "entry_reason": "LOOSY cumple la condición que me puse: mueve más de 70.000 USD por hora y tiene más del doble de compradores que de vendedores, sin subir en vertical. Entro con la mitad porque paga promoción, las compras son muy pequeñas (posibles robots) y en internet no encontré una noticia clara.",
-   "multiple": 0.883
+   "multiple": 0.926
   }
  },
  "closed": [
@@ -353,10 +353,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 9.7825,
+  "spent_month": 9.7839,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 1.8823,
+  "spent_day": 1.8837,
   "last_decider": 1795178736.6446173
  },
  "history": [
@@ -2415,23 +2415,31 @@
   [
    1795179455,
    107.2
+  ],
+  [
+   1795180072,
+   106.22
+  ],
+  [
+   1795180688,
+   106.18
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "EYJ65O34lgZ7"
+  "since": "if4v7K4ygiEh"
  },
- "last_run": "2026-11-20 13:06 UTC",
+ "last_run": "2026-11-20 13:22 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-20",
  "quiet": {
   "day": "2026-11-20",
-  "count": 75
+  "count": 77
  },
- "last_update": 1795179455.2519534,
+ "last_update": 1795180688.1391444,
  "ignored_tokens": {
-  "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795158784.9714284
+  "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795180433.93755
  }
 }
