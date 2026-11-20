@@ -349,16 +349,15 @@
   1795178736.6446173
  ],
  "cooldown": {
-  "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795097891.5522919,
   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795152333.667615,
   "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795183016.3207066
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 10.1092,
+  "spent_month": 10.1104,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 2.209,
+  "spent_day": 2.2102,
   "last_decider": 1795183016.3207066
  },
  "history": [
@@ -2445,22 +2444,30 @@
   [
    1795183843,
    105.85
+  ],
+  [
+   1795184495,
+   105.95
+  ],
+  [
+   1795185113,
+   106.14
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "43d2mD5E5WnY"
+  "since": "6LRS8tQdfKxV"
  },
- "last_run": "2026-11-20 14:16 UTC",
+ "last_run": "2026-11-20 14:31 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-20",
  "quiet": {
   "day": "2026-11-20",
-  "count": 82
+  "count": 84
  },
- "last_update": 1795183843.0924509,
+ "last_update": 1795185113.3393779,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795180433.93755
  }
