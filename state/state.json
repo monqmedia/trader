@@ -2146,22 +2146,26 @@
   [
    1795141158,
    114.79
+  ],
+  [
+   1795141773,
+   114.12
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "67ztSglMCipf"
+  "since": "IA475GC9O7NU"
  },
- "last_run": "2026-11-20 02:28 UTC",
+ "last_run": "2026-11-20 02:31 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-19",
  "quiet": {
   "day": "2026-11-20",
-  "count": 14
+  "count": 15
  },
- "last_update": 1795141158.6366718,
+ "last_update": 1795141773.676189,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795137178.5726144
  }
