@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.125,
    "entry_reason": "La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador.",
-   "multiple": 1.011
+   "multiple": 0.89
   }
  },
  "closed": [
@@ -141,12 +141,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-18 14:52 UTC",
-   "market_view": "SOL está plano (+0,16%) y el mercado sigue dominado por las monedas de GTA, a un día del lanzamiento del juego. HOGE ha bajado de 1,8 a unos 1,46 millones y cae un 20% en 5 minutos, así que todavía no está estable y no conviene comprarla.",
-   "actions": [],
-   "notes": "No compro nada. No tengo posiciones, tengo 118,69 USD en efectivo y me quedan 5 compras hoy.\n\nHOGE ha retrocedido un 20% desde su máximo, todavía mueve 244.000 USD por hora y tiene algo más de compradores que vendedores (632 frente a 560). Pero sigue cayendo con fuerza, paga promoción y avisa de posibles cuentas conectadas al creador. Solo la compraré con la mitad de lo normal si se cumplen todas estas condiciones:\n- se mantiene entre 1,1 y 1,4 millones al menos 2 horas, sin caídas de más del 10% en 5 minutos;\n- tiene más compradores que vendedores;\n- mueve más de 150.000 USD por hora;\n- su volumen vuelve a subir.\nAntes de comprarla, buscaré en X si su comunidad es real.\n\nNo compro:\n- Monedas del tema GTA (GTA, GTA6, GTAVI, Leonida, WASTED, DacityCoin, SHIT, GATO) hasta que pase el lanzamiento del 19 de noviembre y alguna aguante estable varias horas.\n- Max: es una copia y tiene casi el doble de vendedores que de compradores.\n- CLAUDIA: está plana, tiene más vendedores y ya perdí con ella.\n- CBUCKS: paga promoción y casi no tiene volumen.\n\nLección: mis 7 operaciones cerradas acabaron en pérdida por entrar cerca de un pico. Esperar sigue siendo mejor que perseguir subidas."
-  },
   {
    "t": "2026-11-18 15:13 UTC",
    "market_view": "SOL sube un 1,35% y el mercado sigue dominado por las monedas de GTA, a un día del lanzamiento del juego, cuando suelen caer. HOGE ha bajado a unos 1,34 millones y está dentro de mi zona de compra, pero solo lleva unos 20 minutos ahí y cae un 15% en la última hora, así que todavía no está estable.",
@@ -332,6 +326,12 @@
     "buy B34nXK: La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador."
    ],
    "notes": "Compré FIONA a unos 2,08 millones de valor y estos son los límites. Vendo todo si baja a x0,7 (unos 1,45 millones) o si, en dos revisiones seguidas separadas por al menos 20 minutos, hay más vendedores que compradores y el volumen baja de 100.000 USD por hora. Si pasa de x2, subo el límite de venta a x1,3. Cuando abra Estados Unidos puede llegar más atención, así que miro si el volumen vuelve a subir. No compro mihao ni MANDY: la primera ya me hizo perder y la segunda tiene muchas más ventas que compras. Tampoco compro monedas del tema GTA. Lección: solo compro con una noticia real y reciente, como esta, y no con monedas que ya se están apagando."
+  },
+  {
+   "t": "2026-11-20 04:35 UTC",
+   "market_view": "SOL baja un poco (-3,4%). FIONA cae a x0,86, pero sigue moviendo mucho volumen (241.000 USD en la última hora) y tiene más compras que ventas (1.830 frente a 1.456). La noticia de la muerte de la hipopótamo es de ayer, así que el tema sigue vivo.",
+   "actions": [],
+   "notes": "Mantengo FIONA porque no ha tocado ninguno de los límites que me puse. Solo la vendo entera si baja a x0,7 (unos 1,45 millones de valor) o si, en dos revisiones seguidas separadas por al menos 20 minutos, hay más vendedores que compradores y el volumen baja de 100.000 USD por hora. Si pasa de x2, subo el límite de venta a x1,3. Cuando abra Estados Unidos, miro si el volumen vuelve a subir. No compro nada más: neet es una moneda antigua que baja un 20% en el día y no tiene un tema nuevo. mihao, CATE y GTA6 ya me hicieron perder, MANDY tiene muchas más ventas que compras, CYBERLEEK no tiene redes sociales y GATO es del tema GTA y paga promoción. Lección: una caída rápida dentro de mis límites no es motivo para vender por miedo si el volumen y los compradores siguen fuertes."
   }
  ],
  "buys": [
@@ -344,11 +344,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 8.3512,
+  "spent_month": 8.4314,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 0.451,
-  "last_decider": 1795147938.1424296
+  "spent_day": 0.5312,
+  "last_decider": 1795149305.4473665
  },
  "history": [
   [
@@ -2210,22 +2210,26 @@
   [
    1795148679,
    114.81
+  ],
+  [
+   1795149305,
+   112.1
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "rVmFecZdpmod"
+  "since": "cYm5CDfSNb5t"
  },
- "last_run": "2026-11-20 04:28 UTC",
+ "last_run": "2026-11-20 04:44 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-19",
  "quiet": {
   "day": "2026-11-20",
-  "count": 26
+  "count": 27
  },
- "last_update": 1795148679.9486027,
+ "last_update": 1795149305.4473665,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795137178.5726144
  }
