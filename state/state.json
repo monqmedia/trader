@@ -128,12 +128,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-18 13:40 UTC",
-   "market_view": "SOL sube un 1,3% y el mercado sigue dominado por el tema GTA a un día del lanzamiento del juego, cuando estas monedas suelen caer. La única moneda fuera de ese tema con fuerza, HOGE, tiene interés real, pero hoy no cumple mis reglas de compra porque sigue cayendo con fuerza después de una subida vertical.",
-   "actions": [],
-   "notes": "Hoy no compro nada. No tengo posiciones abiertas, tengo 119 USD en efectivo y me quedan 4 compras.\n\nMiro HOGE, que vale unos 1,4 millones y ha subido un 201% en 6 horas, pero baja un 12% en la última hora y un 13% en 5 minutos. Sus compradores y vendedores están casi igualados (1.096 frente a 1.070). Solo la compraría si se cumplen todas estas condiciones:\n- se mantiene entre 0,9 y 1,1 millones al menos 2 horas;\n- tiene más compradores que vendedores;\n- mueve más de 150.000 USD por hora;\n- su volumen vuelve a subir.\nAntes de comprarla, buscaría en X si su comunidad es real.\n\nSTONK es estable, pero está plana y no tiene impulso.\n\nNo compro:\n- Monedas del tema GTA (GTA, GTA6, GTAVI, Leonida, GATO, WASTED, DacityCoin, SHIT) hasta que pase el lanzamiento del 19 de noviembre y alguna se mantenga estable varias horas después.\n- Max, porque es una copia.\n- CBUCKS, porque paga promoción y tiene poco volumen."
-  },
-  {
    "t": "2026-11-18 14:23 UTC",
    "market_view": "SOL sube un 0,7% y casi todo el mercado sigue girando alrededor de GTA, a un día del lanzamiento del juego. HOGE es la única moneda fuera de ese tema con interés real, pero ahora mismo está subiendo en vertical, así que no es buen momento para entrar.",
    "actions": [],
@@ -316,6 +310,12 @@
    "market_view": "SOL está plano (-0,1%). ANTS sube a x1,61, su punto más alto, con mucho volumen (651.000 USD por hora), aunque en la última hora sigue habiendo algo más de ventas que de compras (2.872 frente a 2.787). Ninguna de las monedas candidatas es una compra clara.",
    "actions": [],
    "notes": "Mantengo la cuarta parte que queda de ANTS en x1,61, unos 13,8 millones de valor. Como ya pasó de x1,6, subo el límite y vendo todo si baja de x1,4 (unos 11,8 millones). Si sube de golpe hasta x2, vendo la mitad de lo que queda; si pasa de x1,8, subo el límite a x1,55. También vendo todo si se cumple una de estas condiciones: dos revisiones seguidas con más ventas que compras separadas por al menos 20 minutos (la próxima que cuenta será desde las 09:03 UTC, y la de ahora sí cuenta como primera), el volumen baja de 300.000 USD por hora o Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC). No compro nada. GTASZN, Leonida, GATO y DacityCoin son del tema GTA, con el que ya perdí cinco veces, y siguen bajando. HOGE y CBUCKS casi no tienen volumen, y con mihao y CLAUDIA ya perdí antes. Lección: cuando se toca un límite de subida, solo subo el precio mínimo de venta y no vendo por impulso."
+  },
+  {
+   "t": "2026-11-20 00:01 UTC",
+   "market_view": "SOL está plano (-0,2%) y no tengo posiciones abiertas. Ninguna candidata es una compra clara: casi todas pierden volumen o tienen más ventas que compras, y varias son del tema GTA, con el que ya perdí varias veces.",
+   "actions": [],
+   "notes": "Hoy no compro nada. La cuenta ha bajado de 127 a 116 USD y he perdido muchas veces al entrar en monedas que ya se estaban apagando. mihao mueve ahora unos 76.000 USD por hora, frente a una media de unos 258.000 en las últimas 6 horas, y cae un 25% en ese tiempo. Además, ya perdí con ella. CYBERLEEK no tiene redes sociales y su volumen se ha hundido: pasó de 1 millón en 6 horas a 10.000 en la última hora. GATO, GTA6 y WASTED son del tema GTA o pagan promoción, y tienen más ventas que compras: GTA6 hizo 5 compras frente a 29 ventas en la última hora. Lección: solo compro si el volumen sube a la vez en 5 minutos, 1 hora y 6 horas, si hay claramente más compradores que vendedores y si la moneda tiene un tema nuevo que no sea GTA. Prefiero esperar a perder más en apuestas flojas."
   }
  ],
  "buys": [
@@ -328,11 +328,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 7.9002,
+  "spent_month": 7.9715,
   "budget_warned": true,
-  "day": "2026-11-19",
-  "spent_day": 2.5738,
-  "last_decider": 1795078545.6268194
+  "day": "2026-11-20",
+  "spent_day": 0.0713,
+  "last_decider": 1795132909.3676918
  },
  "history": [
   [
