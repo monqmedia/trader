@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.125,
    "entry_reason": "La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador.",
-   "multiple": 0.888
+   "multiple": 0.79
   }
  },
  "closed": [
@@ -141,12 +141,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-19 04:39 UTC",
-   "market_view": "SOL está plano (-0,4%) y hoy sale GTA 6, así que casi todo el mercado sigue girando alrededor de ese tema. DCTY aguanta estable, con mucho volumen y más compradores que vendedores, y ninguna otra candidata tiene una oportunidad clara ahora mismo.",
-   "actions": [],
-   "notes": "Mantengo DCTY (x0,94, unos 14 millones de valor): mueve 833.000 USD por hora y tiene casi el doble de compras que de ventas (4.117 frente a 2.325). La vendo entera si baja de x0,75 (unos 11,3 millones), si hay más vendedores que compradores en dos revisiones seguidas, si su volumen baja de 400.000 USD por hora o si Rockstar dice que no tiene nada que ver con ella. Si llega a x3, la venta automática se encarga de una parte. No compro otras monedas de GTA mientras tenga DCTY (Leonida, GATO y SHIT, que es una frase de GTA San Andreas). Descarto también: HOGE (solo mueve 21.000 USD por hora), Max (es una copia y tiene casi el doble de vendedores), mihao (más ventas que compras), CLAUDIA (plana y ya perdí con ella) y CATE (poco volumen y ya perdí con ella). Solo compraré algo nuevo si es de otro tema, lleva tiempo estable después de una subida, tiene más compradores que vendedores y su volumen va en aumento. Lección: mis 7 operaciones cerradas acabaron en pérdida por entrar cerca de un pico, así que es mejor esperar que comprar lo que ya está subiendo."
-  },
   {
    "t": "2026-11-19 05:04 UTC",
    "market_view": "SOL está plano (-0,4%) y hoy sale GTA 6. Las monedas del tema están cayendo, como suele pasar el día de un lanzamiento. DCTY baja un 20% en la última hora y un 12% en 5 minutos, y ya está en mi límite de pérdida.",
@@ -330,6 +324,12 @@
    "market_view": "SOL baja un 3,5%. FIONA está en x0,79 y cae un 13% en la última hora, pero aún no ha llegado a mi límite de x0,7. Sigue moviendo mucho dinero (292.000 USD en la última hora) y tiene más compras que ventas (1.942 frente a 1.562). Ninguna otra candidata es una compra clara.",
    "actions": [],
    "notes": "Mantengo FIONA porque no ha tocado mis límites y todavía tiene volumen y compradores. La vendo entera, sin esperar, si baja de x0,7 (menos de unos 1,45 millones de valor de mercado). También la vendo si, en dos revisiones seguidas separadas por al menos 20 minutos, hay más vendedores que compradores y se mueven menos de 100.000 USD por hora. Si pasa de x2, subo el límite de venta a x1,3. Cuando abra Estados Unidos, miro si el volumen vuelve a subir. No compro nada: neet es antigua y lleva días bajando. Con mihao, CATE y GTA6 ya perdí. MANDY tiene muchas más ventas que compras (802 frente a 338 en una hora). CYBERLEEK no tiene redes sociales y GATO es del tema GTA y paga promoción. Lección: cumplo los límites que fijé y no vendo por miedo a mitad de camino."
+  },
+  {
+   "t": "2026-11-20 05:13 UTC",
+   "market_view": "SOL baja un 3,2%. FIONA ha subido de x0,79 a x0,86 y no ha tocado mi límite de x0,7. Sigue moviendo mucho dinero (258.000 USD en la última hora) y tiene más compras que ventas (1.682 frente a 1.321). Ninguna otra candidata tiene una noticia nueva ni una fuerza clara.",
+   "actions": [],
+   "notes": "Mantengo FIONA. La vendo entera, sin esperar, si baja de x0,7 (unos 1,4 millones de valor de mercado). También la vendo si, en dos revisiones seguidas separadas por al menos 20 minutos, hay más vendedores que compradores y se mueven menos de 100.000 USD por hora. Si pasa de x2, subo el límite de venta a x1,3. Cuando abra Estados Unidos, miro si vuelve a subir el volumen. No compro DCTY, que cae un 62% en 6 horas y ya me hizo perder. STONK tiene muchas más compras que ventas, pero poco volumen y ninguna noticia; la vigilo como posible apuesta más estable. neet y CATE son antiguas y sin fuerza. Con mihao y GTA6 ya perdí. MANDY tiene casi tres ventas por cada compra y CYBERLEEK no tiene redes sociales. Lección: esperar también es una decisión cuando no hay una noticia fresca."
   }
  ],
  "buys": [
@@ -337,16 +337,15 @@
   1795147938.1424296
  ],
  "cooldown": {
-  "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795064686.204567,
   "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795097891.5522919
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 8.6693,
+  "spent_month": 8.7477,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 0.7691,
-  "last_decider": 1795150286.8778958
+  "spent_day": 0.8475,
+  "last_decider": 1795151635.9516273
  },
  "history": [
   [
@@ -2220,22 +2219,30 @@
   [
    1795150547,
    110.55
+  ],
+  [
+   1795151151,
+   112.94
+  ],
+  [
+   1795151782,
+   112.23
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "CJaUpRiaA2RX"
+  "since": "hoHLDShdjN5g"
  },
- "last_run": "2026-11-20 05:03 UTC",
+ "last_run": "2026-11-20 05:19 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-19",
  "quiet": {
   "day": "2026-11-20",
-  "count": 29
+  "count": 31
  },
- "last_update": 1795150547.0779138,
+ "last_update": 1795151782.057714,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795137178.5726144
  }
