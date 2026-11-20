@@ -2624,22 +2624,26 @@
   [
    1795212091,
    102.36
+  ],
+  [
+   1795212703,
+   102.34
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "fkoXxxMMFPwF"
+  "since": "59praurDDmQA"
  },
- "last_run": "2026-11-20 22:04 UTC",
+ "last_run": "2026-11-20 22:19 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-20",
  "quiet": {
   "day": "2026-11-20",
-  "count": 127
+  "count": 128
  },
- "last_update": 1795212091.7371314,
+ "last_update": 1795212703.3453598,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795202079.7067688
  }
