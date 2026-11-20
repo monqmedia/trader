@@ -6,7 +6,21 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {},
+ "positions": {
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
+   "symbol": "FIONA",
+   "name": "Fiona the Hippo",
+   "tier": "joven",
+   "cost_usd": 18.445442670607008,
+   "amount_initial": 9042555339,
+   "opened_at": 1795147938.1424296,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.001,
+   "entry_reason": "La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador.",
+   "multiple": 1.001
+  }
+ },
  "closed": [
   {
    "symbol": "GTA6",
@@ -127,12 +141,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-18 14:23 UTC",
-   "market_view": "SOL sube un 0,7% y casi todo el mercado sigue girando alrededor de GTA, a un día del lanzamiento del juego. HOGE es la única moneda fuera de ese tema con interés real, pero ahora mismo está subiendo en vertical, así que no es buen momento para entrar.",
-   "actions": [],
-   "notes": "No compro nada: no tengo posiciones, tengo 119 USD en efectivo y me quedan 4 compras hoy. HOGE no se estabilizó entre 0,9 y 1,1 millones como yo quería, sino que siguió subiendo hasta 1,8 millones (+26% en 1 hora y +12% en 5 minutos), con casi tantos vendedores como compradores (684 frente a 730) y paga promoción. Solo la miraré si retrocede a 1,1-1,4 millones, se mantiene ahí al menos 2 horas con más compradores que vendedores y sigue moviendo más de 150.000 USD por hora; antes de comprar, buscaré en X si tiene una comunidad real. GTA6 rebota un 40% en 1 hora, pero sigue en el tema GTA y no compro monedas de ese tema (GTA, GTA6, GTAVI, Leonida, GATO, WASTED, DacityCoin, SHIT) hasta que pase el lanzamiento del 19 de noviembre y alguna aguante estable varias horas. Tampoco compro Max (es una copia y tiene el doble de vendedores), mihao (hay más vendedores que compradores) ni CLAUDIA (ya perdí con ella y está plana). Lección: mis 7 operaciones cerradas acabaron en pérdida por entrar cerca de un pico, así que es mejor esperar que perseguir subidas."
-  },
   {
    "t": "2026-11-18 14:52 UTC",
    "market_view": "SOL está plano (+0,16%) y el mercado sigue dominado por las monedas de GTA, a un día del lanzamiento del juego. HOGE ha bajado de 1,8 a unos 1,46 millones y cae un 20% en 5 minutos, así que todavía no está estable y no conviene comprarla.",
@@ -316,10 +324,19 @@
    "market_view": "SOL está plano (-0,2%) y no tengo posiciones abiertas. Ninguna candidata es una compra clara: casi todas pierden volumen o tienen más ventas que compras, y varias son del tema GTA, con el que ya perdí varias veces.",
    "actions": [],
    "notes": "Hoy no compro nada. La cuenta ha bajado de 127 a 116 USD y he perdido muchas veces al entrar en monedas que ya se estaban apagando. mihao mueve ahora unos 76.000 USD por hora, frente a una media de unos 258.000 en las últimas 6 horas, y cae un 25% en ese tiempo. Además, ya perdí con ella. CYBERLEEK no tiene redes sociales y su volumen se ha hundido: pasó de 1 millón en 6 horas a 10.000 en la última hora. GATO, GTA6 y WASTED son del tema GTA o pagan promoción, y tienen más ventas que compras: GTA6 hizo 5 compras frente a 29 ventas en la última hora. Lección: solo compro si el volumen sube a la vez en 5 minutos, 1 hora y 6 horas, si hay claramente más compradores que vendedores y si la moneda tiene un tema nuevo que no sea GTA. Prefiero esperar a perder más en apuestas flojas."
+  },
+  {
+   "t": "2026-11-20 04:12 UTC",
+   "market_view": "SOL baja un poco (-2,3%) y no tengo posiciones. FIONA es la única candidata con una noticia real y fresca: la famosa hipopótamo Fiona murió ayer en el zoo de Cincinnati, según CNN, ABC y NBC. La moneda es la número 1 en tendencia, con más compradores que vendedores. El resto de candidatas están apagadas, son del tema GTA o tienen más ventas que compras.",
+   "actions": [
+    "buy B34nXK: La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador."
+   ],
+   "notes": "Compré FIONA a unos 2,08 millones de valor y estos son los límites. Vendo todo si baja a x0,7 (unos 1,45 millones) o si, en dos revisiones seguidas separadas por al menos 20 minutos, hay más vendedores que compradores y el volumen baja de 100.000 USD por hora. Si pasa de x2, subo el límite de venta a x1,3. Cuando abra Estados Unidos puede llegar más atención, así que miro si el volumen vuelve a subir. No compro mihao ni MANDY: la primera ya me hizo perder y la segunda tiene muchas más ventas que compras. Tampoco compro monedas del tema GTA. Lección: solo compro con una noticia real y reciente, como esta, y no con monedas que ya se están apagando."
   }
  ],
  "buys": [
-  1795072298.3251128
+  1795072298.3251128,
+  1795147938.1424296
  ],
  "cooldown": {
   "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795064686.204567,
@@ -327,11 +344,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 7.997,
+  "spent_month": 8.3501,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 0.0968,
-  "last_decider": 1795132909.3676918
+  "spent_day": 0.4499,
+  "last_decider": 1795147938.1424296
  },
  "history": [
   [
