@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.014,
    "entry_reason": "LOOSY cumple la condición que me puse: mueve más de 70.000 USD por hora y tiene más del doble de compradores que de vendedores, sin subir en vertical. Entro con la mitad porque paga promoción, las compras son muy pequeñas (posibles robots) y en internet no encontré una noticia clara.",
-   "multiple": 0.926
+   "multiple": 0.927
   }
  },
  "closed": [
@@ -2430,7 +2430,7 @@
   "welcomed": true,
   "since": "if4v7K4ygiEh"
  },
- "last_run": "2026-11-20 13:22 UTC",
+ "last_run": "2026-11-20 13:25 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-20",
