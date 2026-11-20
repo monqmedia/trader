@@ -6,21 +6,7 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-   "symbol": "FIONA",
-   "name": "Fiona the Hippo",
-   "tier": "joven",
-   "cost_usd": 18.445442670607008,
-   "amount_initial": 9042555339,
-   "opened_at": 1795147938.1424296,
-   "tp_stage": 0,
-   "realized_usd": 0.0,
-   "peak_multiple": 1.125,
-   "entry_reason": "La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador.",
-   "multiple": 0.79
-  }
- },
+ "positions": {},
  "closed": [
   {
    "symbol": "GTA6",
@@ -138,39 +124,22 @@
    "closed": "2026-11-19 14:18 UTC",
    "entry_reason": "Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva.",
    "exit_reason": "caída brusca: de x1.64 a x0.97 en pocos minutos. Venta de emergencia"
+  },
+  {
+   "symbol": "FIONA",
+   "mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+   "tier": "joven",
+   "cost_usd": 18.45,
+   "returned_usd": 13.13,
+   "result_multiple": 0.71,
+   "peak_multiple": 1.12,
+   "opened": "2026-11-20 04:12 UTC",
+   "closed": "2026-11-20 05:25 UTC",
+   "entry_reason": "La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador.",
+   "exit_reason": "FIONA ha bajado del valor de mercado que fijé como límite (1,45 millones) y sigue cayendo rápido. Su volumen por hora es menos de la mitad de su media, así que la vendo entera como había decidido."
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-19 05:04 UTC",
-   "market_view": "SOL está plano (-0,4%) y hoy sale GTA 6. Las monedas del tema están cayendo, como suele pasar el día de un lanzamiento. DCTY baja un 20% en la última hora y un 12% en 5 minutos, y ya está en mi límite de pérdida.",
-   "actions": [
-    "sell 9hjBLB: DCTY ha llegado a x0,75 (unos 11,2 millones), que era el límite que me puse para vender, y está cayendo rápido. La vendo entera, como había decidido, aunque todavía tiene más compradores que vendedores."
-   ],
-   "notes": "He vendido DCTY entera en x0,75 porque llegó al límite que había fijado. No he buscado en la red porque ninguna candidata merecía la compra. Si dentro de unas horas aguanta estable entre 8 y 11 millones, con más compradores que vendedores y más de 400.000 USD por hora, podría volver a entrar con la mitad de lo normal.\n\nNo compro:\n- AudaCity: es una copia y acaba de subir un 58% en 5 minutos.\n- SHIT: es del tema GTA y cae un 22% en una hora.\n- Leonida y GATO: son del tema GTA y pagan promoción.\n- HOGE: tiene poco volumen.\n- Max: es una copia con más vendedores que compradores.\n- CATE y CLAUDIA: están planas y ya perdí con ellas.\n- CBUCKS: casi no tiene volumen.\n\nLección: ya llevo 8 pérdidas seguidas, y en las 5 últimas he entrado en monedas del tema GTA justo en su momento de más atención, el día de mayor ruido. A partir de ahora solo compro monedas de otros temas que lleven horas estables, con volumen en aumento."
-  },
-  {
-   "t": "2026-11-19 07:11 UTC",
-   "market_view": "SOL está plano (+0,1%) y hoy hay dos eventos: el lanzamiento de GTA 6, cuyas monedas ya se están desinflando, y la salida a bolsa de Anthropic en el Nasdaq (ticker ANT). Varias fuentes confirman que empieza a cotizar hoy, 19 de noviembre. ANTS es una moneda de un tema distinto, ya bajó un 19% en 6 horas, ahora se está recuperando y tiene muchos más compradores que vendedores.",
-   "actions": [
-    "buy ejrz94: Anthropic empieza a cotizar hoy en el Nasdaq y ANTS es la moneda más grande de ese tema, con 1,06 millones de USD por hora y 1.603 compradores frente a 962 vendedores. Entro después de su caída y no en plena subida, pero con poco dinero porque paga promoción y la noticia puede provocar una venta masiva."
-   ],
-   "notes": "He comprado ANTS (Anthropic) a unos 8,4 millones de valor con el 60% del tamaño normal. Es una apuesta a la atención antes de que Anthropic empiece a cotizar hoy en el Nasdaq, que abre a las 14:30 UTC y suele estrenar las salidas a bolsa entre las 16:00 y las 19:00 UTC. La vendo entera si baja de x0,75 (unos 6,3 millones), si hay más vendedores que compradores en dos revisiones seguidas o si su volumen baja de 300.000 USD por hora. Cuando la acción ya esté cotizando, vendo al menos la mitad aunque vaya ganando, porque el día del evento suele haber una venta masiva, como pasó con DCTY. No compro: monedas de GTA (AudaCity, SHIT, GTASZN, Leonida, GATO), que están en plena venta masiva tras el lanzamiento; HOGE, que casi no tiene volumen; CLAUDIA, que está plana; ni mihao, con la que ya perdí. Lección: llevo 8 pérdidas seguidas, así que entro antes de que llegue la atención, con poco dinero, y vendo cuando llegue la noticia."
-  },
-  {
-   "t": "2026-11-19 07:26 UTC",
-   "market_view": "SOL está plano (-0,5%). Las monedas de GTA siguen desinflándose tras el lanzamiento, y la atención se va moviendo hacia la salida a bolsa de Anthropic, que es hoy. ANTS sube un 28% en la última hora y mueve 876.000 USD por hora.",
-   "actions": [],
-   "notes": "Mantengo ANTS (x1,10, unos 9,3 millones de valor). Ojo: en la última hora hubo algo más de ventas que de compras (3.659 frente a 3.331), así que esta es la primera revisión con más vendedores. Si en la próxima revisión vuelve a pasar, la vendo entera. También la vendo entera si baja de x0,75 (unos 6,3 millones) o si su volumen cae por debajo de 300.000 USD por hora. Cuando Anthropic ya cotice (entre las 16:00 y las 19:00 UTC), vendo al menos la mitad aunque vaya ganando. Si antes de eso sube por encima de x2 de forma vertical, vendo un tercio para asegurar ganancias. No compro nada nuevo:\n- AudaCity, SHIT, GTASZN, Leonida y GATO: son monedas de GTA y siguen en plena venta.\n- SHIT: además tiene compras muy raras (6 por cada venta) y un aviso de cuentas que actúan juntas.\n- HOGE: casi no tiene volumen.\n- CLAUDIA y CATE: están planas y ya perdí con ellas.\n- mihao: ya perdí con ella y tiene más ventas que compras.\n\nLección: no perseguir subidas; vender según las reglas que me he puesto."
-  },
-  {
-   "t": "2026-11-19 07:27 UTC",
-   "market_view": "SOL está plano (-0,4%). Las monedas de GTA siguen bajando tras el lanzamiento y la atención se va hacia la salida a bolsa de Anthropic, que es hoy. ANTS sube un 58% en una hora, una subida casi vertical, mientras hay más ventas que compras.",
-   "actions": [
-    "sell ejrz94: ANTS sube casi en vertical (x1,17) y por segunda revisión seguida hay más ventas que compras (3.627 frente a 3.319). Vendo la mitad para asegurar ganancia y dejo la otra mitad para aprovechar la atención antes de que Anthropic empiece a cotizar."
-   ],
-   "notes": "He vendido la mitad de ANTS en x1,17, a unos 9,9 millones de valor. No la vendí entera porque la revisión anterior fue hace solo un minuto y casi no hay datos nuevos, y porque el precio sigue subiendo. Con la otra mitad, la vendo entera si baja de x0,9 (unos 7,6 millones), si en la próxima revisión (dentro de más de 30 minutos) sigue habiendo más ventas que compras, si su volumen baja de 300.000 USD por hora o cuando Anthropic ya cotice (entre las 16:00 y las 19:00 UTC). No compro nada: AudaCity, SHIT, GTASZN, Leonida y GATO son de GTA y siguen bajando; HOGE casi no tiene volumen; CLAUDIA y CATE están planas; y con mihao ya perdí. Lección: cuando una moneda suba rápido antes de su noticia, conviene asegurar parte de la ganancia en vez de esperar a que se pierda, como pasó con GTA6 y BAWSAQ."
-  },
   {
    "t": "2026-11-19 07:29 UTC",
    "market_view": "SOL está plano (-0,3%). Las monedas de GTA siguen bajando tras el lanzamiento y la atención se va hacia la salida a bolsa de Anthropic, que es hoy. ANTS sigue en x1,16, casi igual que hace dos minutos, después de que vendiera la mitad.",
@@ -330,6 +299,32 @@
    "market_view": "SOL baja un 3,2%. FIONA ha subido de x0,79 a x0,86 y no ha tocado mi límite de x0,7. Sigue moviendo mucho dinero (258.000 USD en la última hora) y tiene más compras que ventas (1.682 frente a 1.321). Ninguna otra candidata tiene una noticia nueva ni una fuerza clara.",
    "actions": [],
    "notes": "Mantengo FIONA. La vendo entera, sin esperar, si baja de x0,7 (unos 1,4 millones de valor de mercado). También la vendo si, en dos revisiones seguidas separadas por al menos 20 minutos, hay más vendedores que compradores y se mueven menos de 100.000 USD por hora. Si pasa de x2, subo el límite de venta a x1,3. Cuando abra Estados Unidos, miro si vuelve a subir el volumen. No compro DCTY, que cae un 62% en 6 horas y ya me hizo perder. STONK tiene muchas más compras que ventas, pero poco volumen y ninguna noticia; la vigilo como posible apuesta más estable. neet y CATE son antiguas y sin fuerza. Con mihao y GTA6 ya perdí. MANDY tiene casi tres ventas por cada compra y CYBERLEEK no tiene redes sociales. Lección: esperar también es una decisión cuando no hay una noticia fresca."
+  },
+  {
+   "t": "2026-11-20 05:21 UTC",
+   "market_view": "SOL baja un 3,2%. FIONA ha caído a x0,74, un 13% en 5 minutos, pero sigue por encima del límite de venta que fijé en x0,7. Todavía mueve 236.000 USD por hora y hay más compras que ventas (1.564 frente a 1.159). No hay ninguna otra candidata con una noticia nueva y fuerza clara.",
+   "actions": [],
+   "notes": "Mantengo FIONA, pero el riesgo ha subido: está a solo un 5% de mi límite y su volumen por hora (236.000 USD) es la mitad de su media de las últimas 6 horas. La vendo entera, sin esperar, si baja de x0,7 (menos de unos 1,47 millones de valor de mercado). También la vendo si en dos revisiones seguidas hay más vendedores que compradores o si el volumen baja de 100.000 USD por hora. No compro nada. DCTY cae un 60% en 6 horas y ya me hizo perder. Con mihao, CATE y GTA6 también perdí. MANDY tiene casi tres ventas por cada compra, CYBERLEEK no tiene redes sociales, GATO paga promoción, y neet es antigua y lleva días bajando. Lección: casi todas mis pérdidas fueron por entrar en monedas cuyo volumen ya bajaba desde el máximo, así que solo compraré cuando el volumen esté subiendo."
+  },
+  {
+   "t": "2026-11-20 05:22 UTC",
+   "market_view": "SOL baja un 3,2%. FIONA está en x0,73 y cae un 15% en 5 minutos, pero sigue por encima de mi límite de venta de x0,7. Todavía hay más compras que ventas (1.575 frente a 1.185) y mueve 248.000 USD por hora, aunque el volumen sigue bajando. Ninguna otra candidata tiene a la vez una noticia nueva y un volumen que crezca.",
+   "actions": [],
+   "notes": "Mantengo FIONA porque aún no ha tocado mi límite, aunque solo le falta un 4%. La vendo entera en la próxima revisión, sin esperar a que se recupere, si baja de x0,7 (unos 1,4 millones de valor de mercado). También la vendo si hay más ventas que compras o si mueve menos de 100.000 USD por hora. No compro nada: DCTY cae un 60% en 6 horas, MANDY tiene casi tres ventas por cada compra, CYBERLEEK no tiene redes sociales, GATO paga promoción, y neet, CATE, mihao y GTA6 son antiguas, no tienen fuerza o ya me hicieron perder. Lección: solo compro cuando el volumen está subiendo, no cuando ya baja desde su máximo."
+  },
+  {
+   "t": "2026-11-20 05:24 UTC",
+   "market_view": "SOL baja un 3,4%. FIONA está en x0,73, todavía por encima de mi límite de venta de x0,7, y sigue teniendo más compras que ventas (1.621 frente a 1.254). Su volumen de la última hora es 260.000 USD, menos de la mitad de su media de las últimas 6 horas. Ninguna candidata tiene a la vez una noticia nueva y un volumen que crezca.",
+   "actions": [],
+   "notes": "Mantengo FIONA solo mientras siga por encima de x0,7, es decir, de unos 1,45 millones de valor de mercado. La vendo entera en cuanto baje de ese límite, si hay más ventas que compras o si mueve menos de 100.000 USD por hora. No compro nada. DCTY cae un 60% en 6 horas. MANDY tiene tres ventas por cada compra. GTA6 y GATO casi no tienen volumen, y GATO además paga promoción. CYBERLEEK no tiene redes sociales. neet, CATE y mihao son antiguas y no tienen fuerza. Lección: solo compro cuando el volumen está subiendo y la noticia es reciente."
+  },
+  {
+   "t": "2026-11-20 05:25 UTC",
+   "market_view": "SOL baja un 3,5%. FIONA cae un 25% en la última hora, está en x0,72 y su valor de mercado (1,449 millones) ya está por debajo del límite de 1,45 millones que me puse. Ninguna candidata tiene a la vez una noticia nueva y un volumen que suba.",
+   "actions": [
+    "sell B34nXK: FIONA ha bajado del valor de mercado que fijé como límite (1,45 millones) y sigue cayendo rápido. Su volumen por hora es menos de la mitad de su media, así que la vendo entera como había decidido."
+   ],
+   "notes": "Vendí FIONA cerca de x0,72 al cruzar mi límite. No compro nada: DCTY cae un 60% en 6 horas, MANDY tiene tres ventas por cada compra, GTA6 y GATO casi no tienen volumen, CYBERLEEK no tiene redes sociales y neet, CATE y mihao son antiguas y sin fuerza. Lección: casi todas mis pérdidas vienen de entrar cuando el volumen ya baja desde el máximo. Solo compraré monedas con una noticia de menos de 6 horas cuyo volumen siga subiendo de m5 a h1 a h6, y con poco dinero hasta encadenar una ganancia."
   }
  ],
  "buys": [
@@ -337,15 +332,16 @@
   1795147938.1424296
  ],
  "cooldown": {
-  "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795097891.5522919
+  "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795097891.5522919,
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795152333.667615
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 8.7477,
+  "spent_month": 9.0728,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 0.8475,
-  "last_decider": 1795151635.9516273
+  "spent_day": 1.1726,
+  "last_decider": 1795152333.667615
  },
  "history": [
   [
@@ -2227,22 +2223,26 @@
   [
    1795151782,
    112.23
+  ],
+  [
+   1795152418,
+   109.18
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "hoHLDShdjN5g"
+  "since": "gjK3p9MArsaz"
  },
- "last_run": "2026-11-20 05:19 UTC",
+ "last_run": "2026-11-20 05:35 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-19",
  "quiet": {
   "day": "2026-11-20",
-  "count": 31
+  "count": 32
  },
- "last_update": 1795151782.057714,
+ "last_update": 1795152418.6466248,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795137178.5726144
  }
