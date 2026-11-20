@@ -319,7 +319,6 @@
   }
  ],
  "buys": [
-  1795058288.5032148,
   1795072298.3251128
  ],
  "cooldown": {
@@ -328,10 +327,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 7.9911,
+  "spent_month": 7.9923,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 0.0909,
+  "spent_day": 0.0921,
   "last_decider": 1795132909.3676918
  },
  "history": [
