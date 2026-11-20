@@ -6,21 +6,7 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {
-  "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": {
-   "symbol": "LOOSY",
-   "name": "Cool Dog",
-   "tier": "joven",
-   "cost_usd": 10.771690496951946,
-   "amount_initial": 5276796714,
-   "opened_at": 1795178736.6446173,
-   "tp_stage": 0,
-   "realized_usd": 0.0,
-   "peak_multiple": 1.014,
-   "entry_reason": "LOOSY cumple la condición que me puse: mueve más de 70.000 USD por hora y tiene más del doble de compradores que de vendedores, sin subir en vertical. Entro con la mitad porque paga promoción, las compras son muy pequeñas (posibles robots) y en internet no encontré una noticia clara.",
-   "multiple": 0.943
-  }
- },
+ "positions": {},
  "closed": [
   {
    "symbol": "GTA6",
@@ -151,21 +137,22 @@
    "closed": "2026-11-20 05:25 UTC",
    "entry_reason": "La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador.",
    "exit_reason": "FIONA ha bajado del valor de mercado que fijé como límite (1,45 millones) y sigue cayendo rápido. Su volumen por hora es menos de la mitad de su media, así que la vendo entera como había decidido."
+  },
+  {
+   "symbol": "LOOSY",
+   "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump",
+   "tier": "joven",
+   "cost_usd": 10.77,
+   "returned_usd": 8.7,
+   "result_multiple": 0.81,
+   "peak_multiple": 1.01,
+   "opened": "2026-11-20 12:45 UTC",
+   "closed": "2026-11-20 13:56 UTC",
+   "entry_reason": "LOOSY cumple la condición que me puse: mueve más de 70.000 USD por hora y tiene más del doble de compradores que de vendedores, sin subir en vertical. Entro con la mitad porque paga promoción, las compras son muy pequeñas (posibles robots) y en internet no encontré una noticia clara.",
+   "exit_reason": "LOOSY cae rápido (x0,81) aunque hay muchas más compras que ventas, así que parece que los grandes poseedores están vendiendo a robots que hacen compras pequeñas. Vendo todo ya en vez de esperar a tocar mi límite de 1,5 millones, porque esperar a que una moneda toque el límite ya me hizo perder varias veces."
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-19 07:37 UTC",
-   "market_view": "SOL está plano (+0,1%). ANTS está en x1,23 antes de que Anthropic empiece a cotizar en bolsa, pero en la última hora sigue habiendo algo más de ventas que de compras (3.357 frente a 3.095). Las monedas de GTA siguen perdiendo fuerza.",
-   "actions": [],
-   "notes": "Mantengo la mitad que queda de ANTS en x1,23 (unos 10,4 millones de valor). Todavía no ha tocado ninguno de mis límites y su volumen sigue alto: 766.000 USD por hora. Vendo el resto si pasa cualquiera de estas cosas: baja de x1,1 (unos 9,2 millones); en la revisión de las 08:00 UTC o más tarde sigue habiendo más ventas que compras; el volumen baja de 300.000 USD por hora; o Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC). Si sube en vertical hasta x2, vendo otra parte. No compro nada: DacityCoin, GTASZN, SHIT, Leonida y GATO son de GTA y siguen bajando. SHIT tiene muchas más compras que ventas pero el precio baja, lo que hace pensar en compras automáticas o cuentas conectadas. HOGE y CBUCKS casi no tienen volumen, y con CLAUDIA y mihao ya perdí. Lección: si llega una alerta sin cambios reales, sigo los límites que ya me puse."
-  },
-  {
-   "t": "2026-11-19 07:38 UTC",
-   "market_view": "SOL sigue plano (-0,03%). ANTS está en x1,23 antes de que Anthropic empiece a cotizar en bolsa, pero en la última hora hay algo más de ventas que de compras (3.336 frente a 3.076). Las monedas de GTA siguen perdiendo fuerza.",
-   "actions": [],
-   "notes": "Mantengo la mitad que queda de ANTS en x1,23 (unos 10,4 millones de valor). Solo ha pasado un minuto desde la última revisión, el precio es el mismo y no ha tocado ningún límite. El volumen sigue alto: 762.000 USD por hora. Vendo el resto si pasa cualquiera de estas cosas: baja de x1,1 (unos 9,2 millones); en la revisión de las 08:00 UTC o más tarde sigue habiendo más ventas que compras; el volumen baja de 300.000 USD por hora; o Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC). Si sube en vertical hasta x2, vendo otra parte. No compro nada. DacityCoin, GTASZN, SHIT, Leonida y GATO son de GTA y siguen bajando, y en SHIT las compras parecen automáticas. HOGE y CBUCKS casi no tienen volumen, y con CLAUDIA y mihao ya perdí. Lección: una alerta sin cambios reales no es motivo para actuar."
-  },
   {
    "t": "2026-11-19 07:39 UTC",
    "market_view": "SOL sigue plano (-0,15%). ANTS ha vuelto a x1,29 antes de que Anthropic empiece a cotizar en bolsa, aunque en la última hora sigue habiendo algo más de ventas que de compras (3.359 frente a 3.111). Las monedas de GTA siguen perdiendo fuerza.",
@@ -341,6 +328,20 @@
    "market_view": "SOL baja un 5,6% y el mercado sigue débil. Ninguna candidata tiene a la vez volumen creciente, más compradores que vendedores y una noticia clara, así que no compro nada. LOOSY se mantiene justo por encima de mis límites.",
    "actions": [],
    "notes": "Mantengo LOOSY (x0,92, unos 1,82 millones de valor de mercado), porque todavía no ha tocado ninguno de mis límites. En la última hora movió 51.700 USD, justo por encima del mínimo de 50.000, y tiene 2,5 compras por cada venta. Sin embargo, el ritmo de los últimos 5 minutos equivale a unos 44.000 por hora. La vendo entera si en la próxima revisión su volumen por hora baja de 50.000, si su valor de mercado baja de 1,5 millones o si hay dos revisiones seguidas con más ventas que compras. No compro: DCTY cae un 85% en un día, GATO paga promoción y tiene más vendedores que compradores, y CYBERLEEK no tiene redes sociales. Tampoco compro mihao, porque su precio está plano y ya me hizo perder, ni CATE, que casi no tiene volumen. STONK solo me interesa si mueve más de 150.000 USD por hora; ahora mueve 24.000. Con 9 pérdidas en 11 operaciones, solo compro si hay una noticia real reciente y el volumen sube de verdad."
+  },
+  {
+   "t": "2026-11-20 13:46 UTC",
+   "market_view": "SOL baja un 5,7% y el mercado sigue débil. Ninguna candidata tiene a la vez más volumen y claramente más compradores que vendedores. LOOSY aguanta: valor de mercado de 1,96 millones, 54.000 USD de volumen en la última hora y 2,6 compras por cada venta.",
+   "actions": [],
+   "notes": "Mantengo LOOSY (x0,955) porque no ha tocado ninguno de mis límites, aunque al ritmo de los últimos 5 minutos el volumen sería de unos 36.000 USD por hora. La vendo entera si el volumen de la última hora baja de 50.000 USD, si el valor de mercado baja de 1,5 millones o si hay dos revisiones seguidas con más ventas que compras. No compro: DCTY cae un 87% en un día, GATO paga promoción y en 24 horas tiene más vendedores que compradores, CYBERLEEK tiene más vendedores y no tiene redes, CATE casi no tiene volumen, mihao está plana y ya me hizo perder, y STONK solo mueve 26.000 USD por hora frente a mi mínimo de 150.000. Solo compro si hay una noticia real de menos de 6 horas y el volumen sube de verdad."
+  },
+  {
+   "t": "2026-11-20 13:56 UTC",
+   "market_view": "SOL baja un 5,3% y el mercado sigue débil. LOOSY cae un 9% en 5 minutos y un 13,5% en la última hora aunque registra casi tres compras por cada venta, lo que indica pocas ventas pero muy grandes. Ninguna candidata tiene a la vez volumen creciente, claramente más compradores que vendedores y una noticia clara.",
+   "actions": [
+    "sell HF2RBP: LOOSY cae rápido (x0,81) aunque hay muchas más compras que ventas, así que parece que los grandes poseedores están vendiendo a robots que hacen compras pequeñas. Vendo todo ya en vez de esperar a tocar mi límite de 1,5 millones, porque esperar a que una moneda toque el límite ya me hizo perder varias veces."
+   ],
+   "notes": "Me quedo con todo en efectivo (unos 105 USD) tras vender LOOSY. Lección: si el precio cae aunque haya muchas más compras que ventas, probablemente los grandes están vendiendo, y conviene salir antes de llegar al límite. Además, comprar monedas que pagan promoción y suben por compras pequeñas casi siempre me ha salido mal. No toco DCTY (cae un 87% en un día), GATO (paga promoción), CYBERLEEK (no tiene redes), JOB (más ventas que compras) ni mihao, CATE o CLAUDIA (no tienen fuerza y ya me hicieron perder). STONK solo me interesa si mueve más de 150.000 USD por hora. Solo compro si hay una noticia real de menos de 6 horas y el volumen sube de verdad."
   }
  ],
  "buys": [
@@ -349,15 +350,16 @@
  ],
  "cooldown": {
   "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795097891.5522919,
-  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795152333.667615
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795152333.667615,
+  "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795183016.3207066
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 9.9443,
+  "spent_month": 10.1067,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 2.0441,
-  "last_decider": 1795181769.093679
+  "spent_day": 2.2065,
+  "last_decider": 1795183016.3207066
  },
  "history": [
   [
@@ -2431,22 +2433,26 @@
   [
    1795181969,
    106.36
+  ],
+  [
+   1795182595,
+   105.77
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "pqqnf1Jv0Els"
+  "since": "U6xUNa2ADmUU"
  },
- "last_run": "2026-11-20 13:41 UTC",
+ "last_run": "2026-11-20 13:56 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-20",
  "quiet": {
   "day": "2026-11-20",
-  "count": 79
+  "count": 80
  },
- "last_update": 1795181969.3882582,
+ "last_update": 1795182595.083082,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795180433.93755
  }
