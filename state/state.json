@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.125,
    "entry_reason": "La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador.",
-   "multiple": 0.88
+   "multiple": 0.888
   }
  },
  "closed": [
@@ -342,10 +342,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 8.6681,
+  "spent_month": 8.6693,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 0.7679,
+  "spent_day": 0.7691,
   "last_decider": 1795150286.8778958
  },
  "history": [
