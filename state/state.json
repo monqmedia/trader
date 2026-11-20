@@ -18,7 +18,7 @@
    "realized_usd": 0.0,
    "peak_multiple": 1.014,
    "entry_reason": "LOOSY cumple la condición que me puse: mueve más de 70.000 USD por hora y tiene más del doble de compradores que de vendedores, sin subir en vertical. Entro con la mitad porque paga promoción, las compras son muy pequeñas (posibles robots) y en internet no encontré una noticia clara.",
-   "multiple": 0.927
+   "multiple": 0.931
   }
  },
  "closed": [
@@ -154,12 +154,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-19 07:34 UTC",
-   "market_view": "SOL está plano (-0,2%). ANTS sube con fuerza antes de que Anthropic empiece a cotizar en bolsa y está en x1,31, aunque en la última hora sigue habiendo algo más de ventas que de compras. Las monedas de GTA siguen perdiendo fuerza.",
-   "actions": [],
-   "notes": "Mantengo la mitad que queda de ANTS en x1,31 (unos 10,9 millones de valor), porque ya vendí la otra mitad en x1,17 y la atención sigue creciendo antes de la salida a bolsa. Ahora el límite para vender lo subo a x1,1 (unos 9,2 millones) para no perder toda la ganancia, como pasó con GTA6 (llegó a x1,55 y la cerré en x0,89) y con BAWSAQ (llegó a x1,41 y la cerré en x0,87). También vendo todo si en la revisión de las 08:00 UTC o más tarde sigue habiendo más ventas que compras, si el volumen baja de 300.000 USD por hora o cuando Anthropic empiece a cotizar (entre las 16:00 y las 19:00 UTC). Si sube en vertical hasta x2, vendo otra parte. No compro nada: DacityCoin, GTASZN, SHIT, Leonida y GATO son de GTA y siguen bajando; HOGE y CBUCKS casi no tienen volumen; con CLAUDIA y mihao ya perdí. Lección: cuando una moneda sube, también hay que subir el límite para vender y así proteger la ganancia."
-  },
   {
    "t": "2026-11-19 07:36 UTC",
    "market_view": "SOL está plano (-0,1%). ANTS bajó de x1,31 a x1,21 en dos minutos antes de que Anthropic empiece a cotizar en bolsa. La alerta no trae nada nuevo y en la última hora sigue habiendo algo más de ventas que de compras (3.416 frente a 3.149). Las monedas de GTA siguen perdiendo fuerza.",
@@ -341,6 +335,12 @@
     "buy HF2RBP: LOOSY cumple la condición que me puse: mueve más de 70.000 USD por hora y tiene más del doble de compradores que de vendedores, sin subir en vertical. Entro con la mitad porque paga promoción, las compras son muy pequeñas (posibles robots) y en internet no encontré una noticia clara."
    ],
    "notes": "Compré LOOSY con la mitad, a unos 2 millones de valor de mercado. La vendo entera si baja de 1,5 millones (x0,75), si su volumen cae por debajo de 50.000 USD por hora o si en dos revisiones seguidas hay más vendedores que compradores. Parece ligada al tema GTA (un perro con moto de agua), que ya me hizo perder varias veces, así que no espero a que se recupere. No toco DCTY (cae un 82% en un día), GATO (más vendedores y paga promoción), CYBERLEEK (no tiene redes sociales), ni CATE ni mihao (no tienen fuerza)."
+  },
+  {
+   "t": "2026-11-20 13:25 UTC",
+   "market_view": "SOL baja un 5% y el mercado sigue débil. LOOSY sigue teniendo más del doble de compras que de ventas, pero su volumen por hora bajó de 128.000 a 52.000 USD. Ninguna candidata tiene a la vez volumen creciente y más compradores que vendedores.",
+   "actions": [],
+   "notes": "Mantengo LOOSY (x0,93) porque todavía no ha tocado ninguno de mis límites. Si su volumen baja de 50.000 USD por hora, si su valor de mercado baja de 1,5 millones o si en dos revisiones seguidas hay más vendedores que compradores, la vendo entera sin esperar. Al ritmo de los últimos 5 minutos ya está en unos 44.000 por hora, así que puede caer por debajo del límite en la próxima revisión. No compro nada: STONK mueve 26.000 USD por hora y mi mínimo es 150.000, DCTY cae un 84% en un día, GATO paga promoción y tiene tantos vendedores como compradores, JOB tiene más ventas que compras, CYBERLEEK no tiene redes sociales y CATE y mihao no tienen fuerza. Lección: el volumen de LOOSY cayó más de la mitad en menos de una hora desde que entré, así que es mejor desconfiar de los picos de volumen en monedas que pagan promoción."
   }
  ],
  "buys": [
@@ -353,11 +353,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 9.7839,
+  "spent_month": 9.8667,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 1.8837,
-  "last_decider": 1795178736.6446173
+  "spent_day": 1.9665,
+  "last_decider": 1795181126.2989216
  },
  "history": [
   [
