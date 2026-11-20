@@ -141,12 +141,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-19 07:30 UTC",
-   "market_view": "SOL está plano (-0,4%). Las monedas de GTA siguen bajando tras el lanzamiento y la atención va hacia la salida a bolsa de Anthropic, que es hoy. ANTS está en x1,16, igual que hace un minuto, así que la alerta no trae nada nuevo.",
-   "actions": [],
-   "notes": "Mantengo la otra mitad de ANTS (x1,16, unos 9,9 millones de valor), porque solo ha pasado un minuto y no hay datos nuevos. En la última hora sigue habiendo algo más de ventas que de compras (3.468 frente a 3.136), aunque el volumen es alto (798.000 USD por hora).\n\nLa vendo entera en cualquiera de estos casos:\n- Baja de x0,9 (unos 7,6 millones).\n- En la próxima revisión de verdad, desde las 08:00 UTC, sigue habiendo más ventas que compras.\n- Su volumen baja de 300.000 USD por hora.\n- Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC).\n\nNo compro nada:\n- DacityCoin (AudaCity), SHIT, GTASZN, Leonida y GATO son del tema GTA y siguen bajando.\n- HOGE casi no tiene volumen.\n- CLAUDIA está plana y ya perdí con ella.\n- Con mihao también perdí.\n\nLección: si llega una alerta sin cambios en el precio, no hago nada y sigo mis reglas."
-  },
-  {
    "t": "2026-11-19 07:32 UTC",
    "market_view": "SOL está plano (-0,4%). ANTS sube un 61% en una hora y está en x1,21 antes de la salida a bolsa de Anthropic, aunque sigue habiendo algo más de ventas que de compras. Las monedas de GTA siguen bajando tras el lanzamiento.",
    "actions": [],
@@ -325,6 +319,12 @@
    "market_view": "SOL baja casi un 3% y no hay ninguna noticia nueva. RAMBO es la única candidata cuyo volumen sube con fuerza, pero lo que se ve parece hecho con robots: 767 carteras compran una vez cada una y solo 51 carteras hacen 543 ventas, así que unos pocos están vendiendo a muchos compradores pequeños. El resto de candidatas cae, casi no tiene volumen o paga promoción.",
    "actions": [],
    "notes": "No compro nada y me quedo todo en efectivo (109,71 USD). Ya llevo varias pérdidas pequeñas seguidas por entrar sin ventaja clara. Busqué RAMBO en internet y no encontré ninguna noticia reciente. Su patrón de compras y ventas apunta a robots, porque pocas carteras venden mucho a muchos compradores pequeños. Solo la reconsidero si aparece una noticia real y hay más carteras distintas vendiendo. STONK sigue teniendo tres compras por cada venta, pero el volumen es bajo y no hay noticias; la vigilo como apuesta estable si su volumen pasa de 150.000 USD por hora. No toco DCTY, GTA6, GATO, mihao ni CATE, porque caen, ya me hicieron perder o no tienen fuerza. Tampoco HOGE, que paga promoción y tiene más ventas que compras. Lección: antes de comprar, comparar cuántas carteras distintas compran y venden con el número de compras y ventas; si pocas carteras hacen muchas ventas, es una señal de que alguien está saliendo."
+  },
+  {
+   "t": "2026-11-20 06:03 UTC",
+   "market_view": "SOL baja un 3% y no hay ninguna noticia nueva con fuerza. RAMBO sigue con el mismo patrón sospechoso: 53 carteras hacen 517 ventas a 679 compradores pequeños. Las demás candidatas caen, tienen poco volumen o pagan promoción.",
+   "actions": [],
+   "notes": "No compré nada y sigo con todo en efectivo (110,07 USD). Llevo muchas pérdidas pequeñas seguidas, así que solo entraré si hay una noticia de menos de 6 horas y un volumen que sube de verdad. RAMBO solo la reconsidero si hay más carteras distintas vendiendo y aparece una noticia real. Vigilo STONK como apuesta estable solo si mueve más de 150.000 USD por hora (ahora 63.000), aunque tiene buena proporción de compradores. No toco DCTY (cae un 56% en 6 horas y ya me hizo perder), GTA6, CATE, FLOAT (casi tres vendedores por cada comprador), HOGE (paga promoción) ni CYBERLEEK (no tiene redes sociales)."
   }
  ],
  "buys": [
@@ -337,11 +337,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 9.3298,
+  "spent_month": 9.4063,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 1.4296,
-  "last_decider": 1795153580.827886
+  "spent_day": 1.5061,
+  "last_decider": 1795154635.9297783
  },
  "history": [
   [
@@ -2235,22 +2235,30 @@
   [
    1795153677,
    109.71
+  ],
+  [
+   1795154333,
+   109.99
+  ],
+  [
+   1795154967,
+   109.98
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "ygZ06j0n5Z7i"
+  "since": "7aTXQ1r64QIs"
  },
- "last_run": "2026-11-20 05:53 UTC",
+ "last_run": "2026-11-20 06:09 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-19",
  "quiet": {
   "day": "2026-11-20",
-  "count": 34
+  "count": 36
  },
- "last_update": 1795153677.1572862,
+ "last_update": 1795154967.2713695,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795137178.5726144
  }
