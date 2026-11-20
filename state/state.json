@@ -6,7 +6,21 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {},
+ "positions": {
+  "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": {
+   "symbol": "LOOSY",
+   "name": "Cool Dog",
+   "tier": "joven",
+   "cost_usd": 10.771690496951946,
+   "amount_initial": 5276796714,
+   "opened_at": 1795178736.6446173,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.014,
+   "entry_reason": "LOOSY cumple la condición que me puse: mueve más de 70.000 USD por hora y tiene más del doble de compradores que de vendedores, sin subir en vertical. Entro con la mitad porque paga promoción, las compras son muy pequeñas (posibles robots) y en internet no encontré una noticia clara.",
+   "multiple": 0.954
+  }
+ },
  "closed": [
   {
    "symbol": "GTA6",
@@ -140,12 +154,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-19 07:33 UTC",
-   "market_view": "SOL está plano (-0,4%). ANTS está en x1,23, apenas por encima de la revisión anterior, antes de que Anthropic empiece a cotizar en bolsa. Las monedas de GTA siguen bajando después del lanzamiento del juego.",
-   "actions": [],
-   "notes": "Mantengo la otra mitad de ANTS (x1,23, unos 10,5 millones de valor). Solo ha pasado un minuto, el precio casi no ha cambiado y ya vendí la mitad en x1,17. En la última hora sigue habiendo algo más de ventas que de compras (3.416 frente a 3.115), aunque mueve mucho dinero: 771.000 USD por hora.\n\nVendo el resto de ANTS si pasa cualquiera de estas cosas:\n- Baja de x0,9 (unos 7,6 millones).\n- Vuelve por debajo de x1,05 (unos 8,9 millones).\n- En la revisión de las 08:00 UTC o más tarde sigue habiendo más ventas que compras.\n- Su volumen baja de 300.000 USD por hora.\n- Anthropic empieza a cotizar, entre las 16:00 y las 19:00 UTC.\n\nSi sube en vertical hasta x2, vendo otra parte.\n\nNo compro nada:\n- DacityCoin, GTASZN, SHIT, Leonida y GATO son monedas de GTA y siguen bajando.\n- HOGE casi no tiene volumen.\n- CLAUDIA tiene más ventas que compras y ya perdí con ella.\n- Con mihao también perdí y está plana.\n\nLección: si una alerta llega con el precio casi igual, no hago nada y sigo mis reglas."
-  },
   {
    "t": "2026-11-19 07:34 UTC",
    "market_view": "SOL está plano (-0,2%). ANTS sube con fuerza antes de que Anthropic empiece a cotizar en bolsa y está en x1,31, aunque en la última hora sigue habiendo algo más de ventas que de compras. Las monedas de GTA siguen perdiendo fuerza.",
@@ -325,10 +333,19 @@
    "market_view": "SOL baja un 2,9% y no hay ninguna noticia nueva con fuerza. LOOSY tiene más del doble de compradores que de vendedores, pero paga promoción y su volumen por hora (44.000 USD) está por debajo de su media de las últimas 6 horas (67.000 USD). Las demás candidatas caen, mueven poco o están igualadas entre compras y ventas.",
    "actions": [],
    "notes": "No compro nada y me quedo con todo en efectivo (110,03 USD). He perdido en 9 de 10 operaciones, casi siempre por entrar cuando el volumen ya bajaba. Si LOOSY sigue en pausa y vuelve a mover más de 70.000 USD por hora con el doble de compradores que de vendedores, puedo entrar con la mitad; antes busco en internet si su tema (un perro 'cool') es una tendencia real o solo promoción pagada. iAgent cae un 40% en 1 hora, así que la descarto. No toco DCTY (cae un 49% en 6 horas y ya me hizo perder), HOGE ni GATO (pagan promoción y GATO tiene tres ventas por cada compra), GTA6 ni neet (casi no tienen volumen) ni CYBERLEEK (no tiene redes sociales). Solo compro STONK como apuesta estable si mueve más de 150.000 USD por hora; ahora mueve 12.000."
+  },
+  {
+   "t": "2026-11-20 12:45 UTC",
+   "market_view": "SOL baja un 4,5% y casi todas las candidatas caen o no tienen fuerza. La única con volumen creciente es LOOSY: mueve 128.000 USD en la última hora, frente a una media de 80.000 en las últimas 6, y tiene 3,4 compradores por cada vendedor. Lleva 6 horas subiendo un 80% y ahora se ha calmado.",
+   "actions": [
+    "buy HF2RBP: LOOSY cumple la condición que me puse: mueve más de 70.000 USD por hora y tiene más del doble de compradores que de vendedores, sin subir en vertical. Entro con la mitad porque paga promoción, las compras son muy pequeñas (posibles robots) y en internet no encontré una noticia clara."
+   ],
+   "notes": "Compré LOOSY con la mitad, a unos 2 millones de valor de mercado. La vendo entera si baja de 1,5 millones (x0,75), si su volumen cae por debajo de 50.000 USD por hora o si en dos revisiones seguidas hay más vendedores que compradores. Parece ligada al tema GTA (un perro con moto de agua), que ya me hizo perder varias veces, así que no espero a que se recupere. No toco DCTY (cae un 82% en un día), GATO (más vendedores y paga promoción), CYBERLEEK (no tiene redes sociales), ni CATE ni mihao (no tienen fuerza)."
   }
  ],
  "buys": [
-  1795147938.1424296
+  1795147938.1424296,
+  1795178736.6446173
  ],
  "cooldown": {
   "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795097891.5522919,
@@ -336,11 +353,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 9.5311,
+  "spent_month": 9.7799,
   "budget_warned": true,
   "day": "2026-11-20",
-  "spent_day": 1.6309,
-  "last_decider": 1795161289.210107
+  "spent_day": 1.8797,
+  "last_decider": 1795178736.6446173
  },
  "history": [
   [
@@ -2386,22 +2403,30 @@
   [
    1795177533,
    107.92
+  ],
+  [
+   1795178192,
+   107.99
+  ],
+  [
+   1795178837,
+   107.59
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "scxeeYLMjlNA"
+  "since": "5TqTktli97i1"
  },
- "last_run": "2026-11-20 12:35 UTC",
+ "last_run": "2026-11-20 12:51 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-20",
  "quiet": {
   "day": "2026-11-20",
-  "count": 72
+  "count": 74
  },
- "last_update": 1795177533.317094,
+ "last_update": 1795178837.0390062,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795158784.9714284
  }
