@@ -154,12 +154,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-19 08:09 UTC",
-   "market_view": "SOL está plano (-0,4%). ANTS sube rápido hasta x1,39, con mucho volumen (654.000 USD en la última hora) y casi las mismas compras que ventas. Las monedas de GTA siguen bajando.",
-   "actions": [],
-   "notes": "Mantengo la mitad que me queda de ANTS en x1,39, unos 11,4 millones de valor. No ha tocado ningún límite: todavía no llega a x1,6 ni a x2. Desde ahora, mi límite para vender todo sube de x1,1 a x1,2 (unos 9,8 millones), para no devolver toda la ganancia. Vendo también si hay dos revisiones seguidas con más ventas que compras, si el volumen baja de 300.000 USD por hora o cuando Anthropic empiece a cotizar (entre las 16:00 y las 19:00 UTC). Si pasa de x1,6, el límite sube a x1,35. Si sube en vertical hasta x2, vendo otra parte. No compro nada. DacityCoin, GTASZN, Leonida y GATO son de GTA, un tema con el que ya perdí varias veces, y además bajan o pagan promoción. HOGE casi no tiene volumen, y con mihao y CATE ya perdí. Lección: una subida rápida es un buen momento para subir el límite de venta, no para comprar más."
-  },
-  {
    "t": "2026-11-19 08:41 UTC",
    "market_view": "SOL está plano (-0,4%). ANTS llegó a x1,5 y ha vuelto a x1,30, con un volumen todavía alto (651.000 USD por hora), aunque en la última hora hay algo más de ventas que de compras (2.861 frente a 2.798). Las monedas de GTA siguen bajando y no hay ninguna compra clara.",
    "actions": [],
@@ -342,6 +336,12 @@
    "market_view": "SOL baja un 6,3% y el mercado sigue débil. STONK mueve ahora 314.000 USD por hora, más del mínimo de 150.000 que me había puesto, pero hay solo 1,28 compradores por cada vendedor, el precio cae un 4,6% en la última hora y no encontré ninguna noticia reciente. Por eso no compro nada.",
    "actions": [],
    "notes": "Sigo con todo en efectivo (102,21 USD) y llevo 10 pérdidas en 11 operaciones. Vigilo STONK: compraría la mitad de lo normal solo si sigue moviendo más de 150.000 USD por hora, tiene al menos 1,5 compradores por cada vendedor y su precio de la última hora deja de caer y se mantiene por encima de unos 30 millones de valor de mercado. En internet solo encontré noticias viejas de STONK y ninguna de las últimas 6 horas. Descarto DCTY (cae un 86% en un día), GATO (paga promoción y tiene más vendedores que compradores), CYBERLEEK (no tiene redes y cae un 29% en 1 hora), mihao (cae aunque tiene más compradores) y CATE (casi sin volumen)."
+  },
+  {
+   "t": "2026-11-21 00:01 UTC",
+   "market_view": "SOL baja casi un 6% y el mercado sigue débil. Buttcoin despierta con mucho volumen y más compradores que vendedores, pero sube un 26% en la hora y un 7,5% en 5 minutos, así que comprar ahora sería perseguir la subida. FLOAT ya se calmó tras doblar su precio, pero su volumen de los últimos 5 minutos casi ha desaparecido.",
+   "actions": [],
+   "notes": "Sigo con todo en efectivo (102 USD) y llevo 10 pérdidas en 11 operaciones. La búsqueda en internet falló, así que no confirmé ninguna noticia. Vigilo Buttcoin: compraría la mitad de lo normal si se calma por encima de unos 6,5 millones de valor de mercado, sigue moviendo más de 100.000 USD por hora y mantiene al menos 1,4 compradores por cada vendedor. Si entro, vendo si baja de 5,8 millones o si pasa dos revisiones con más vendedores. FLOAT solo me interesa si su volumen vuelve a subir en 5 minutos y se mantiene por encima de unos 3,3 millones. Descarto DCTY (-81% en un día), GATO (paga promoción), NIO, mihao, CLAUDIA y CATE (no tienen fuerza) y STONK (poco volumen)."
   }
  ],
  "buys": [
@@ -354,11 +354,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 10.6747,
+  "spent_month": 10.8564,
   "budget_warned": true,
-  "day": "2026-11-20",
-  "spent_day": 2.7745,
-  "last_decider": 1795190881.5273223
+  "day": "2026-11-21",
+  "spent_day": 0.1817,
+  "last_decider": 1795219276.1386943
  },
  "history": [
   [
@@ -2664,22 +2664,26 @@
   [
    1795218293,
    102.62
+  ],
+  [
+   1795218912,
+   102.22
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "zZpReZQ8zNyA"
+  "since": "MSxlubjBvTGj"
  },
- "last_run": "2026-11-20 23:45 UTC",
+ "last_run": "2026-11-21 00:01 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-20",
  "quiet": {
   "day": "2026-11-20",
-  "count": 137
+  "count": 138
  },
- "last_update": 1795218293.4442685,
+ "last_update": 1795218912.1186285,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795202079.7067688
  }
