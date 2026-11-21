@@ -6,7 +6,21 @@
    "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1277338789
   }
  },
- "positions": {},
+ "positions": {
+  "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
+   "symbol": "FIONA",
+   "name": "Fiona the Hippo",
+   "tier": "joven",
+   "cost_usd": 10.104427647993043,
+   "amount_initial": 8502538802,
+   "opened_at": 1795259755.457827,
+   "tp_stage": 0,
+   "realized_usd": 0.0,
+   "peak_multiple": 1.0,
+   "entry_reason": "FIONA rebota con fuerza (+123% en 6 horas), sin subir en vertical en la última hora, tiene 1.211 compradores frente a 846 vendedores, y el volumen de los últimos 5 minutos se está acelerando. Entro con la mitad porque ya perdí con ella, el día va -56% y hay varias copias de la moneda que se reparten el interés.",
+   "multiple": 0.992
+  }
+ },
  "closed": [
   {
    "symbol": "GTA6",
@@ -153,12 +167,6 @@
   }
  ],
  "journal": [
-  {
-   "t": "2026-11-19 08:46 UTC",
-   "market_view": "SOL está plano (-0,6%). ANTS sube a x1,42 con un volumen alto (648.000 USD por hora), pero en la última hora sigue habiendo algo más de ventas que de compras (2.857 frente a 2.776). Ninguna de las monedas candidatas es una compra clara.",
-   "actions": [],
-   "notes": "Mantengo la cuarta parte que queda de ANTS en x1,42. No ha tocado ningún límite: está por encima de x1,3 y no llega a x1,6. La última revisión fue hace solo 3 minutos, así que esta no cuenta como segunda revisión con más ventas. Vendo todo si pasa una de estas cosas: baja de x1,3 (unos 11 millones); hay dos revisiones seguidas con más ventas que compras separadas por al menos 20 minutos (la próxima válida será desde las 09:03 UTC); el volumen baja de 300.000 USD por hora; o Anthropic empieza a cotizar (entre las 16:00 y las 19:00 UTC). Si pasa de x1,6, subo el límite a x1,4. No compro nada. DacityCoin, GTASZN, Leonida y GATO son del tema GTA, con el que ya perdí varias veces, y siguen cayendo. HOGE y CBUCKS casi no tienen volumen. Con mihao, CLAUDIA y CATE ya perdí antes, y CLAUDIA tiene más vendedores que compradores. Lección: si recibo un aviso de subida, primero miro mis límites; si no se ha tocado ninguno, no hago nada."
-  },
   {
    "t": "2026-11-19 08:51 UTC",
    "market_view": "SOL está plano (-0,5%). ANTS ha subido a x1,55, su punto más alto, con un volumen alto de 641.000 USD por hora, aunque en la última hora todavía hay algo más de ventas que de compras (2.854 frente a 2.771). Ninguna de las monedas candidatas es una compra clara.",
@@ -340,21 +348,30 @@
    "market_view": "SOL cae un 7,5% en 24 horas y el mercado sigue débil. RAMBO es la única con muchos más compradores que vendedores, pero casi todo su volumen del día llegó en la última hora, justo cuando paga promoción, y no encontré ninguna noticia reciente. Por eso no compro nada.",
    "actions": [],
    "notes": "Sigo con todo en efectivo (99,61 USD) y llevo 10 pérdidas en 11 operaciones. Vigilo RAMBO (gato, unos 14 millones de valor de mercado): compraría la mitad de lo normal si en las 2 próximas revisiones sigue moviendo más de 100.000 USD por hora, tiene al menos 2 compradores por cada vendedor y su valor de mercado se mantiene por encima de unos 12,5 millones sin seguir subiendo en vertical. Si entro, vendo si baja de 11 millones. Descarto JENSEN (cae un 18% en 1 hora), DCTY (tantos vendedores como compradores, y ya perdí con ella), GATO (paga promoción y casi no tiene volumen), Rings (su volumen se hundió) y NIO, FLOAT, CYBERLEEK y TROLL (más vendedores o sin fuerza). Solo compro si el volumen sube en 5 minutos, 1 hora y 6 horas, y hay al menos 1,5 compradores por cada vendedor sin que el precio caiga."
+  },
+  {
+   "t": "2026-11-21 11:15 UTC",
+   "market_view": "SOL baja un 5,5% y el mercado sigue débil. FIONA es la única con interés que parece real: es la número 1 en tendencia de 1 hora, no paga promoción, las compras son de tamaño normal y no parecen de robots, y vuelve a subir tras la gran caída. PUNANI y MAYA pagan promoción, sus compras son diminutas y su precio cae aunque tienen más compradores, igual que pasó con LOOSY.",
+   "actions": [
+    "buy B34nXK: FIONA rebota con fuerza (+123% en 6 horas), sin subir en vertical en la última hora, tiene 1.211 compradores frente a 846 vendedores, y el volumen de los últimos 5 minutos se está acelerando. Entro con la mitad porque ya perdí con ella, el día va -56% y hay varias copias de la moneda que se reparten el interés."
+   ],
+   "notes": "Compré FIONA a mitad de tamaño con unos 1,17 millones de valor de mercado. Vendo todo si baja de unos 0,9 millones o si pasa dos revisiones seguidas con más vendedores que compradores y el volumen por hora baja de 50.000 USD. Si sube, dejo que actúen las ventas automáticas. En internet no encontré noticias nuevas de FIONA, solo información vieja, y existen varias copias con el mismo nombre. Descarto PUNANI y MAYA porque pagan promoción, hacen compras de 5-12 USD que parecen robots y bajan en la última hora. Descarto también GATO (paga promoción) y DCTY, mihao, CLAUDIA, CYBERLEEK y Rings, porque no tienen fuerza. He visto que mis límites de venta muy cercanos (-12% a -25%) me hicieron vender en casi cada bajada normal, así que ahora uso límites algo más amplios, pero con menos dinero en cada compra."
   }
  ],
  "buys": [
-  1795178736.6446173
+  1795178736.6446173,
+  1795259755.457827
  ],
  "cooldown": {
   "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795183016.3207066
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 11.2781,
+  "spent_month": 11.5582,
   "budget_warned": true,
   "day": "2026-11-21",
-  "spent_day": 0.6034,
-  "last_decider": 1795248269.3155372
+  "spent_day": 0.8835,
+  "last_decider": 1795259755.457827
  },
  "history": [
   [
