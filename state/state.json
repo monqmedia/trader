@@ -2998,6 +2998,10 @@
   [
    1795268189,
    101.66
+  ],
+  [
+   1795268803,
+   102.53
   ]
  ],
  "mode": "real",
@@ -3005,15 +3009,15 @@
   "welcomed": true,
   "since": "GzPvSwFJ5FIK"
  },
- "last_run": "2026-11-21 13:44 UTC",
+ "last_run": "2026-11-21 13:46 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-21",
  "quiet": {
   "day": "2026-11-21",
-  "count": 79
+  "count": 80
  },
- "last_update": 1795268189.2161553,
+ "last_update": 1795268803.405289,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795266962.743008
  }
