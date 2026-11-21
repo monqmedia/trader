@@ -352,10 +352,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 10.9882,
+  "spent_month": 10.9895,
   "budget_warned": true,
   "day": "2026-11-21",
-  "spent_day": 0.3135,
+  "spent_day": 0.3148,
   "last_decider": 1795241084.520295
  },
  "history": [
@@ -2835,7 +2835,7 @@
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "22jv75uAuukX"
+  "since": "DSVJBzecWLvS"
  },
  "last_run": "2026-11-21 07:03 UTC",
  "low_sol_warned": false,
