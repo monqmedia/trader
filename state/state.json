@@ -167,14 +167,6 @@
  ],
  "journal": [
   {
-   "t": "2026-11-20 04:12 UTC",
-   "market_view": "SOL baja un poco (-2,3%) y no tengo posiciones. FIONA es la única candidata con una noticia real y fresca: la famosa hipopótamo Fiona murió ayer en el zoo de Cincinnati, según CNN, ABC y NBC. La moneda es la número 1 en tendencia, con más compradores que vendedores. El resto de candidatas están apagadas, son del tema GTA o tienen más ventas que compras.",
-   "actions": [
-    "buy B34nXK: La muerte de Fiona sale en todas las noticias, y algo parecido pasó con la ardilla Peanut, cuya moneda se disparó. Además, FIONA es la número 1 en tendencia y tiene más compradores que vendedores (778 frente a 678). No pongo todo porque su volumen por hora está bajando desde el máximo y hay un aviso de cuentas conectadas al creador."
-   ],
-   "notes": "Compré FIONA a unos 2,08 millones de valor y estos son los límites. Vendo todo si baja a x0,7 (unos 1,45 millones) o si, en dos revisiones seguidas separadas por al menos 20 minutos, hay más vendedores que compradores y el volumen baja de 100.000 USD por hora. Si pasa de x2, subo el límite de venta a x1,3. Cuando abra Estados Unidos puede llegar más atención, así que miro si el volumen vuelve a subir. No compro mihao ni MANDY: la primera ya me hizo perder y la segunda tiene muchas más ventas que compras. Tampoco compro monedas del tema GTA. Lección: solo compro con una noticia real y reciente, como esta, y no con monedas que ya se están apagando."
-  },
-  {
    "t": "2026-11-20 04:35 UTC",
    "market_view": "SOL baja un poco (-3,4%). FIONA cae a x0,86, pero sigue moviendo mucho volumen (241.000 USD en la última hora) y tiene más compras que ventas (1.830 frente a 1.456). La noticia de la muerte de la hipopótamo es de ayer, así que el tema sigue vivo.",
    "actions": [],
@@ -357,6 +349,12 @@
    "market_view": "SOL baja un 1,4% y el mercado sigue débil. JENSEN es la única moneda con mucho interés ahora, pero sube un 61% en la última hora y un 12% en 5 minutos, así que comprar ahora sería perseguir una subida vertical. Además paga promoción y en internet no encontré ninguna noticia reciente. Por eso no compro nada.",
    "actions": [],
    "notes": "Todo está en efectivo: unos 102 USD, y llevo 11 pérdidas en 12 operaciones. Vigilo JENSEN (Jensen Huang): solo la compraría a mitad de tamaño si se calma 1-2 horas sin perder más de un 25-30% desde su máximo, si sigue moviendo más de 100.000 USD por hora y si tiene claramente más compradores que vendedores. Ahora vale 1,29 millones, sube +61% en 1 hora y en internet solo aparecen copias viejas. Descarto MAYA y PUNANI porque pagan promoción, sus compras son diminutas y parecen de robots, y PUNANI además cae un 23% en 6 horas. Descarto también DCTY, CLAUDIA, CYBERLEEK, Rings y mihao porque tienen tantos vendedores como compradores o están perdiendo fuerza. Cuando compre, no pondré límites de venta demasiado cercanos."
+  },
+  {
+   "t": "2026-11-21 14:58 UTC",
+   "market_view": "SOL está casi plano (-0,5%) y el mercado sigue flojo. JENSEN es la única moneda con mucho interés, pero en la última hora ha subido un 173% en vertical y ahora cae un 18% en 5 minutos. Además paga promoción y en internet solo salen copias viejas, sin ninguna noticia nueva. Las demás candidatas están perdiendo fuerza, así que no compro nada.",
+   "actions": [],
+   "notes": "Todo sigue en efectivo, unos 103 USD, y llevo 11 pérdidas en 12 operaciones. Sigo vigilando JENSEN: ahora vale 2,3 millones, con un máximo de 2,8 millones o más. Solo la compraría a mitad de tamaño si se calma 1-2 horas sin bajar de unos 1,8-1,9 millones, si sigue moviendo más de 150.000 USD por hora y si tiene claramente más compradores que vendedores. Si baja de 1,5 millones, la descarto. Descarto PUNANI y MAYA porque pagan promoción y su volumen se está hundiendo. CLAUDIA es la número 1 en tendencia, pero tiene casi tantas ventas como compras y ya perdí con ella. También descarto DCTY, TROLL, CATE, Rings y CYBERLEEK porque tienen poco volumen o caen."
   }
  ],
  "buys": [
@@ -367,11 +365,11 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 12.1851,
+  "spent_month": 12.4425,
   "budget_warned": true,
   "day": "2026-11-21",
-  "spent_day": 1.5104,
-  "last_decider": 1795270686.4259408
+  "spent_day": 1.7678,
+  "last_decider": 1795273092.2439065
  },
  "history": [
   [
@@ -3025,22 +3023,26 @@
   [
    1795272546,
    102.77
+  ],
+  [
+   1795273189,
+   102.72
   ]
  ],
  "mode": "real",
  "ntfy": {
   "welcomed": true,
-  "since": "VgohhIKFpl99"
+  "since": "O0d2htfdxubT"
  },
- "last_run": "2026-11-21 14:53 UTC",
+ "last_run": "2026-11-21 15:09 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-21",
  "quiet": {
   "day": "2026-11-21",
-  "count": 86
+  "count": 87
  },
- "last_update": 1795272546.359886,
+ "last_update": 1795273189.4291086,
  "ignored_tokens": {
   "9okxCGsu3qU4Jtqw5mFBThXQjK43Epi13ro7eCNpump": 1795266962.743008
  }
