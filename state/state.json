@@ -368,10 +368,10 @@
  },
  "ai": {
   "month": "2026-11",
-  "spent_month": 11.9062,
+  "spent_month": 11.9075,
   "budget_warned": true,
   "day": "2026-11-21",
-  "spent_day": 1.2315,
+  "spent_day": 1.2328,
   "last_decider": 1795262653.019247
  },
  "history": [
@@ -2989,7 +2989,7 @@
   "welcomed": true,
   "since": "WvNnk7IYI0CH"
  },
- "last_run": "2026-11-21 12:56 UTC",
+ "last_run": "2026-11-21 12:57 UTC",
  "low_sol_warned": false,
  "start_equity_usd": 127.44,
  "last_summary_day": "2026-11-21",
